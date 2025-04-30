@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "PaylessWoza",
+    name: "PaylessWoza-SPM",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "PaylessWoza",
+            name: "PaylessWoza-SPM",
             targets: ["PaylessWoza"]),
     ],
     targets: [
