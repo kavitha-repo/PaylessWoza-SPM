@@ -1,6 +1,0 @@
-framework module PaylessWoza {
-  umbrella header "PaylessWoza.h"
-  export *
-
-  module * { export * }
-}
