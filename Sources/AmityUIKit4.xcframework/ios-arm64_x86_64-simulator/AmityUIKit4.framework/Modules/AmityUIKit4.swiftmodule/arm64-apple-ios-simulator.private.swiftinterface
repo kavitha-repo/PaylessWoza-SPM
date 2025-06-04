@@ -53,6 +53,21 @@ public typealias AmityCommentButtonAction = (AmityUIKit4.AmityCommentButtonActio
   }
   public typealias Body = @_opaqueReturnTypeOf("$s11AmityUIKit40A11CommentViewV4bodyQrvp", 0) __
 }
+open class AmityNotificationTrayPageBehavior {
+  open class Context {
+    final public let page: AmityUIKit4.AmityNotificationTrayPage
+    final public let postId: Swift.String?
+    final public let commentId: Swift.String?
+    final public let parentCommentId: Swift.String?
+    final public let communityId: Swift.String?
+    public init(page: AmityUIKit4.AmityNotificationTrayPage, postId: Swift.String?, commentId: Swift.String?, parentCommentId: Swift.String?, communityId: Swift.String?)
+    @objc deinit
+  }
+  public init()
+  open func goToPostDetailPage(context: AmityUIKit4.AmityNotificationTrayPageBehavior.Context)
+  open func goToCommunityProfilePage(context: AmityUIKit4.AmityNotificationTrayPageBehavior.Context)
+  @objc deinit
+}
 public protocol ImageDownloaderDelegate : AnyObject {
   func imageDownloader(_ downloader: AmityUIKit4.ImageDownloader, willDownloadImageForURL url: Foundation.URL, with request: Foundation.URLRequest?)
   func imageDownloader(_ downloader: AmityUIKit4.ImageDownloader, didFinishDownloadingImageForURL url: Foundation.URL, with response: Foundation.URLResponse?, error: (any Swift.Error)?)
@@ -156,7 +171,7 @@ public enum AmityPostComposerOptions {
   public typealias ID = AmityUIKit4.PageId
 }
 public class AmityMediaAttachmentViewModel : Foundation.ObservableObject {
-  public init(medias: [AmityUIKit4.AmityMedia] = [])
+  public init(medias: [AmityUIKit4.AmityMedia] = [], isPostEditing: Swift.Bool)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -975,6 +990,7 @@ public enum PageId : Swift.String {
   case communitiesByCategoryPage
   case allCategories
   case pollPostPage
+  case notificationTrayPage
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -1014,6 +1030,7 @@ public enum ComponentId : Swift.String {
   case userFeed
   case userImageFeed
   case userVideoFeed
+  case altTextConfig
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -1049,6 +1066,7 @@ public enum ElementId : Swift.String {
   case messageQuickReaction
   case headerLabel
   case globalSearchButton
+  case notificationTrayButton
   case postCreationButton
   case newsFeedButton
   case exploreButton
@@ -1070,6 +1088,7 @@ public enum ElementId : Swift.String {
   case postContent
   case reactionButton
   case commentButton
+  case donateButton
   case shareButton
   case nonMemberSection
   case announcementBadge
@@ -2610,7 +2629,7 @@ open class AmityPostTargetSelectionPageBehavior {
   @_Concurrency.MainActor @preconcurrency public var id: AmityUIKit4.ComponentId {
     get
   }
-  @_Concurrency.MainActor @preconcurrency public init(pageId: AmityUIKit4.PageId? = nil, selectedTab: AmityUIKit4.AmitySocialHomePageTab = .newsFeed, searchButtonAction: (() -> Swift.Void)? = nil)
+  @_Concurrency.MainActor @preconcurrency public init(pageId: AmityUIKit4.PageId? = nil, selectedTab: AmityUIKit4.AmitySocialHomePageTab = .newsFeed, searchButtonAction: AmityUIKit4.DefaultTapAction? = nil, notificationButtonAction: AmityUIKit4.DefaultTapAction? = nil)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
   }
@@ -2790,6 +2809,23 @@ extension AmityUIKit4.KFOptionSetter {
   @_Concurrency.MainActor public func memoryCacheAccessExtending(_ extending: AmityUIKit4.ExpirationExtending) -> Self
   @_Concurrency.MainActor public func diskCacheExpiration(_ expiration: AmityUIKit4.StorageExpiration?) -> Self
   @_Concurrency.MainActor public func diskCacheAccessExtending(_ extending: AmityUIKit4.ExpirationExtending) -> Self
+}
+@_Concurrency.MainActor @preconcurrency public struct AmityNotificationTrayPage : AmityUIKit4.AmityPageView {
+  @SwiftUICore.EnvironmentObject @_projectedValueProperty($host) @_Concurrency.MainActor @preconcurrency public var host: AmityUIKit4.AmitySwiftUIHostWrapper {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var $host: SwiftUICore.EnvironmentObject<AmityUIKit4.AmitySwiftUIHostWrapper>.Wrapper {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public var id: AmityUIKit4.PageId {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public init()
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s11AmityUIKit40A20NotificationTrayPageV4bodyQrvp", 0) __
+  public typealias ID = AmityUIKit4.PageId
 }
 public enum ImageProcessItem : Swift.Sendable {
   case image(AmityUIKit4.KFCrossPlatformImage)
@@ -3500,12 +3536,15 @@ open class AmityCommunitySetupPageBehavior {
   public typealias Body = @_opaqueReturnTypeOf("$s11AmityUIKit40A19GlobalFeedComponentV4bodyQrvp", 0) __
   public typealias ID = AmityUIKit4.ComponentId
 }
-@_hasMissingDesignatedInitializers public class AmityMedia : Swift.Equatable, Swift.Hashable, Swift.Identifiable {
+@_hasMissingDesignatedInitializers public class AmityMedia : Swift.Equatable, Swift.Hashable, Swift.Identifiable, Foundation.ObservableObject {
   final public let id: Swift.String
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (lhs: AmityUIKit4.AmityMedia, rhs: AmityUIKit4.AmityMedia) -> Swift.Bool
+  public func isLocal() -> Swift.Bool
   public func getImageURL() -> Foundation.URL?
+  public func getAltText(hasDefault: Swift.Bool = true) -> Swift.String?
   public typealias ID = Swift.String
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
   public var hashValue: Swift.Int {
     get
@@ -4000,8 +4039,7 @@ extension UIKit.UINavigationController : @retroactive UIKit.UIGestureRecognizerD
   @_Concurrency.MainActor @preconcurrency public var id: AmityUIKit4.PageId {
     get
   }
-  @_Concurrency.MainActor @preconcurrency public init(id: Swift.String)
-  @_Concurrency.MainActor @preconcurrency public init(post: AmitySDK.AmityPost, category: AmityUIKit4.AmityPostCategory = .general, hideTarget: Swift.Bool = false)
+  @_Concurrency.MainActor @preconcurrency public init(id: Swift.String, commentId: Swift.String? = nil, parentId: Swift.String? = nil)
   @_Concurrency.MainActor @preconcurrency public init(post: AmitySDK.AmityPost, context: AmityUIKit4.AmityPostContentComponent.Context?)
   @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
     get
@@ -4191,7 +4229,8 @@ public func withoutAnimation(action: @escaping () -> Swift.Void)
   public var blockedUsersPageBehavior: AmityUIKit4.AmityBlockedUsersPageBehavior?
   public var pendingPostContentComponentBehavior: AmityUIKit4.AmityPendingPostContentComponentBehavior?
   public var livestreamBehavior: AmityUIKit4.AmityLivestreamBehavior?
-  public var swipeToBackGestureBehaviour: AmityUIKit4.AmitySwipeToBackGestureBehavior?
+  public var swipeToBackGestureBehavior: AmityUIKit4.AmitySwipeToBackGestureBehavior?
+  public var notificationTrayPageBehavior: AmityUIKit4.AmityNotificationTrayPageBehavior
   @objc deinit
 }
 open class AmitySwipeToBackGestureBehavior {
@@ -4399,14 +4438,6 @@ open class AmityUserProfileHeaderComponentBehavior {
   open func goToUserRelationshipPage(context: AmityUIKit4.AmityUserProfileHeaderComponentBehavior.Context)
   open func goToPendingFollowRequestPage(context: AmityUIKit4.AmityUserProfileHeaderComponentBehavior.Context)
   @objc deinit
-}
-@_Concurrency.MainActor @preconcurrency public struct AmityNavigationBar : SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public init(title: Swift.String)
-  @_Concurrency.MainActor @preconcurrency public init(title: Swift.String, showBackButton: Swift.Bool, showDivider: Swift.Bool = false)
-  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-    get
-  }
-  public typealias Body = @_opaqueReturnTypeOf("$s11AmityUIKit40A13NavigationBarV4bodyQrvp", 0) __
 }
 @available(macOS 11.0, iOS 14.0, tvOS 14.0, watchOS 7.0, *)
 final public class DownloadManager {
@@ -5300,6 +5331,26 @@ extension AmityUIKit4.KingfisherWrapper where Base == CoreFoundation.CGSize {
   public func filling(_ size: CoreFoundation.CGSize) -> CoreFoundation.CGSize
   public func constrainedRect(for size: CoreFoundation.CGSize, anchor: CoreFoundation.CGPoint) -> CoreFoundation.CGRect
 }
+public enum AltTextMedia {
+  case image(AmitySDK.AmityImageData)
+  case video(AmitySDK.AmityImageData)
+}
+public enum AltTextConfigMode {
+  case create(AmityUIKit4.AltTextMedia)
+  case edit(Swift.String, AmityUIKit4.AltTextMedia)
+}
+@_Concurrency.MainActor @preconcurrency public struct AmityAltTextConfigComponent : AmityUIKit4.AmityComponentIdentifiable, SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public var pageId: AmityUIKit4.PageId?
+  @_Concurrency.MainActor @preconcurrency public var id: AmityUIKit4.ComponentId {
+    get
+  }
+  @_Concurrency.MainActor @preconcurrency public init(mode: AmityUIKit4.AltTextConfigMode, result: @escaping (Swift.String) -> Swift.Void, pageId: AmityUIKit4.PageId? = nil)
+  @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+    get
+  }
+  public typealias Body = @_opaqueReturnTypeOf("$s11AmityUIKit40A22AltTextConfigComponentV4bodyQrvp", 0) __
+  public typealias ID = AmityUIKit4.ComponentId
+}
 @_Concurrency.MainActor @preconcurrency public struct AmityCommunityCommentsNotificationSettingPage : AmityUIKit4.AmityPageView {
   @SwiftUICore.EnvironmentObject @_projectedValueProperty($host) @_Concurrency.MainActor @preconcurrency public var host: AmityUIKit4.AmitySwiftUIHostWrapper {
     get
@@ -5325,6 +5376,7 @@ open class AmitySocialHomePageBehavior {
   public init()
   open func goToGlobalSearchPage(context: AmityUIKit4.AmitySocialHomePageBehavior.Context)
   open func goToMyCommunitiesSearchPage(context: AmityUIKit4.AmitySocialHomePageBehavior.Context)
+  open func goToNotificationTrayPage(context: AmityUIKit4.AmitySocialHomePageBehavior.Context)
   @objc deinit
 }
 extension Swift.CustomStringConvertible where Self : Swift.Encodable {
@@ -5639,6 +5691,7 @@ extension AmityUIKit4.AmityCommunityVideoFeedComponent : Swift.Sendable {}
 extension AmityUIKit4.AmityLiveChatMessageReceiverView : AmityUIKit4.AmityElementIdentifiable {}
 extension AmityUIKit4.AmityLiveChatMessageReceiverView : SwiftUICore.View {}
 extension AmityUIKit4.AmityLiveChatMessageReceiverView : Swift.Sendable {}
+extension AmityUIKit4.AmityNotificationTrayPage : Swift.Sendable {}
 extension AmityUIKit4.KingfisherContentMode : Swift.Equatable {}
 extension AmityUIKit4.KingfisherContentMode : Swift.Hashable {}
 extension AmityUIKit4.AmityCommunityPostPermissionPage : Swift.Sendable {}
@@ -5722,7 +5775,6 @@ extension AmityUIKit4.AmityLiveChatMessageList : Swift.Sendable {}
 extension AmityUIKit4.AmityCommunityFeedComponent : AmityUIKit4.AmityComponentIdentifiable {}
 extension AmityUIKit4.AmityCommunityFeedComponent : SwiftUICore.View {}
 extension AmityUIKit4.AmityCommunityFeedComponent : Swift.Sendable {}
-extension AmityUIKit4.AmityNavigationBar : Swift.Sendable {}
 extension AmityUIKit4.AmityPostContentComponentStyle : Swift.Equatable {}
 extension AmityUIKit4.AmityPostContentComponentStyle : Swift.Hashable {}
 extension AmityUIKit4.AmityPostCategory : Swift.Equatable {}
@@ -5774,6 +5826,7 @@ extension AmityUIKit4.AmityUserVideoFeedComponent : AmityUIKit4.AmityComponentId
 extension AmityUIKit4.AmityUserVideoFeedComponent : SwiftUICore.View {}
 extension AmityUIKit4.AmityUserVideoFeedComponent : Swift.Sendable {}
 extension AmityUIKit4.AmityAllCategoriesPage : Swift.Sendable {}
+extension AmityUIKit4.AmityAltTextConfigComponent : Swift.Sendable {}
 extension AmityUIKit4.AmityCommunityCommentsNotificationSettingPage : Swift.Sendable {}
 extension AmityUIKit4.AmityPostModel.PostDisplayType : Swift.Equatable {}
 extension AmityUIKit4.AmityPostModel.PostDisplayType : Swift.Hashable {}

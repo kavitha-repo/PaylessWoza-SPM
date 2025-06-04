@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
-// swift-module-flags: -target arm64-apple-ios18.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PaylessWoza
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PaylessWoza
 // swift-module-flags-ignorable:  -interface-compiler-version 6.1
 import AmitySDK
 import AmityUIKit
@@ -14,12 +14,8 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public typealias EditAction = () -> Swift.Void
 public protocol AEOTPTextFieldDelegate : AnyObject {
   func didUserFinishEnter(the code: Swift.String)
-}
-@_hasMissingDesignatedInitializers open class AmityConnect {
-  @objc deinit
 }
 @_hasMissingDesignatedInitializers final public class PaylessWozaKit {
   public static func initialize()
@@ -54,6 +50,9 @@ public protocol AEOTPTextFieldDelegate : AnyObject {
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
+@_hasMissingDesignatedInitializers open class AmityConnect {
+  @objc deinit
+}
 @_Concurrency.MainActor @preconcurrency public struct PlayerView : SwiftUICore.View {
   @SwiftUICore.EnvironmentObject @_projectedValueProperty($host) @_Concurrency.MainActor @preconcurrency public var host: AmityUIKit4.AmitySwiftUIHostWrapper {
     get
@@ -66,4 +65,5 @@ public protocol AEOTPTextFieldDelegate : AnyObject {
   }
   public typealias Body = @_opaqueReturnTypeOf("$s11PaylessWoza10PlayerViewV4bodyQrvp", 0) __
 }
+public typealias EditAction = () -> Swift.Void
 extension PaylessWoza.PlayerView : Swift.Sendable {}

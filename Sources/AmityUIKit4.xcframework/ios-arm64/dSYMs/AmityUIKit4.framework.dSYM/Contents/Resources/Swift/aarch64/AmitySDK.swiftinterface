@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AmitySDK
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
@@ -420,8 +420,23 @@ public protocol AmityModel {
   }
   public func observe(_ block: @escaping (AmitySDK.AmityObject<ObjectType>, (any Swift.Error)?) -> Swift.Void) -> AmitySDK.AmityNotificationToken
   public func observeOnce(_ block: @escaping (AmitySDK.AmityObject<ObjectType>, (any Swift.Error)?) -> Swift.Void) -> AmitySDK.AmityNotificationToken
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
+}
+public enum AmityContentFlagReason {
+  case communityGuidelines
+  case harassmentOrBullying
+  case selfHarmOrSuicide
+  case violenceOrThreateningContent
+  case sellingRestrictedItems
+  case sexualContentOrNudity
+  case spamOrScams
+  case falseInformation
+  case others(Swift.String)
+  public var description: Swift.String {
+    get
+  }
 }
 public enum MessageDeliveredMembershipFilter : Swift.String {
   case member
@@ -512,6 +527,10 @@ extension AmitySDK.AmityUserRelationship {
 public class AmityFollowTopic : AmitySDK.AmityTopic {
   required public init(event: AmitySDK.AmityFollowEvent)
   public func getSubscriptionTopic(_ client: AmitySDK.AmityClient) -> Swift.String
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class _ASCNotificationTrayItemRealmModel : AmitySDK._ASCRealmModel {
+  @objc override dynamic public init()
   @objc deinit
 }
 public struct AmityStoryTargetSearchInfo {
@@ -662,6 +681,7 @@ public class AmityStream : AmitySDK.AmityModel {
   final public func resetPage()
   final public func nextPage()
   final public func previousPage()
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -850,6 +870,68 @@ public class AmityChannelMember : AmitySDK.AmityModel {
 }
 @_inheritsConvenienceInitializers final public class AmityLiveChannelBuilder : AmitySDK.AmityDefaultChannelBuilder {
   override public init()
+  @objc deinit
+}
+public class AmityNotificationTrayItem : AmitySDK.AmityModel {
+  public var model: AmitySDK._ASCNotificationTrayItemRealmModel
+  public var client: AmitySDK.AmityClient
+  required public init(model: AmitySDK._ASCNotificationTrayItemRealmModel, client: AmitySDK.AmityClient)
+  public var notificationId: Swift.String {
+    get
+  }
+  public var lastSeenAt: Foundation.Date? {
+    get
+  }
+  public var lastOccurredAt: Foundation.Date {
+    get
+  }
+  public var actors: [Swift.String] {
+    get
+  }
+  public var actorCount: Swift.Int {
+    get
+  }
+  public var actionType: Swift.String {
+    get
+  }
+  public var trayItemCategory: Swift.String {
+    get
+  }
+  public var targetId: Swift.String {
+    get
+  }
+  public var targetType: Swift.String {
+    get
+  }
+  public var referenceId: Swift.String {
+    get
+  }
+  public var referenceType: Swift.String {
+    get
+  }
+  public var actionReferenceId: Swift.String {
+    get
+  }
+  public var parentId: Swift.String? {
+    get
+  }
+  public var text: Swift.String {
+    get
+  }
+  public var templatedText: Swift.String {
+    get
+  }
+  public var users: [AmitySDK.AmityUser] {
+    get
+  }
+  @_Concurrency.MainActor public func markSeen() async throws
+  public var isSeen: Swift.Bool {
+    get
+  }
+  public var isRecent: Swift.Bool {
+    get
+  }
+  public typealias RealmModel = AmitySDK._ASCNotificationTrayItemRealmModel
   @objc deinit
 }
 public class AmityChannelTopic : AmitySDK.AmityTopic {
@@ -1491,6 +1573,10 @@ public struct AmityTextContentSettings : Swift.Codable {
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }
+@objc @_inheritsConvenienceInitializers public class _ASCNotificationTraySeenRealmModel : AmitySDK._ASCRealmModel {
+  @objc override dynamic public init()
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class _ASCCommunityRealmModel : AmitySDK._ASCRealmModel {
   @objc override dynamic public init()
   @objc deinit
@@ -1506,9 +1592,18 @@ public class AmityCommentRepository {
   public func getComments(with options: AmitySDK.AmityCommentQueryOptions) -> AmitySDK.AmityCollection<AmitySDK.AmityComment>
   public func getComment(withId commentId: Swift.String) -> AmitySDK.AmityObject<AmitySDK.AmityComment>
   public func getReactions(_ commentId: Swift.String) -> AmitySDK.AmityCollection<AmitySDK.AmityReaction>
+  @available(*, deprecated, message: "Use `flagComment(commentId:_, reason:_)` instead")
   @_Concurrency.MainActor public func flagComment(withId commentId: Swift.String) async throws -> Swift.Bool
+  @_Concurrency.MainActor public func flagComment(withId commentId: Swift.String, reason: AmitySDK.AmityContentFlagReason) async throws
   @_Concurrency.MainActor public func unflagComment(withId commentId: Swift.String) async throws -> Swift.Bool
   @_Concurrency.MainActor public func isCommentFlaggedByMe(withId commentId: Swift.String) async throws -> Swift.Bool
+  @objc deinit
+}
+public class AmityNotificationTray {
+  public init(client: AmitySDK.AmityClient)
+  public func getNotificationTrayItems() -> AmitySDK.AmityCollection<AmitySDK.AmityNotificationTrayItem>
+  public func getNotificationTraySeen() -> AmitySDK.AmityObject<AmitySDK.AmityNotificationTraySeen>
+  @_Concurrency.MainActor public func markSeen() async throws
   @objc deinit
 }
 public class AmityPollPostBuilder : AmitySDK.AmityPostBuilder {
@@ -1745,8 +1840,9 @@ extension AmitySDK.AmityCommunity {
 }
 public class AmityFileRepository {
   required public init(client: AmitySDK.AmityClient)
-  @_Concurrency.MainActor public func uploadImage(_ image: UIKit.UIImage, progress: AmitySDK.AmityUploadProgressHandler?) async throws -> AmitySDK.AmityImageData
-  public func uploadImage(with url: Foundation.URL, isFullImage: Swift.Bool, progress: AmitySDK.AmityUploadProgressHandler?, completion: @escaping AmitySDK.AmityImageUploadCompletion)
+  @_Concurrency.MainActor public func uploadImage(_ image: UIKit.UIImage, altText: Swift.String? = nil, progress: AmitySDK.AmityUploadProgressHandler?) async throws -> AmitySDK.AmityImageData
+  public func uploadImage(with url: Foundation.URL, isFullImage: Swift.Bool, altText: Swift.String? = nil, progress: AmitySDK.AmityUploadProgressHandler?, completion: @escaping AmitySDK.AmityImageUploadCompletion)
+  @_Concurrency.MainActor public func updateAltText(fileId: Swift.String, altText: Swift.String) async throws
   @_Concurrency.MainActor public func uploadFile(_ file: AmitySDK.AmityUploadableFile, progress: AmitySDK.AmityUploadProgressHandler?) async throws -> AmitySDK.AmityFileData
   @_Concurrency.MainActor public func uploadFile(with url: Foundation.URL, fileName: Swift.String?, progress: AmitySDK.AmityUploadProgressHandler?) async throws -> AmitySDK.AmityFileData
   @_Concurrency.MainActor public func uploadVideo(with url: Foundation.URL, progress: AmitySDK.AmityUploadProgressHandler?) async throws -> AmitySDK.AmityVideoData
@@ -2159,6 +2255,22 @@ public struct AmityUserToken {
   @objc override dynamic public init()
   @objc deinit
 }
+public class AmityNotificationTraySeen : AmitySDK.AmityModel {
+  public var model: AmitySDK._ASCNotificationTraySeenRealmModel
+  public var client: AmitySDK.AmityClient
+  required public init(model: AmitySDK._ASCNotificationTraySeenRealmModel, client: AmitySDK.AmityClient)
+  public var lastTraySeenAt: Foundation.Date? {
+    get
+  }
+  public var lastTrayOccurredAt: Foundation.Date? {
+    get
+  }
+  public var isSeen: Swift.Bool {
+    get
+  }
+  public typealias RealmModel = AmitySDK._ASCNotificationTraySeenRealmModel
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers public class _ASCFollowInfoRealmModel : AmitySDK._ASCRealmModel {
   @objc override dynamic public init()
   @objc deinit
@@ -2235,6 +2347,10 @@ public class AmityPollAnswer : AmitySDK.AmityModel {
     get
   }
   weak public var delegate: (any AmitySDK.AmityClientDelegate)?
+  public var notificationTray: AmitySDK.AmityNotificationTray {
+    get
+    set
+  }
   public var currentUserId: Swift.String? {
     get
   }
@@ -2273,6 +2389,7 @@ public class AmityPollAnswer : AmitySDK.AmityModel {
   public func sendCustomCommandRequest(command: Swift.String, request: AmitySDK._ASCCustomCommandRequest, completion: @escaping (([Swift.String : Any]?, (any Swift.Error)?) -> ()))
   public func sendCustomCommand(command: Swift.String) -> [Swift.String : Any]?
   public func observeNetworkActivities(_ observer: ((Foundation.URLRequest?, Foundation.HTTPURLResponse?, Foundation.Data?) -> Swift.Void)?)
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
 }
 public typealias AmityPermissionCompletion = (Swift.Bool) -> Swift.Void
@@ -2564,6 +2681,7 @@ public enum MessageReadMembershipFilter : Swift.String {
     get
   }
   final public var accessType: AmitySDK.FileAccessType
+  final public var altText: Swift.String?
   public init()
   @objc deinit
 }
@@ -2577,9 +2695,21 @@ public class AmityCommunityModeration {
   @_Concurrency.MainActor public func removeRoles(_ roles: [Swift.String], userIds: [Swift.String]) async throws -> Swift.Bool
   @objc deinit
 }
+public enum AmityBroadcastResolution : Swift.String {
+  case FHD
+  case HD
+  case SD
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public class AmityStreamRepository {
   required public init(client: AmitySDK.AmityClient)
+  @available(*, deprecated, message: "Use `createStream(title:_, description:_, thumbnailImage:_, metadata:_, resolution:_)` instead")
   @_Concurrency.MainActor public func createStream(withTitle title: Swift.String, description: Swift.String?, thumbnailImage: AmitySDK.AmityImageData?, meta: [Swift.String : Any]?) async throws -> AmitySDK.AmityStream
+  @_Concurrency.MainActor public func createStream(title: Swift.String, description: Swift.String, thumbnailImage: AmitySDK.AmityImageData? = nil, metadata: [Swift.String : Any]? = nil, resolution: AmitySDK.AmityBroadcastResolution) async throws -> AmitySDK.AmityStream
   public func disposeStream(withId streamId: Swift.String, completion: @escaping (AmitySDK.AmityStream?, (any Swift.Error)?) -> Swift.Void)
   public func getStream(_ streamId: Swift.String) -> AmitySDK.AmityObject<AmitySDK.AmityStream>
   public func getStreams(from query: AmitySDK.AmityStreamCollectionQuery) -> AmitySDK.AmityCollection<AmitySDK.AmityStream>
@@ -3407,7 +3537,9 @@ public class AmityPostRepository {
   public func getPosts(_ options: AmitySDK.AmityPostQueryOptions) -> AmitySDK.AmityCollection<AmitySDK.AmityPost>
   public func getPosts(postIds: [Swift.String]) -> AmitySDK.AmityCollection<AmitySDK.AmityPost>
   public func getReactions(_ postId: Swift.String, reactionName: Swift.String?) -> AmitySDK.AmityCollection<AmitySDK.AmityReaction>
+  @available(*, deprecated, message: "Use `flagPost(postId:_, reason:_)` instead")
   @_Concurrency.MainActor public func flagPost(withId postId: Swift.String) async throws -> Swift.Bool
+  @_Concurrency.MainActor public func flagPost(withId postId: Swift.String, reason: AmitySDK.AmityContentFlagReason) async throws
   @_Concurrency.MainActor public func unflagPost(withId postId: Swift.String) async throws -> Swift.Bool
   @_Concurrency.MainActor public func isFlaggedByMe(withId postId: Swift.String) async throws -> Swift.Bool
   public func getPinnedPosts(communityId: Swift.String, placement: Swift.String?, sortBy: AmitySDK.PinSortByOptions) -> AmitySDK.AmityCollection<AmitySDK.AmityPinnedPost>
@@ -3550,6 +3682,9 @@ extension AmitySDK.AmityStoryItemType : Swift.Hashable {}
 extension AmitySDK.MessageReadMembershipFilter : Swift.Equatable {}
 extension AmitySDK.MessageReadMembershipFilter : Swift.Hashable {}
 extension AmitySDK.MessageReadMembershipFilter : Swift.RawRepresentable {}
+extension AmitySDK.AmityBroadcastResolution : Swift.Equatable {}
+extension AmitySDK.AmityBroadcastResolution : Swift.Hashable {}
+extension AmitySDK.AmityBroadcastResolution : Swift.RawRepresentable {}
 extension AmitySDK.AmityCommunityMembership.SearchFilter : Swift.Equatable {}
 extension AmitySDK.AmityCommunityMembership.SearchFilter : Swift.Hashable {}
 extension AmitySDK.AmityCommunityMembership.QueryFilter : Swift.Equatable {}
