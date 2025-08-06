@@ -15,36 +15,6 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "TypeDecl",
         "name": "AEOTPTextField",
         "printedName": "AEOTPTextField",
@@ -1478,13 +1448,6 @@
             "printedName": "__DefaultCustomPlaygroundQuickLookable",
             "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -1527,290 +1490,6 @@
       },
       {
         "kind": "Import",
-        "name": "AmitySDK",
-        "printedName": "AmitySDK",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza"
-      },
-      {
-        "kind": "Import",
-        "name": "AmityUIKit",
-        "printedName": "AmityUIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza"
-      },
-      {
-        "kind": "Import",
-        "name": "AmityUIKit4",
-        "printedName": "AmityUIKit4",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PaylessWozaKit",
-        "printedName": "PaylessWozaKit",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "initialize",
-            "printedName": "initialize()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11PaylessWoza0aB3KitC10initializeyyFZ",
-            "mangledName": "$s11PaylessWoza0aB3KitC10initializeyyFZ",
-            "moduleName": "PaylessWoza",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "setDeviceToken",
-            "printedName": "setDeviceToken(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Data",
-                "printedName": "Foundation.Data",
-                "usr": "s:10Foundation4DataV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11PaylessWoza0aB3KitC14setDeviceTokenyy10Foundation4DataVFZ",
-            "mangledName": "$s11PaylessWoza0aB3KitC14setDeviceTokenyy10Foundation4DataVFZ",
-            "moduleName": "PaylessWoza",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "logout",
-            "printedName": "logout()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11PaylessWoza0aB3KitC6logoutyyFZ",
-            "mangledName": "$s11PaylessWoza0aB3KitC6logoutyyFZ",
-            "moduleName": "PaylessWoza",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "presentWoza",
-            "printedName": "presentWoza(_:userId:displayName:isStandAlone:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11PaylessWoza0aB3KitC07presentB0_6userId11displayName12isStandAloneySo16UIViewControllerC_SSSgAJSbtFZ",
-            "mangledName": "$s11PaylessWoza0aB3KitC07presentB0_6userId11displayName12isStandAloneySo16UIViewControllerC_SSSgAJSbtFZ",
-            "moduleName": "PaylessWoza",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "presentWozaNewUser",
-            "printedName": "presentWozaNewUser(_:isPaylessUser:isStandAlone:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11PaylessWoza0aB3KitC07presentB7NewUser_02isaF00G10StandAloneySo16UIViewControllerC_S2btFZ",
-            "mangledName": "$s11PaylessWoza0aB3KitC07presentB7NewUser_02isaF00G10StandAloneySo16UIViewControllerC_S2btFZ",
-            "moduleName": "PaylessWoza",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "presentWozaLogin",
-            "printedName": "presentWozaLogin(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11PaylessWoza0aB3KitC07presentB5LoginyySo16UIViewControllerCFZ",
-            "mangledName": "$s11PaylessWoza0aB3KitC07presentB5LoginyySo16UIViewControllerCFZ",
-            "moduleName": "PaylessWoza",
-            "static": true,
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:11PaylessWoza0aB3KitC",
-        "mangledName": "$s11PaylessWoza0aB3KitC",
-        "moduleName": "PaylessWoza",
-        "declAttributes": [
-          "Final",
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "hasMissingDesignatedInitializers": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "AmityUIKit",
-        "printedName": "AmityUIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza"
-      },
-      {
-        "kind": "Import",
-        "name": "AmityUIKit4",
-        "printedName": "AmityUIKit4",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza"
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1853,26 +1532,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PaylessWoza",
         "declAttributes": [
@@ -1952,8 +1611,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "PaylessWoza",
         "declAttributes": [
@@ -1962,8 +1621,18 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "PaylessWoza",
         "declAttributes": [
@@ -2288,6 +1957,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2308,8 +1987,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PaylessWoza",
         "declAttributes": [
@@ -2449,6 +2128,30 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AmityUIKit",
+        "printedName": "AmityUIKit",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza"
+      },
+      {
+        "kind": "Import",
+        "name": "AmitySDK",
+        "printedName": "AmitySDK",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -2550,6 +2253,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -2588,12 +2301,366 @@
       },
       {
         "kind": "Import",
-        "name": "AmitySDK",
-        "printedName": "AmitySDK",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "PaylessWoza",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AmityUIKit",
+        "printedName": "AmityUIKit",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza"
+      },
+      {
+        "kind": "Import",
+        "name": "AmityUIKit4",
+        "printedName": "AmityUIKit4",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AmitySDK",
+        "printedName": "AmitySDK",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza"
+      },
+      {
+        "kind": "Import",
+        "name": "AmityUIKit",
+        "printedName": "AmityUIKit",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza"
+      },
+      {
+        "kind": "Import",
+        "name": "AmityUIKit4",
+        "printedName": "AmityUIKit4",
+        "declKind": "Import",
+        "moduleName": "PaylessWoza"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PaylessWozaKit",
+        "printedName": "PaylessWozaKit",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PaylessWoza0aB3KitC10initializeyyFZ",
+            "mangledName": "$s11PaylessWoza0aB3KitC10initializeyyFZ",
+            "moduleName": "PaylessWoza",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setDeviceToken",
+            "printedName": "setDeviceToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PaylessWoza0aB3KitC14setDeviceTokenyy10Foundation4DataVFZ",
+            "mangledName": "$s11PaylessWoza0aB3KitC14setDeviceTokenyy10Foundation4DataVFZ",
+            "moduleName": "PaylessWoza",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PaylessWoza0aB3KitC6logoutyyFZ",
+            "mangledName": "$s11PaylessWoza0aB3KitC6logoutyyFZ",
+            "moduleName": "PaylessWoza",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentWoza",
+            "printedName": "presentWoza(_:userId:displayName:isStandAlone:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PaylessWoza0aB3KitC07presentB0_6userId11displayName12isStandAloneySo16UIViewControllerC_SSSgAJSbtFZ",
+            "mangledName": "$s11PaylessWoza0aB3KitC07presentB0_6userId11displayName12isStandAloneySo16UIViewControllerC_SSSgAJSbtFZ",
+            "moduleName": "PaylessWoza",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentWozaNewUser",
+            "printedName": "presentWozaNewUser(_:isPaylessUser:isStandAlone:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PaylessWoza0aB3KitC07presentB7NewUser_02isaF00G10StandAloneySo16UIViewControllerC_S2btFZ",
+            "mangledName": "$s11PaylessWoza0aB3KitC07presentB7NewUser_02isaF00G10StandAloneySo16UIViewControllerC_S2btFZ",
+            "moduleName": "PaylessWoza",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "presentWozaLogin",
+            "printedName": "presentWozaLogin(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11PaylessWoza0aB3KitC07presentB5LoginyySo16UIViewControllerCFZ",
+            "mangledName": "$s11PaylessWoza0aB3KitC07presentB5LoginyySo16UIViewControllerCFZ",
+            "moduleName": "PaylessWoza",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11PaylessWoza0aB3KitC",
+        "mangledName": "$s11PaylessWoza0aB3KitC",
+        "moduleName": "PaylessWoza",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -2615,80 +2682,10 @@
       },
       {
         "kind": "Import",
-        "name": "AmitySDK",
-        "printedName": "AmitySDK",
+        "name": "AmityUIKit4",
+        "printedName": "AmityUIKit4",
         "declKind": "Import",
         "moduleName": "PaylessWoza"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza",
-        "declAttributes": [
-          "RawDocComment"
-        ]
       },
       {
         "kind": "Import",
@@ -2726,8 +2723,8 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "AmitySDK",
+        "printedName": "AmitySDK",
         "declKind": "Import",
         "moduleName": "PaylessWoza",
         "declAttributes": [
@@ -2746,17 +2743,13 @@
       },
       {
         "kind": "Import",
-        "name": "AmityUIKit",
-        "printedName": "AmityUIKit",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
-        "moduleName": "PaylessWoza"
-      },
-      {
-        "kind": "Import",
-        "name": "AmityUIKit4",
-        "printedName": "AmityUIKit4",
-        "declKind": "Import",
-        "moduleName": "PaylessWoza"
+        "moduleName": "PaylessWoza",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2800,153 +2793,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Onboarding\/PasscodeViews\/PasscodePlaceholderView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 196,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 149,
-      "length": 24,
-      "value": "\"#Payless_Woza_Logo_Red\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 196,
-      "length": 13,
-      "value": "\"icon_search\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 230,
-      "length": 15,
-      "value": "\"pl-arrow-icon\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 271,
-      "length": 11,
-      "value": "\"rent-icon\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 306,
-      "length": 14,
-      "value": "\"icon_profile\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 341,
-      "length": 11,
-      "value": "\"icon_chat\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 376,
-      "length": 15,
-      "value": "\"icon_tab_chat\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 416,
-      "length": 16,
-      "value": "\"icon_tab_video\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 453,
-      "length": 18,
-      "value": "\"plus-circle-icon\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 492,
-      "length": 12,
-      "value": "\"phone_flag\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 532,
-      "length": 19,
-      "value": "\"icon_check_circle\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 577,
-      "length": 16,
-      "value": "\"icon_unchecked\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 617,
-      "length": 14,
-      "value": "\"icon_checked\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 654,
-      "length": 13,
-      "value": "\"icon_delete\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 695,
-      "length": 18,
-      "value": "\"icon_fingerprint\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 736,
-      "length": 13,
-      "value": "\"icon_wallet\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 772,
-      "length": 16,
-      "value": "\"icon_camera_bg\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 819,
-      "length": 11,
-      "value": "\"Splash 12\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 860,
-      "length": 11,
-      "value": "\"Splash 13\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
-      "kind": "StringLiteral",
-      "offset": 901,
-      "length": 12,
-      "value": "\"Splash 1 1\""
-    },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/AEOTPTextField\/UIKit\/Core\/AEOTPTextField.swift",
       "kind": "StringLiteral",
@@ -3067,130 +2913,74 @@
       "value": "6"
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/TransferModel.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2693,
-      "length": 4,
-      "value": "true"
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Utils\/AmountHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4529,
+      "length": 1,
+      "value": "2"
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza.swift",
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/BaseViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2455,
+      "offset": 187,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza.swift",
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/BaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 338,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/BaseViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 390,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Onboarding\/WalkthroughViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2716,
+      "offset": 765,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 137,
-      "length": 29,
-      "value": "\"http:\/\/147.182.192.25:5001\/\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 194,
-      "length": 9,
-      "value": "\"waadmin\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 235,
-      "length": 12,
-      "value": "\"Woza Admin\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 278,
-      "length": 6,
-      "value": "\"+254\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 321,
-      "length": 9,
-      "value": "\"+254 | \""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 371,
-      "length": 12,
-      "value": "\"7987654321\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Cells\/IconLableCell\/IconLabelCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 922,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Cells\/AmountViewCell\/AmountViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 331,
-      "length": 7,
-      "value": "\"KES  \""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Cells\/AmountViewCell\/AmountViewCell.swift",
-      "kind": "StringLiteral",
-      "offset": 361,
-      "length": 10,
-      "value": "\"KES 0.00\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/PhoneNumberTextField.swift",
-      "kind": "IntegerLiteral",
-      "offset": 204,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/PhoneNumberTextField.swift",
-      "kind": "IntegerLiteral",
-      "offset": 213,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/PhoneNumberTextField.swift",
-      "kind": "IntegerLiteral",
-      "offset": 224,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/PhoneNumberTextField.swift",
-      "kind": "IntegerLiteral",
-      "offset": 234,
-      "length": 2,
-      "value": "15"
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/PhoneNumberTextField.swift",
-      "kind": "StringLiteral",
-      "offset": 268,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/PhoneNumberTextField.swift",
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/RoundUIView.swift",
       "kind": "FloatLiteral",
-      "offset": 395,
-      "length": 4,
-      "value": "17.0"
+      "offset": 410,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/RoundUIView.swift",
+      "kind": "FloatLiteral",
+      "offset": 546,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/RoundUIView.swift",
+      "kind": "FloatLiteral",
+      "offset": 692,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/RoundUIView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1001,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/RoundUIView.swift",
+      "kind": "FloatLiteral",
+      "offset": 1147,
+      "length": 3,
+      "value": "0.0"
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/Lingo.swift",
@@ -3291,32 +3081,95 @@
       "value": "\"WalkthroughCaption3\""
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/BaseViewController.swift",
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/TransferModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 187,
-      "length": 5,
-      "value": "false"
+      "offset": 2693,
+      "length": 4,
+      "value": "true"
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/BaseViewController.swift",
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 137,
+      "length": 29,
+      "value": "\"http:\/\/147.182.192.25:5001\/\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 9,
+      "value": "\"waadmin\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 235,
+      "length": 12,
+      "value": "\"Woza Admin\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 6,
+      "value": "\"+254\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 321,
+      "length": 9,
+      "value": "\"+254 | \""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
+      "kind": "StringLiteral",
+      "offset": 371,
+      "length": 12,
+      "value": "\"7987654321\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/PhoneNumberTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 338,
+      "offset": 204,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/BaseViewController.swift",
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/PhoneNumberTextField.swift",
       "kind": "IntegerLiteral",
-      "offset": 390,
+      "offset": 213,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Onboarding\/WalkthroughViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 765,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/PhoneNumberTextField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 224,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/PhoneNumberTextField.swift",
+      "kind": "IntegerLiteral",
+      "offset": 234,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/PhoneNumberTextField.swift",
+      "kind": "StringLiteral",
+      "offset": 268,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/PhoneNumberTextField.swift",
+      "kind": "FloatLiteral",
+      "offset": 395,
+      "length": 4,
+      "value": "17.0"
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/VCStack.swift",
@@ -3403,32 +3256,25 @@
       "value": "\"Transfer\""
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Networking\/EndPoint.swift",
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Cells\/IconLableCell\/IconLabelCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 922,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Cells\/AmountViewCell\/AmountViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 132,
+      "offset": 331,
       "length": 7,
-      "value": "\"login\""
+      "value": "\"KES  \""
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Networking\/EndPoint.swift",
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Cells\/AmountViewCell\/AmountViewCell.swift",
       "kind": "StringLiteral",
-      "offset": 160,
+      "offset": 361,
       "length": 10,
-      "value": "\"register\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Networking\/EndPoint.swift",
-      "kind": "StringLiteral",
-      "offset": 189,
-      "length": 9,
-      "value": "\"set_pin\""
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Networking\/EndPoint.swift",
-      "kind": "StringLiteral",
-      "offset": 220,
-      "length": 12,
-      "value": "\"send_money\""
+      "value": "\"KES 0.00\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/AmityWoza\/LiveStream\/Views\/PlayerView.swift",
@@ -3445,18 +3291,18 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Cells\/SummaryIconLableCell\/SummaryIconLabelCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 978,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Extension\/ViewControllerExtension.swift",
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Onboarding\/PasscodeViews\/PasscodeViewController.swift",
       "kind": "StringLiteral",
-      "offset": 184,
+      "offset": 570,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Onboarding\/PasscodeViews\/PasscodeViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 613,
+      "length": 1,
+      "value": "4"
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/PaddingTextField.swift",
@@ -3485,41 +3331,6 @@
       "offset": 227,
       "length": 2,
       "value": "15"
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/RoundUIView.swift",
-      "kind": "FloatLiteral",
-      "offset": 410,
-      "length": 3,
-      "value": "2.0"
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/RoundUIView.swift",
-      "kind": "FloatLiteral",
-      "offset": 546,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/RoundUIView.swift",
-      "kind": "FloatLiteral",
-      "offset": 692,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/RoundUIView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1001,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/CustomViews\/RoundUIView.swift",
-      "kind": "FloatLiteral",
-      "offset": 1147,
-      "length": 3,
-      "value": "0.0"
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/ThemeSet.swift",
@@ -3697,25 +3508,32 @@
       "value": "0"
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Onboarding\/PasscodeViews\/PasscodeViewController.swift",
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Networking\/EndPoint.swift",
       "kind": "StringLiteral",
-      "offset": 570,
-      "length": 2,
-      "value": "\"\""
+      "offset": 132,
+      "length": 7,
+      "value": "\"login\""
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Onboarding\/PasscodeViews\/PasscodeViewController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 613,
-      "length": 1,
-      "value": "4"
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Networking\/EndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 160,
+      "length": 10,
+      "value": "\"register\""
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Cells\/DetailLableCell\/DetailLableCell.swift",
-      "kind": "BooleanLiteral",
-      "offset": 706,
-      "length": 5,
-      "value": "false"
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Networking\/EndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 189,
+      "length": 9,
+      "value": "\"set_pin\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Networking\/EndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 12,
+      "value": "\"send_money\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Transfer\/TransferAmountViewController.swift",
@@ -3732,6 +3550,13 @@
       "value": "\"User2\""
     },
     {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Cells\/SummaryIconLableCell\/SummaryIconLabelCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 978,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Onboarding\/PasscodeViews\/PasscodeButton.swift",
       "kind": "IntegerLiteral",
       "offset": 174,
@@ -3739,11 +3564,39 @@
       "value": "81"
     },
     {
-      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Utils\/AmountHandler.swift",
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Extension\/ViewControllerExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Onboarding\/PasscodeViews\/PasscodePlaceholderView.swift",
       "kind": "IntegerLiteral",
-      "offset": 4529,
-      "length": 1,
-      "value": "2"
+      "offset": 196,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Views\/Cells\/DetailLableCell\/DetailLableCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 706,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2455,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2716,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/AmityWoza\/LiveStream\/ViewModels\/LiveStreamModel.swift",
@@ -3751,6 +3604,146 @@
       "offset": 670,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 24,
+      "value": "\"#Payless_Woza_Logo_Red\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 13,
+      "value": "\"icon_search\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 230,
+      "length": 15,
+      "value": "\"pl-arrow-icon\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 271,
+      "length": 11,
+      "value": "\"rent-icon\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 14,
+      "value": "\"icon_profile\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 341,
+      "length": 11,
+      "value": "\"icon_chat\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 376,
+      "length": 15,
+      "value": "\"icon_tab_chat\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 416,
+      "length": 16,
+      "value": "\"icon_tab_video\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 453,
+      "length": 18,
+      "value": "\"plus-circle-icon\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 492,
+      "length": 12,
+      "value": "\"phone_flag\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 532,
+      "length": 19,
+      "value": "\"icon_check_circle\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 577,
+      "length": 16,
+      "value": "\"icon_unchecked\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 617,
+      "length": 14,
+      "value": "\"icon_checked\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 654,
+      "length": 13,
+      "value": "\"icon_delete\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 695,
+      "length": 18,
+      "value": "\"icon_fingerprint\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 13,
+      "value": "\"icon_wallet\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 772,
+      "length": 16,
+      "value": "\"icon_camera_bg\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 819,
+      "length": 11,
+      "value": "\"Splash 12\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 860,
+      "length": 11,
+      "value": "\"Splash 13\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Design\/StackImage.swift",
+      "kind": "StringLiteral",
+      "offset": 901,
+      "length": 12,
+      "value": "\"Splash 1 1\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/PaylessWoza.build\/Release-iphoneos\/PaylessWoza.build\/DerivedSources\/GeneratedAssetSymbols.swift",
