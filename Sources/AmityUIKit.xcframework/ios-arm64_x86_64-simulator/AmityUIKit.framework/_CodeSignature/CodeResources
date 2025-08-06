@@ -406,11 +406,11 @@
 		</data>
 		<key>AmityRecentChatTableViewCell.nib</key>
 		<data>
-		pnQN/nVbKvx7cr8HSpxAts3Wgr8=
+		DKFqheronqT8cpvbl/8NWwppqlo=
 		</data>
 		<key>AmityRecentChatViewController.nib</key>
 		<data>
-		0iSIs1tpk3B19iGDTY9Wwkk+3Y4=
+		ef98ZdXJEdgbjKwVWYxFV+ppFKQ=
 		</data>
 		<key>AmityRecommendedCommunityCollectionViewCell.nib</key>
 		<data>
@@ -558,7 +558,7 @@
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EXZ0uP2WzQKgOdIlqpEe9CMR/r4=
+		/iY0shRugjS14QW2p5wwc/6OG+Y=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -578,7 +578,7 @@
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Lp3UOIRElsvD8+QujJV2/29q2mo=
+		HujjDaNxNtGdsrivDhMqwu589g8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1311,14 +1311,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TCFDsY0Boh/bivGEKfhW5K98pVz+ZRCVrwo2xWudrVQ=
+			rQ5fPpB38M9zbcI5yTFUSxtJOfKU3g/QkPPjzFjIPjY=
 			</data>
 		</dict>
 		<key>AmityRecentChatViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zncxaB4WQsx9+B81q47W2iWR6j0icVI67aoCiw/f6Qw=
+			fh7qheaGDfmgUXLzen3BBHPBaNdDaSXbcIDK12X/CpY=
 			</data>
 		</dict>
 		<key>AmityRecommendedCommunityCollectionViewCell.nib</key>
@@ -1570,7 +1570,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x2Xx+GnEMAGttCvFwVg654aPLprHQF4JGHiWq82/Vpw=
+			xpZ+kUs9xfQoHE8UgSq/EYuT9vuGnn7+7d03xZADsrQ=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -1605,7 +1605,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gDzCA7lP122zt0yustNUp3FSZTsbXKK6Out+ybTUlmU=
+			6poG6F7A28Gn61bsfPS/oslDSaV4NuTPLdK9UCcIwZY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -1967,6 +1967,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "AmityUIKit4"
+      },
+      {
+        "kind": "Import",
         "name": "AmitySDK",
         "printedName": "AmitySDK",
         "declKind": "Import",
@@ -2587,6 +2594,247 @@
             ],
             "throwing": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "donataionCallback",
+            "printedName": "donataionCallback",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIViewController?, AmitySDK.AmityUser, AmitySDK.AmityUser) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIViewController?, AmitySDK.AmityUser, AmitySDK.AmityUser) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(UIKit.UIViewController?, AmitySDK.AmityUser, AmitySDK.AmityUser)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "UIKit.UIViewController?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "UIViewController",
+                                "printedName": "UIKit.UIViewController",
+                                "usr": "c:objc(cs)UIViewController"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AmityUser",
+                            "printedName": "AmitySDK.AmityUser",
+                            "usr": "s:8AmitySDK0A4UserC"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AmityUser",
+                            "printedName": "AmitySDK.AmityUser",
+                            "usr": "s:8AmitySDK0A4UserC"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11AmityUIKit40aB7ManagerC17donataionCallbackySo16UIViewControllerCSg_0A3SDK0A4UserCAJtcSgvpZ",
+            "mangledName": "$s11AmityUIKit40aB7ManagerC17donataionCallbackySo16UIViewControllerCSg_0A3SDK0A4UserCAJtcSgvpZ",
+            "moduleName": "AmityUIKit4",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UIKit.UIViewController?, AmitySDK.AmityUser, AmitySDK.AmityUser) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIViewController?, AmitySDK.AmityUser, AmitySDK.AmityUser) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(UIKit.UIViewController?, AmitySDK.AmityUser, AmitySDK.AmityUser)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "UIKit.UIViewController?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "UIViewController",
+                                    "printedName": "UIKit.UIViewController",
+                                    "usr": "c:objc(cs)UIViewController"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AmityUser",
+                                "printedName": "AmitySDK.AmityUser",
+                                "usr": "s:8AmitySDK0A4UserC"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AmityUser",
+                                "printedName": "AmitySDK.AmityUser",
+                                "usr": "s:8AmitySDK0A4UserC"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AmityUIKit40aB7ManagerC17donataionCallbackySo16UIViewControllerCSg_0A3SDK0A4UserCAJtcSgvgZ",
+                "mangledName": "$s11AmityUIKit40aB7ManagerC17donataionCallbackySo16UIViewControllerCSg_0A3SDK0A4UserCAJtcSgvgZ",
+                "moduleName": "AmityUIKit4",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UIKit.UIViewController?, AmitySDK.AmityUser, AmitySDK.AmityUser) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIViewController?, AmitySDK.AmityUser, AmitySDK.AmityUser) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(UIKit.UIViewController?, AmitySDK.AmityUser, AmitySDK.AmityUser)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Optional",
+                                "printedName": "UIKit.UIViewController?",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "UIViewController",
+                                    "printedName": "UIKit.UIViewController",
+                                    "usr": "c:objc(cs)UIViewController"
+                                  }
+                                ],
+                                "usr": "s:Sq"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AmityUser",
+                                "printedName": "AmitySDK.AmityUser",
+                                "usr": "s:8AmitySDK0A4UserC"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "AmityUser",
+                                "printedName": "AmitySDK.AmityUser",
+                                "usr": "s:8AmitySDK0A4UserC"
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AmityUIKit40aB7ManagerC17donataionCallbackySo16UIViewControllerCSg_0A3SDK0A4UserCAJtcSgvsZ",
+                "mangledName": "$s11AmityUIKit40aB7ManagerC17donataionCallbackySo16UIViewControllerCSg_0A3SDK0A4UserCAJtcSgvsZ",
+                "moduleName": "AmityUIKit4",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11AmityUIKit40aB7ManagerC17donataionCallbackySo16UIViewControllerCSg_0A3SDK0A4UserCAJtcSgvMZ",
+                "mangledName": "$s11AmityUIKit40aB7ManagerC17donataionCallbackySo16UIViewControllerCSg_0A3SDK0A4UserCAJtcSgvMZ",
+                "moduleName": "AmityUIKit4",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -176635,21 +176883,21 @@
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/AmityUIKit4.swift",
       "kind": "StringLiteral",
-      "offset": 5851,
+      "offset": 5971,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/AmityUIKit4.swift",
       "kind": "Dictionary",
-      "offset": 5911,
+      "offset": 6031,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/AmityUIKit4.swift",
       "kind": "Dictionary",
-      "offset": 6428,
+      "offset": 6548,
       "length": 3,
       "value": "[]"
     },
@@ -177277,6 +177525,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Components\/TabItemView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 337,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Story\/Pages\/ViewStory\/ChildViews\/StoryAdView.swift",
       "kind": "BooleanLiteral",
       "offset": 417,
@@ -177503,14 +177758,14 @@
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Social\/Components\/SocialHome\/Explore\/ExploreComponentSkeletonView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2157,
+      "offset": 2156,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Social\/Components\/SocialHome\/Explore\/ExploreComponentSkeletonView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3731,
+      "offset": 3730,
       "length": 1,
       "value": "5"
     },
@@ -180695,14 +180950,14 @@
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Social\/Pages\/CommunityProfile\/AmityCommunityAddUserPage.swift",
       "kind": "Array",
-      "offset": 9511,
+      "offset": 9763,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Social\/Pages\/CommunityProfile\/AmityCommunityAddUserPage.swift",
       "kind": "StringLiteral",
-      "offset": 9557,
+      "offset": 9809,
       "length": 2,
       "value": "\"\""
     },
@@ -183908,14 +184163,14 @@
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Social\/Components\/SocialHome\/AmitySocialHomeTopNavigationComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 7396,
+      "offset": 7402,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Social\/Components\/SocialHome\/AmitySocialHomeTopNavigationComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 7447,
+      "offset": 7453,
       "length": 5,
       "value": "false"
     },
@@ -187604,609 +187859,616 @@
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 3666,
+      "offset": 3664,
+      "length": 17,
+      "value": "\"profilePlusIcon\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
+      "kind": "StringLiteral",
+      "offset": 3732,
       "length": 19,
       "value": "\"emptyNewsFeedIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 3709,
+      "offset": 3775,
       "length": 13,
       "value": "\"exploreIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 3744,
+      "offset": 3810,
       "length": 11,
       "value": "\"arrowIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 3782,
+      "offset": 3848,
       "length": 16,
       "value": "\"likeActionIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 3828,
+      "offset": 3894,
       "length": 19,
       "value": "\"commentActionIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 3875,
+      "offset": 3941,
       "length": 17,
       "value": "\"shareActionIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 3921,
+      "offset": 3987,
       "length": 18,
       "value": "\"videoControlIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 3967,
+      "offset": 4033,
       "length": 17,
       "value": "\"circleCloseIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4019,
+      "offset": 4085,
       "length": 24,
       "value": "\"previewLinkDefaultIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4076,
+      "offset": 4142,
       "length": 22,
       "value": "\"previewLinkErrorIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4129,
+      "offset": 4195,
       "length": 20,
       "value": "\"createPostMenuIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4181,
+      "offset": 4247,
       "length": 21,
       "value": "\"createStoryMenuIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4233,
+      "offset": 4299,
       "length": 20,
       "value": "\"createPollMenuIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4290,
+      "offset": 4356,
       "length": 26,
       "value": "\"createLivestreamMenuIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4350,
+      "offset": 4416,
       "length": 23,
       "value": "\"cameraAttatchmentIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4406,
+      "offset": 4472,
       "length": 22,
       "value": "\"photoAttatchmentIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4461,
+      "offset": 4527,
       "length": 22,
       "value": "\"videoAttatchmentIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4511,
+      "offset": 4577,
       "length": 17,
       "value": "\"attatchmentIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4554,
+      "offset": 4620,
       "length": 15,
       "value": "\"downArrowIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4598,
+      "offset": 4664,
       "length": 18,
       "value": "\"noSearchableIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4646,
+      "offset": 4712,
       "length": 19,
       "value": "\"defaultSearchIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4698,
+      "offset": 4764,
       "length": 22,
       "value": "\"mediaUploadErrorIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4741,
+      "offset": 4807,
       "length": 10,
       "value": "\"starIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4772,
+      "offset": 4838,
       "length": 10,
       "value": "\"infoIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4814,
+      "offset": 4880,
       "length": 21,
       "value": "\"adAvatarPlaceholder\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4859,
+      "offset": 4925,
       "length": 13,
       "value": "\"upArrowIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4912,
+      "offset": 4978,
       "length": 29,
       "value": "\"communityProfilePlaceholder\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 4971,
+      "offset": 5037,
       "length": 19,
       "value": "\"communityFeedIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5019,
+      "offset": 5085,
       "length": 18,
       "value": "\"communityPinIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5072,
+      "offset": 5138,
       "length": 15,
       "value": "\"imageFeedIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5122,
+      "offset": 5188,
       "length": 15,
       "value": "\"videoFeedIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5176,
+      "offset": 5242,
       "length": 28,
       "value": "\"communityAnnouncementBadge\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5234,
+      "offset": 5300,
       "length": 19,
       "value": "\"communityPinBadge\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5295,
+      "offset": 5361,
       "length": 31,
       "value": "\"communityProfileEmptyPostIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5369,
+      "offset": 5435,
       "length": 32,
       "value": "\"communityProfileEmptyImageIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5444,
+      "offset": 5510,
       "length": 32,
       "value": "\"communityProfileEmptyVideoIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5513,
+      "offset": 5579,
       "length": 26,
       "value": "\"communityPendingPostIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5560,
+      "offset": 5626,
       "length": 10,
       "value": "\"tickIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5611,
+      "offset": 5677,
       "length": 23,
       "value": "\"categoriesPlaceholder\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5667,
+      "offset": 5733,
       "length": 22,
       "value": "\"communityPlaceholder\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5720,
+      "offset": 5786,
       "length": 20,
       "value": "\"communityThumbnail\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5770,
+      "offset": 5836,
       "length": 19,
       "value": "\"emptyStateExplore\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5823,
+      "offset": 5889,
       "length": 23,
       "value": "\"communityNotFoundIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5870,
+      "offset": 5936,
       "length": 16,
       "value": "\"brandBadgeIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5908,
+      "offset": 5974,
       "length": 11,
       "value": "\"globeIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5944,
+      "offset": 6010,
       "length": 14,
       "value": "\"checkBoxIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 5978,
+      "offset": 6044,
       "length": 9,
       "value": "\"penIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6010,
+      "offset": 6076,
       "length": 12,
       "value": "\"memberIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6051,
+      "offset": 6117,
       "length": 18,
       "value": "\"notificationIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6100,
+      "offset": 6166,
       "length": 20,
       "value": "\"postPermissionIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6143,
+      "offset": 6209,
       "length": 12,
       "value": "\"cameraIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6187,
+      "offset": 6253,
       "length": 21,
       "value": "\"communityMemberIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6243,
+      "offset": 6309,
       "length": 24,
       "value": "\"communityModeratorIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6292,
+      "offset": 6358,
       "length": 14,
       "value": "\"postMenuIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6334,
+      "offset": 6400,
       "length": 17,
       "value": "\"commentMenuIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6384,
+      "offset": 6450,
       "length": 22,
       "value": "\"emptyPendingPostIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6440,
+      "offset": 6506,
       "length": 23,
       "value": "\"livestreamPlaceholder\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6501,
+      "offset": 6567,
       "length": 27,
       "value": "\"livestreamPlaceholderGray\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6560,
+      "offset": 6626,
       "length": 21,
       "value": "\"livestreamErrorIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6613,
+      "offset": 6679,
       "length": 21,
       "value": "\"livestreamPauseIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6673,
+      "offset": 6739,
       "length": 28,
       "value": "\"livestreamReconnectingIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6738,
+      "offset": 6804,
       "length": 26,
       "value": "\"livestreamImpressionIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6805,
+      "offset": 6871,
       "length": 30,
       "value": "\"pendingUserFollowRequestIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6865,
+      "offset": 6931,
       "length": 19,
       "value": "\"followingUserIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6916,
+      "offset": 6982,
       "length": 21,
       "value": "\"unfollowingUserIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 6963,
+      "offset": 7029,
       "length": 15,
       "value": "\"blockUserIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7006,
+      "offset": 7072,
       "length": 17,
       "value": "\"unblockUserIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7051,
+      "offset": 7117,
       "length": 17,
       "value": "\"privateFeedIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7096,
+      "offset": 7162,
       "length": 17,
       "value": "\"blockedFeedIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7139,
+      "offset": 7205,
       "length": 15,
       "value": "\"listRadioIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7180,
+      "offset": 7246,
       "length": 15,
       "value": "\"pollRadioIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7221,
+      "offset": 7287,
       "length": 15,
       "value": "\"checkMarkIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7262,
+      "offset": 7328,
       "length": 10,
       "value": "\"bellIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7306,
+      "offset": 7372,
       "length": 27,
       "value": "\"notificationTrayEmptyIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7360,
+      "offset": 7426,
       "length": 16,
       "value": "\"noInternetIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7406,
+      "offset": 7472,
       "length": 19,
       "value": "\"reportSuccessIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7454,
+      "offset": 7520,
       "length": 20,
       "value": "\"moneyDonateBoxIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7606,
+      "offset": 7672,
       "length": 18,
       "value": "\"ic_stream_button\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7662,
+      "offset": 7728,
       "length": 27,
       "value": "\"ic_stream_button_disabled\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7726,
+      "offset": 7792,
       "length": 15,
       "value": "\"ic_arrow_down\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7763,
+      "offset": 7829,
       "length": 10,
       "value": "\"ic_close\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7799,
+      "offset": 7865,
       "length": 14,
       "value": "\"ic_thumbnail\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7842,
+      "offset": 7908,
       "length": 16,
       "value": "\"ic_camera_flip\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7906,
+      "offset": 7972,
       "length": 33,
       "value": "\"livestream_terminated_streaming\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 7977,
+      "offset": 8043,
       "length": 32,
       "value": "\"livestream_terminated_watching\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 8049,
+      "offset": 8115,
       "length": 29,
       "value": "\"livestream_terminated_trash\""
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Utilities\/AmityIcon.swift",
       "kind": "StringLiteral",
-      "offset": 8120,
+      "offset": 8186,
       "length": 29,
       "value": "\"livestream_terminated_block\""
     },
@@ -188402,7 +188664,7 @@
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Social\/Components\/SocialHome\/MyCommunities\/AmityMyCommunitiesComponent.swift",
       "kind": "Array",
-      "offset": 2341,
+      "offset": 2449,
       "length": 2,
       "value": "[]"
     },
@@ -188731,7 +188993,7 @@
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Social\/Pages\/SocialHome\/ChildViews\/SocialHomePageTabView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3600,
+      "offset": 3673,
       "length": 1,
       "value": "0"
     },
@@ -189298,21 +189560,21 @@
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Social\/Components\/PostDetail\/AmityPostContentComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 30900,
+      "offset": 31329,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Social\/Components\/PostDetail\/AmityPostContentComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 31012,
+      "offset": 31441,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Social\/Components\/PostDetail\/AmityPostContentComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 31068,
+      "offset": 31497,
       "length": 5,
       "value": "false"
     },
@@ -189560,6 +189822,20 @@
       "offset": 3383,
       "length": 7,
       "value": "0.00001"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Components\/AmityUserProfileImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 350,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Core\/Components\/AmityUserProfileImageView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 440,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Social\/Pages\/CommunityProfile\/CommunityProfileViewModel.swift",
@@ -189921,7 +190197,7 @@
     {
       "filePath": "\/Users\/kavitha\/Development\/External\/ProfytTech\/Repo\/paylessSPIos\/PaylessWoza\/ASC-UIKit-iOS-OpenSource\/UpstraUIKit\/AmityUIKit4\/AmityUIKit4\/Social\/Pages\/CommunityProfile\/AmityCommunityAddCategoryPage.swift",
       "kind": "Array",
-      "offset": 6933,
+      "offset": 7257,
       "length": 2,
       "value": "[]"
     },
@@ -191792,236 +192068,243 @@
       "kind": "StringLiteral",
       "offset": 21389,
       "length": 17,
+      "value": "\"profilePlusIcon\""
+    },
+    {
+      "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 21546,
+      "length": 17,
       "value": "\"reactionUnknown\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21538,
+      "offset": 21695,
       "length": 13,
       "value": "\"redFlagIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21685,
+      "offset": 21842,
       "length": 14,
       "value": "\"redTrashIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21837,
+      "offset": 21994,
       "length": 16,
       "value": "\"replyArrowIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 21981,
+      "offset": 22138,
       "length": 11,
       "value": "\"replyIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22136,
+      "offset": 22293,
       "length": 19,
       "value": "\"reportSuccessIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22285,
+      "offset": 22442,
       "length": 12,
       "value": "\"searchIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22435,
+      "offset": 22592,
       "length": 16,
       "value": "\"sendIconEnable\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22591,
+      "offset": 22748,
       "length": 17,
       "value": "\"shareActionIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22734,
+      "offset": 22891,
       "length": 10,
       "value": "\"starIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 22888,
+      "offset": 23045,
       "length": 19,
       "value": "\"statusLoadingIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23051,
+      "offset": 23208,
       "length": 19,
       "value": "\"statusSuccessIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23214,
+      "offset": 23371,
       "length": 19,
       "value": "\"statusWarningIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23375,
+      "offset": 23532,
       "length": 18,
       "value": "\"storyCommentIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23529,
+      "offset": 23686,
       "length": 15,
       "value": "\"storyLikeIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23678,
+      "offset": 23835,
       "length": 14,
       "value": "\"threeDotIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23818,
+      "offset": 23975,
       "length": 10,
       "value": "\"tickIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 23962,
+      "offset": 24119,
       "length": 14,
       "value": "\"trashBinIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24116,
+      "offset": 24273,
       "length": 17,
       "value": "\"trashBinRedIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24277,
+      "offset": 24434,
       "length": 19,
       "value": "\"trashBinWhiteIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24436,
+      "offset": 24593,
       "length": 17,
       "value": "\"unblockUserIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24583,
+      "offset": 24740,
       "length": 12,
       "value": "\"unflagIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24743,
+      "offset": 24900,
       "length": 21,
       "value": "\"unfollowingUserIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 24894,
+      "offset": 25051,
       "length": 12,
       "value": "\"unmuteIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25038,
+      "offset": 25195,
       "length": 13,
       "value": "\"upArrowIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25233,
+      "offset": 25390,
       "length": 15,
       "value": "\"verifiedBadge\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25404,
+      "offset": 25561,
       "length": 25,
       "value": "\"verifiedBadgeWithBorder\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25575,
+      "offset": 25732,
       "length": 20,
       "value": "\"verifiedWhiteBadge\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25745,
+      "offset": 25902,
       "length": 22,
       "value": "\"videoAttatchmentIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 25909,
+      "offset": 26066,
       "length": 18,
       "value": "\"videoControlIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26063,
+      "offset": 26220,
       "length": 15,
       "value": "\"videoFeedIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26220,
+      "offset": 26377,
       "length": 18,
       "value": "\"videoShutterIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26398,
+      "offset": 26555,
       "length": 27,
       "value": "\"videoShutterRecordingIcon\""
     },
     {
       "filePath": "\/Users\/kavitha\/Library\/Developer\/Xcode\/DerivedData\/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt\/Build\/Intermediates.noindex\/ArchiveIntermediates\/PaylessWoza\/IntermediateBuildFilesPath\/AmityUIKit4.build\/Release-iphoneos\/AmityUIKit4.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 26563,
+      "offset": 26720,
       "length": 16,
       "value": "\"watchAgainIcon\""
     }

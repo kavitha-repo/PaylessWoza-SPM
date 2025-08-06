@@ -110,6 +110,7 @@ public enum VideoCacheManager {
     set
   }
   public static func syncNetworkConfig() async throws
+  public static var donataionCallback: ((UIKit.UIViewController?, AmitySDK.AmityUser, AmitySDK.AmityUser) -> Swift.Void)?
   @objc deinit
 }
 @_Concurrency.MainActor @preconcurrency public struct AmityCommunityMembershipPage : AmityUIKit4.AmityPageView {
