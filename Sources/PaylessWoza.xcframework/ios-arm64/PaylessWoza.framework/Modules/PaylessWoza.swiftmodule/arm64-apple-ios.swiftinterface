@@ -14,6 +14,18 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers final public class PaylessWozaKit {
+  public static func initialize()
+  public static func setDeviceToken(_ token: Foundation.Data)
+  public static func logout()
+  public static func presentWoza(_ presentingVC: UIKit.UIViewController, userId: Swift.String? = nil, displayName: Swift.String? = nil, isStandAlone: Swift.Bool = false)
+  public static func presentWozaNewUser(_ presentingVC: UIKit.UIViewController, isPaylessUser: Swift.Bool, isStandAlone: Swift.Bool = false)
+  public static func presentWozaLogin(_ presentingVC: UIKit.UIViewController)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class AmityConnect {
+  @objc deinit
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AEOTPTextField : UIKit.UITextField {
   @_Concurrency.MainActor @preconcurrency public var otpDefaultCharacter: Swift.String
   @_Concurrency.MainActor @preconcurrency public var otpBackgroundColor: UIKit.UIColor
@@ -38,9 +50,6 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers open class AmityConnect {
-  @objc deinit
-}
 @_Concurrency.MainActor @preconcurrency public struct PlayerView : SwiftUICore.View {
   @SwiftUICore.EnvironmentObject @_projectedValueProperty($host) @_Concurrency.MainActor @preconcurrency public var host: AmityUIKit4.AmitySwiftUIHostWrapper {
     get
@@ -53,17 +62,8 @@ import _SwiftConcurrencyShims
   }
   public typealias Body = @_opaqueReturnTypeOf("$s11PaylessWoza10PlayerViewV4bodyQrvp", 0) __
 }
+public typealias EditAction = () -> Swift.Void
 public protocol AEOTPTextFieldDelegate : AnyObject {
   func didUserFinishEnter(the code: Swift.String)
-}
-public typealias EditAction = () -> Swift.Void
-@_hasMissingDesignatedInitializers final public class PaylessWozaKit {
-  public static func initialize()
-  public static func setDeviceToken(_ token: Foundation.Data)
-  public static func logout()
-  public static func presentWoza(_ presentingVC: UIKit.UIViewController, userId: Swift.String? = nil, displayName: Swift.String? = nil, isStandAlone: Swift.Bool = false)
-  public static func presentWozaNewUser(_ presentingVC: UIKit.UIViewController, isPaylessUser: Swift.Bool, isStandAlone: Swift.Bool = false)
-  public static func presentWozaLogin(_ presentingVC: UIKit.UIViewController)
-  @objc deinit
 }
 extension PaylessWoza.PlayerView : Swift.Sendable {}
