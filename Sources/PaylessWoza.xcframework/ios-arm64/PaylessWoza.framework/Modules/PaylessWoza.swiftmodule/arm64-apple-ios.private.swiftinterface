@@ -14,6 +14,9 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public protocol AEOTPTextFieldDelegate : AnyObject {
+  func didUserFinishEnter(the code: Swift.String)
+}
 @_hasMissingDesignatedInitializers final public class PaylessWozaKit {
   public static func initialize()
   public static func setDeviceToken(_ token: Foundation.Data)
@@ -50,7 +53,6 @@ import _SwiftConcurrencyShims
 @_hasMissingDesignatedInitializers open class AmityConnect {
   @objc deinit
 }
-public typealias EditAction = () -> Swift.Void
 @_Concurrency.MainActor @preconcurrency public struct PlayerView : SwiftUICore.View {
   @SwiftUICore.EnvironmentObject @_projectedValueProperty($host) @_Concurrency.MainActor @preconcurrency public var host: AmityUIKit4.AmitySwiftUIHostWrapper {
     get
@@ -63,7 +65,5 @@ public typealias EditAction = () -> Swift.Void
   }
   public typealias Body = @_opaqueReturnTypeOf("$s11PaylessWoza10PlayerViewV4bodyQrvp", 0) __
 }
-public protocol AEOTPTextFieldDelegate : AnyObject {
-  func didUserFinishEnter(the code: Swift.String)
-}
+public typealias EditAction = () -> Swift.Void
 extension PaylessWoza.PlayerView : Swift.Sendable {}
