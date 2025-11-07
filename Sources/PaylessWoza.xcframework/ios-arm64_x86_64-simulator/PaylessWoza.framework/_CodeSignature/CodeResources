@@ -6,11 +6,11 @@
 	<dict>
 		<key>AmountViewCell.nib</key>
 		<data>
-		hP98JgVjj0ljf+wU7GZHXikMl10=
+		6reCcd0wkbPx22xlMoB7x32gshM=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		1sfUbSaLLqP9uSkey7PBCObYxMc=
+		JLFqAbKBbPUePrQF14PAWPVsmVQ=
 		</data>
 		<key>CoveredByYourGrace.ttf</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>DetailLableCell.nib</key>
 		<data>
-		ySE6JpRlgokHEkYCQV/OqtmwsD8=
+		enGDwxF7S8CbH6DS2VegRknzbeE=
 		</data>
 		<key>IconLabelCell.nib</key>
 		<data>
-		JwgQeh4oCMEjMjRJBvqLox2FC+U=
+		+24r2ygKTwbKaoYizXwoTWKVacQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		gHNtAlmyWwLQK4ZcLkM0Gm/WVx0=
+		8TObNnDYmtdX92ntpV8Aeu0fAYA=
 		</data>
 		<key>LabelTextfieldCell.nib</key>
 		<data>
-		5q+KtCBDOrG/sjQAvt617vUP6jE=
+		cro3sNi+gHxGTRiYu7k+xRrLyo0=
 		</data>
 		<key>LoaderView.nib</key>
 		<data>
@@ -38,43 +38,43 @@
 		</data>
 		<key>Modules/PaylessWoza.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		DK8/u6//j/fh6eXo//JCQcUoPsc=
+		PkRtu89CL9jkdxjv17A3nZ1IK2g=
 		</data>
 		<key>Modules/PaylessWoza.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		rfcICG/ZvBThsytLB0pttkhE5B4=
+		K3GuSQ4aefeEsqOGuqMccB4PBdg=
 		</data>
 		<key>Modules/PaylessWoza.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ncGR/TUz1pEqQ83wdRFbur4OV+0=
+		EpaQogDbAe8Ae9FttDhHbu+98Ek=
 		</data>
 		<key>Modules/PaylessWoza.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		rfcICG/ZvBThsytLB0pttkhE5B4=
+		K3GuSQ4aefeEsqOGuqMccB4PBdg=
 		</data>
 		<key>Modules/PaylessWoza.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		lrj0hzLGPwIq/b9VTmHwJ3SJGPw=
+		gLXcOBHQVxssWQde2z2LE/26PmM=
 		</data>
 		<key>Modules/PaylessWoza.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		DK8/u6//j/fh6eXo//JCQcUoPsc=
+		PkRtu89CL9jkdxjv17A3nZ1IK2g=
 		</data>
 		<key>Modules/PaylessWoza.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		w9swl4fDCZxZUDaIHRmEZNxKi0o=
+		wenhRMvmD11SB2WNJ22xxybN/CQ=
 		</data>
 		<key>Modules/PaylessWoza.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		eoTqFsQBY4Z0GUk+iPQ8d7DLkG8=
+		7gPu4FB5ylOuPcY8T+h7XeY1Tk8=
 		</data>
 		<key>Modules/PaylessWoza.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		w9swl4fDCZxZUDaIHRmEZNxKi0o=
+		wenhRMvmD11SB2WNJ22xxybN/CQ=
 		</data>
 		<key>Modules/PaylessWoza.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SCGgHmSWgEFcJJVk2iloy9JSw5o=
+		S1OKK7I+/IXuOUegWNQppbaY2jM=
 		</data>
 		<key>Onboarding.storyboardc/32o-LE-kjC-view-Wq8-ss-Mh6.nib</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Onboarding.storyboardc/LID-Nv-QNh-view-WI1-al-C9r.nib</key>
 		<data>
-		/neGovqsMXyZZ3m8Dt3J/s0mTgc=
+		RWH9ZpG5V3A+LH7MoQaF9Z8P8sc=
 		</data>
 		<key>Onboarding.storyboardc/Nvj-bA-yt3-view-bWn-M0-eFC.nib</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Onboarding.storyboardc/SA4-iC-pTb-view-MHK-BN-ikq.nib</key>
 		<data>
-		Q4kczxBj5qq39+kB08eSaukAkhw=
+		f/UjT9r43ZJBk1uTQPtHYGHeFD0=
 		</data>
 		<key>Onboarding.storyboardc/SetPinViewController.nib</key>
 		<data>
@@ -138,7 +138,7 @@
 		</data>
 		<key>Onboarding.storyboardc/env-rZ-LuW-view-DT5-vU-auj.nib</key>
 		<data>
-		uv7wNdEJ/aQDGZEMSa3bxMOXc8s=
+		McEXubIzpZ5hulWq6/kZMvSafGo=
 		</data>
 		<key>Onboarding.storyboardc/u46-JY-xBG-view-jMc-Sx-XpF.nib</key>
 		<data>
@@ -146,7 +146,7 @@
 		</data>
 		<key>PhoneNumberCell.nib</key>
 		<data>
-		Hikl1uTvpbtZkVZq9EDVy6xDnkc=
+		7R04GlAScBvRQUL637vetwjQVvo=
 		</data>
 		<key>Poppins-Bold.ttf</key>
 		<data>
@@ -170,15 +170,15 @@
 		</data>
 		<key>SummaryIconLabelCell.nib</key>
 		<data>
-		YJa991SxvZnKd6S0Z1XHXLhkwvw=
+		zjFMmvHEIkOsDglMdPe88/jcSw0=
 		</data>
 		<key>TextfieldCell.nib</key>
 		<data>
-		sVpsLQ8GsOFBjVVvEW4pafjJysQ=
+		JgiUzMQXDm3kZYGpQAU3Zvb10+U=
 		</data>
 		<key>Transfer.storyboardc/EW0-3B-mRY-view-l7o-Of-75n.nib</key>
 		<data>
-		nYTZ/kook2vXRvwAVPUzhI5LL50=
+		5vO4Tu7zNr0D/3bt4bHm9kY7oP4=
 		</data>
 		<key>Transfer.storyboardc/Info.plist</key>
 		<data>
@@ -194,11 +194,11 @@
 		</data>
 		<key>Transfer.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
 		<data>
-		QI/XmituykZkPOhajN/aBDLKZNY=
+		CbVsu+Xi/bnRqWInjG4SEST4PbA=
 		</data>
 		<key>UploadPhotoCell.nib</key>
 		<data>
-		8gUr7f6nDDZjoch9AyK9ucXMHQs=
+		Ld+1l3NuS7+x3i5sLYYRtLmeGJQ=
 		</data>
 		<key>UploadPhotoView.nib</key>
 		<data>
@@ -220,14 +220,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aVBkQU85N26RRixDdB26NaVayhCOzPaT5GH+agVGwLI=
+			OOzcjrnMWyU+1nzOjAe4HHn5nR3nDsZEuicpN1/VeDQ=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9JXIw5K1FeTvvFspDYzTWaQPc1l9OmCo3xsPh3MtlKc=
+			BG7D07cXCqa1lwHVeD5pHp38lcIPqHdcNQpV4s4Y0ig=
 			</data>
 		</dict>
 		<key>CoveredByYourGrace.ttf</key>
@@ -241,21 +241,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rPrPVieVbHsGYoRS4gjiVsOfiHymo/nYmo16zi/ST8g=
+			up8ieUt3xDRiEk4CqwMafn2yR1C/cFZnbpLWkWTCGTA=
 			</data>
 		</dict>
 		<key>IconLabelCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wT2XV4ZSDgFWg1guaT1szTUAITIoFMUHKavmDyX8FPc=
+			fZN1MJMP10Q62jgzg2HSn13ygzIGAn6U7xg0uVL/gy4=
 			</data>
 		</dict>
 		<key>LabelTextfieldCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7P30/WETDWVUkSnlDNCpn7OAiHBzB2YXrDUy7/JevRs=
+			FGcQbcaQN0k0DVJxWpBXP2Y0ocwIsIw5WDIXv9yaT7o=
 			</data>
 		</dict>
 		<key>LoaderView.nib</key>
@@ -269,70 +269,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UXS+IuMeg0h4BJ40H4JjyBXOASCtQML44SJJpDR994I=
+			zPzkPtinKR/+4+i2W9j2W9jcF2kObKhWUTOiM6m/Ayg=
 			</data>
 		</dict>
 		<key>Modules/PaylessWoza.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZqANi19kWU9F1EuIb/u5Xxa0tgUJDVsB6JadbF5zXl4=
+			xFCK3mr3NQ38MKfGgRsmkiOZsCGijKlM6WovvC4yjIk=
 			</data>
 		</dict>
 		<key>Modules/PaylessWoza.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CW6GV9KLkIK5hrUs8nG3gb+oAoZtF/ThCSd1jopPxfU=
+			yFjRppFORIxZ2fZCt8Tiin6aN00Bx+i83nD1RGXjkbM=
 			</data>
 		</dict>
 		<key>Modules/PaylessWoza.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZqANi19kWU9F1EuIb/u5Xxa0tgUJDVsB6JadbF5zXl4=
+			xFCK3mr3NQ38MKfGgRsmkiOZsCGijKlM6WovvC4yjIk=
 			</data>
 		</dict>
 		<key>Modules/PaylessWoza.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AqE7crMKqM4o9yvzwlDv7j/wnqhMaJ+WoX7oFGHwm0M=
+			rBTcm0suXxL1BBOf2vbtLVuvX1epIIsFWx5vviidj7w=
 			</data>
 		</dict>
 		<key>Modules/PaylessWoza.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UXS+IuMeg0h4BJ40H4JjyBXOASCtQML44SJJpDR994I=
+			zPzkPtinKR/+4+i2W9j2W9jcF2kObKhWUTOiM6m/Ayg=
 			</data>
 		</dict>
 		<key>Modules/PaylessWoza.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZObdP8eJBNhyUQnmWKrnvg5tFd6Xa5IKcszaJEE9oZo=
+			ritxDTbfeI7MfYVO8HS3jE+qjZAydOcnAaiOnyBtELM=
 			</data>
 		</dict>
 		<key>Modules/PaylessWoza.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			svHWC0nYJijw5vyfdPe9hyjde1fla+kcDcz+VXCjHVQ=
+			JJbgC+swbQStcMWbTx17UXZEk7AoafvVg9l9tqyL8do=
 			</data>
 		</dict>
 		<key>Modules/PaylessWoza.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZObdP8eJBNhyUQnmWKrnvg5tFd6Xa5IKcszaJEE9oZo=
+			ritxDTbfeI7MfYVO8HS3jE+qjZAydOcnAaiOnyBtELM=
 			</data>
 		</dict>
 		<key>Modules/PaylessWoza.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oHAVVodFXdi4VLfDFE+eSKxivFvPeBRrvipYJsbfHlY=
+			eAQBeB7+3WShI0KXWem5L8i+D8QRzO4XOfrwc2Aae0c=
 			</data>
 		</dict>
 		<key>Onboarding.storyboardc/32o-LE-kjC-view-Wq8-ss-Mh6.nib</key>
@@ -360,7 +360,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9306SuTV7ud2Z0t6nN2GTRbaWpNurNZthf1PSgXslu8=
+			791Rh0V4CQMawEHbmgfD09cZ3MR3d1bSemZB3zkW4hs=
 			</data>
 		</dict>
 		<key>Onboarding.storyboardc/Nvj-bA-yt3-view-bWn-M0-eFC.nib</key>
@@ -402,7 +402,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			25M04i9XULuV6s5qazBpCT0Vs5LoTaPGHfV6xXmHBtI=
+			dC8rdVe0xTxt+27rZOOeMs+lTggNy2mM5qT308Ei3Gw=
 			</data>
 		</dict>
 		<key>Onboarding.storyboardc/SetPinViewController.nib</key>
@@ -444,7 +444,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yXFZIOLANH1tIWhjyVPtMB1wL6BiLUliftXhCbcV1fs=
+			atsy82uQ3MBaL1X5c5UGZjnMksPIoa9qzJ3jTSCmbHE=
 			</data>
 		</dict>
 		<key>Onboarding.storyboardc/u46-JY-xBG-view-jMc-Sx-XpF.nib</key>
@@ -458,7 +458,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lV0OmPNyvnFjYU4pm62InyEtISHHYx1RIJf9EnIAJFA=
+			y3n+WqXnrTj5aC+z7EHo2iNzaPlT1aNvne1rwzm4qHU=
 			</data>
 		</dict>
 		<key>Poppins-Bold.ttf</key>
@@ -500,21 +500,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			O6e8MlDiT0iv55vEVirvnAHzot95DnYWjOTTp9k2PtQ=
+			kh7UfjjB2QkKrF0yStwwxEmWqOZ5Umbvc0zwsZs57zQ=
 			</data>
 		</dict>
 		<key>TextfieldCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X4EY9fAJtENNQyT4oVdLgmuzxUjKIvcmXK7lgIDtUqQ=
+			ZTXXKvN0IzmsvS/Bj3i8kGOZXxEWPzFpndrpxGjri3M=
 			</data>
 		</dict>
 		<key>Transfer.storyboardc/EW0-3B-mRY-view-l7o-Of-75n.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bZIxJ1zL0B46NIswjNOzMei5V/PE4GKCa3I9F4Dr+DA=
+			lfDLuMfrlqYCq+Dh+L+oBvQ6MoLWPKrIlF9TQR+butY=
 			</data>
 		</dict>
 		<key>Transfer.storyboardc/Info.plist</key>
@@ -542,14 +542,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cW1gA5wFetkh6HWR9SmrGQ2GST3CS+D6ho4/MWhg2Jw=
+			xeOUpug9r4EYegZgRhZNBFBYVmoAVxmXGWmpzN4XNyE=
 			</data>
 		</dict>
 		<key>UploadPhotoCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SUkiQi5E1wLDWoyCbJZICx2DA4+OcB3MPy6E4rKzBVc=
+			BOB9KCoe/MJMDdhH1FUMdrvSzehZH3YZlF5DKqKQlQU=
 			</data>
 		</dict>
 		<key>UploadPhotoView.nib</key>

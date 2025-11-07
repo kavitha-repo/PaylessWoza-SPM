@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AmityUIKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AVFoundation
 import AVKit
 import AmitySDK
@@ -31,8 +31,12 @@ import os
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency public static func make() -> AmityUIKit.AmityMyCommunityViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityMyCommunityViewController : UIKit.UITableViewDelegate {
@@ -83,14 +87,20 @@ public protocol AmityPhotoCollectionViewCellDelegate : ObjectiveC.NSObjectProtoc
     set
   }
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func prepareForReuse()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
   @objc deinit
 }
 extension AmityUIKit.AmityPhotoCollectionViewCell : UIKit.UIScrollViewDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func viewForZooming(in scrollView: UIKit.UIScrollView) -> UIKit.UIView?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewWillBeginZooming(_ scrollView: UIKit.UIScrollView, with view: UIKit.UIView?)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidZoom(_ scrollView: UIKit.UIScrollView)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AmityPostFooterTableViewCell : UIKit.UITableViewCell, AmityUIKit.Nibbable, AmityUIKit.AmityCellIdentifiable, AmityUIKit.AmityPostFooterProtocol {
@@ -101,15 +111,21 @@ extension AmityUIKit.AmityPhotoCollectionViewCell : UIKit.UIScrollViewDelegate {
   @_Concurrency.MainActor @preconcurrency final public var indexPath: Foundation.IndexPath?
   @_Concurrency.MainActor @preconcurrency @objc override final public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency final public func display(post: AmityUIKit.AmityPostModel)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 3.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AmityDocument : UIKit.UIDocument {
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func contents(forType typeName: Swift.String) throws -> Any
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func load(fromContents contents: Any, ofType typeName: Swift.String?) throws
-  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(fileURL url: Foundation.URL)
+@objc @_inheritsConvenienceInitializers nonisolated public class AmityDocument : UIKit.UIDocument {
+  @objc override nonisolated dynamic public func contents(forType typeName: Swift.String) throws -> Any
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public func load(fromContents contents: Any, ofType typeName: Swift.String?) throws
+  #endif
+  @objc override nonisolated dynamic public init(fileURL url: Foundation.URL)
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers open class AmityFilePicker : ObjectiveC.NSObject {
@@ -123,8 +139,6 @@ extension AmityUIKit.AmityFilePicker : UIKit.UIDocumentPickerDelegate {
 }
 extension AmityUIKit.AmityFilePicker : UIKit.UINavigationControllerDelegate {
 }
-#warning("#HUD")
-#warning("Need to refactor hud view to support fullscreen and handle the content inside of itself")
 public struct AmityPostTextComponent : AmityUIKit.AmityPostComposable {
   public var post: AmityUIKit.AmityPostModel {
     get
@@ -160,8 +174,12 @@ extension AmityUIKit.AmityEditTextViewController : AmityUIKit.ASCMentionManagerD
   @_Concurrency.MainActor @preconcurrency public func didCreateAttributedString(attributedString: Foundation.NSAttributedString)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AmityButtonPagerTabSViewController : AmityUIKit.AmityPagerTabViewController, UIKit.UICollectionViewDelegate, UIKit.UICollectionViewDataSource {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
@@ -215,10 +233,12 @@ public enum AmityImageViewState {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public var image: UIKit.UIImage? {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency public var placeholder: UIKit.UIImage? {
     get
     set
@@ -230,7 +250,9 @@ public enum AmityImageViewState {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc convenience dynamic public init()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func setImage(withImageURL imageURL: Swift.String?, size: AmitySDK.AmityMediaSize = .small, placeholder: UIKit.UIImage? = AmityIconSet.defaultAvatar, completion: (() -> Swift.Void)? = nil)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AmityPostPreviewCommentTableViewCell : UIKit.UITableViewCell, AmityUIKit.Nibbable, AmityUIKit.AmityPostPreviewCommentProtocol {
@@ -245,10 +267,16 @@ public enum AmityImageViewState {
     get
   }
   @_Concurrency.MainActor @preconcurrency @objc override final public func awakeFromNib()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency final public func display(post: AmityUIKit.AmityPostModel, comment: AmityUIKit.AmityCommentModel?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 3.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityPostPreviewCommentTableViewCell : AmityUIKit.AmityExpandableLabelDelegate {
@@ -261,7 +289,9 @@ extension AmityUIKit.AmityPostPreviewCommentTableViewCell : AmityUIKit.AmityExpa
 }
 public enum AmityReactionType : Swift.String {
   case like
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -275,7 +305,9 @@ public enum AmityReactionType : Swift.String {
     case phoneNumber
     case alphaNumeric
     case fullName
+    #if compiler(>=5.3) && $NonescapableTypes
     public init?(rawValue: Swift.Int)
+    #endif
     public typealias RawValue = Swift.Int
     public var rawValue: Swift.Int {
       get
@@ -286,7 +318,9 @@ public enum AmityReactionType : Swift.String {
   @_Concurrency.MainActor @preconcurrency public var allowedCharInString: Swift.String
   @_Concurrency.MainActor @preconcurrency public func verifyFields(shouldChangeCharactersIn range: Foundation.NSRange, replacementString string: Swift.String) -> Swift.Bool
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public class AmityUserProfilePageSettings {
@@ -299,8 +333,12 @@ public class AmityUserProfilePageSettings {
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillDisappear(_ animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @objcMembers @_Concurrency.MainActor @preconcurrency open class AmityImagePickerController : UIKit.UINavigationController {
@@ -314,21 +352,15 @@ public class AmityUserProfilePageSettings {
   }
   @objc @_Concurrency.MainActor @preconcurrency public var doneButtonTitle: Swift.String
   @objc @_Concurrency.MainActor @preconcurrency public init(selectedAssets: [Photos.PHAsset] = [])
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @objc deinit
 }
 public struct AmityCommunityCategoryModel {
   public let name: Swift.String
   public let categoryId: Swift.String
-}
-extension UIKit.UIColor {
-  #warning("Remove this after migrating with AmityColor")
-  #warning("Remove this after migrating with AmityColor")
-  #warning("Remove this after migrating with AmityColor")
-  #warning("Remove this after migrating with AmityColor")
-  #warning("Remove this after migrating with AmityColor")
-  #warning("Remove this after migrating with AmityColor")
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AmitySearchViewController : AmityUIKit.AmityPageViewController {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
@@ -346,8 +378,12 @@ extension AmityUIKit.AmitySearchViewController : UIKit.UITextFieldDelegate {
   @_Concurrency.MainActor @preconcurrency final public var emptyHandler: ((Swift.Bool) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency public static func make() -> AmityUIKit.AmityCategoryPreviewViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityCategoryPreviewViewController : UIKit.UICollectionViewDelegateFlowLayout {
@@ -374,25 +410,37 @@ public class AmityPostSharingSettings {
   @_Concurrency.MainActor @preconcurrency @objc override final public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc override final public func prepareForReuse()
   @_Concurrency.MainActor @preconcurrency final public func display(with model: AmityUIKit.AmityMentionUserModel)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 3.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AmityUserFollowersViewController : AmityUIKit.AmityPageViewController {
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency public static func make(withUserId userId: Swift.String, isFollowersSelected: Swift.Bool = false) -> AmityUIKit.AmityUserFollowersViewController
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidAppear(_ animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AmityFollowRequestsViewController : AmityUIKit.AmityViewController {
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency public static func make(withUserId userId: Swift.String) -> AmityUIKit.AmityFollowRequestsViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityFollowRequestsViewController : UIKit.UITableViewDelegate {
@@ -406,8 +454,12 @@ extension AmityUIKit.AmityFollowRequestsViewController : UIKit.UITableViewDataSo
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency public static func make(postTarget: AmityUIKit.AmityPostTarget) -> AmityUIKit.AmityPollCreatorViewController
   @_Concurrency.MainActor @preconcurrency @objc override final public func didTapLeftBarButton()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityPollCreatorViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
@@ -455,10 +507,16 @@ public enum AmityAvatarPosition {
 @_hasMissingDesignatedInitializers final public class AmityUIKitManager {
   public static func setup(apiKey: Swift.String, region: AmitySDK.AmityRegion = .SG)
   public static func setup(apiKey: Swift.String, endpoint: AmitySDK.AmityEndpoint)
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func registerDevice(withUserId userId: Swift.String, displayName: Swift.String?, authToken: Swift.String? = nil, sessionHandler: any AmitySDK.SessionHandler, completion: AmitySDK.AmityRequestCompletion? = nil)
+  #endif
   public static func unregisterDevice()
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func registerDeviceForPushNotification(_ deviceToken: Swift.String, completion: AmitySDK.AmityRequestCompletion? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func unregisterDevicePushNotification(completion: AmitySDK.AmityRequestCompletion? = nil)
+  #endif
   public static func setEnvironment(_ env: [Swift.String : Any])
   public static var client: AmitySDK.AmityClient {
     get
@@ -497,8 +555,12 @@ extension AmitySDK.AmityMention : Swift.CustomStringConvertible {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency public static func make() -> AmityUIKit.AmityNewsfeedViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityNewsfeedViewController : AmityUIKit.AmityCommunityProfileEditorViewControllerDelegate {
@@ -513,7 +575,9 @@ public protocol AmityPhotoViewerBaseAnimator : UIKit.UIViewControllerAnimatedTra
   @_Concurrency.MainActor @preconcurrency public var presentingDuration: Swift.Double
   @_Concurrency.MainActor @preconcurrency public var dismissingDuration: Swift.Double
   @_Concurrency.MainActor @preconcurrency public var usesSpringAnimation: Swift.Bool
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc public func transitionDuration(using transitionContext: (any UIKit.UIViewControllerContextTransitioning)?) -> Foundation.TimeInterval
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc public func animateTransition(using transitionContext: any UIKit.UIViewControllerContextTransitioning)
   @_Concurrency.MainActor @preconcurrency @objc public func animationEnded(_ transitionCompleted: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init()
@@ -535,16 +599,22 @@ public enum AmityNavigationBarType {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var title: Swift.String? {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency public func removeSwipeBackGesture()
   @objc @_Concurrency.MainActor @preconcurrency open func didTapLeftBarButton()
   @_Concurrency.MainActor @preconcurrency final public func generalDismiss()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityViewController : UIKit.UIGestureRecognizerDelegate {
@@ -597,8 +667,12 @@ public struct AmityLocalizedStringSet {
   public func getPostSharingSettings() -> AmityUIKit.AmityPostSharingSettings
   weak public var delegate: (any AmityUIKit.AmityFeedDelegate)?
   weak public var dataSource: (any AmityUIKit.AmityFeedDataSource)?
+  #if compiler(>=5.3) && $NonescapableTypes
   public func register(_ nib: UIKit.UINib?, forCellReuseIdentifier identifier: Swift.String)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func register(_ cellClass: Swift.AnyClass?, forCellReuseIdentifier identifier: Swift.String)
+  #endif
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AmityUserFeedViewController : AmityUIKit.AmityViewController {
@@ -613,42 +687,58 @@ public struct AmityLocalizedStringSet {
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var tintColor: UIKit.UIColor! {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public var contentMode: UIKit.UIView.ContentMode {
     @objc get
     @objc set
   }
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
   @objc deinit
 }
 extension AmityUIKit.AmityImagePickerImageView {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency convenience public init(image: UIKit.UIImage?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency convenience public init(image: UIKit.UIImage?, highlightedImage: UIKit.UIImage?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var image: UIKit.UIImage? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var highlightedImage: UIKit.UIImage? {
     @objc get
     @objc set
   }
+  #endif
   @objc @IBInspectable @_Concurrency.MainActor @preconcurrency dynamic open var isHighlighted: Swift.Bool {
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public var animationImages: [UIKit.UIImage]? {
     get
     set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public var highlightedAnimationImages: [UIKit.UIImage]? {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency public var animationDuration: Foundation.TimeInterval {
     get
     set
@@ -680,7 +770,9 @@ public struct AmityPostMediaComponent : AmityUIKit.AmityPostComposable {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AmityMentionTableView : UIKit.UITableView {
   @_Concurrency.MainActor @preconcurrency @objc override final public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect, style: UIKit.UITableView.Style)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 open class AmityFeedEventHandler {
@@ -691,18 +783,21 @@ open class AmityFeedEventHandler {
   @objc deinit
 }
 public struct AmityTheme {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(primary: UIKit.UIColor? = nil, secondary: UIKit.UIColor? = nil, alert: UIKit.UIColor? = nil, highlight: UIKit.UIColor? = nil, base: UIKit.UIColor? = nil, baseInverse: UIKit.UIColor? = nil, messageBubble: UIKit.UIColor? = nil, messageBubbleInverse: UIKit.UIColor? = nil)
+  #endif
 }
 extension AmityUIKit.AmityPhotoViewerController : UIKit.UICollectionViewDelegateFlowLayout {
   @_Concurrency.MainActor @preconcurrency @objc dynamic open func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
   @_Concurrency.MainActor @preconcurrency @objc dynamic open func scrollViewDidEndScrollingAnimation(_ scrollView: UIKit.UIScrollView)
   @_Concurrency.MainActor @preconcurrency @objc dynamic open func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic open func viewForZooming(in scrollView: UIKit.UIScrollView) -> UIKit.UIView?
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc dynamic open func scrollViewDidZoom(_ scrollView: UIKit.UIScrollView)
   @_Concurrency.MainActor @preconcurrency @objc dynamic open func scrollViewDidEndDragging(_ scrollView: UIKit.UIScrollView, willDecelerate decelerate: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc dynamic open func scrollViewDidEndDecelerating(_ scrollView: UIKit.UIScrollView)
 }
-#warning("should be renmae to AmityCommunityProfileEditScreenViewModel")
 final public class AmityMessageModel {
   final public var object: AmitySDK.AmityMessage
   final public var messageId: Swift.String
@@ -724,9 +819,11 @@ final public class AmityMessageModel {
     get
   }
   public init(object: AmitySDK.AmityMessage)
+  #if compiler(>=5.3) && $NonescapableTypes
   final public var text: Swift.String? {
     get
   }
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityMessageModel {
@@ -754,9 +851,13 @@ extension AmityUIKit.AmityMessageModel : Swift.Hashable {
   @_Concurrency.MainActor @preconcurrency @objc override final public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc override final public func prepareForReuse()
   @_Concurrency.MainActor @preconcurrency final public func display(post: AmityUIKit.AmityPostModel, indexPath: Foundation.IndexPath)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 3.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityPostFileTableViewCell : AmityUIKit.AmityExpandableLabelDelegate {
@@ -815,9 +916,15 @@ extension AmityUIKit.AmityPostFileTableViewCell : AmityUIKit.AmityExpandableLabe
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public init(referencedView: UIKit.UIView?, image: UIKit.UIImage?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency convenience public init(referencedView: UIKit.UIView?, media: AmityUIKit.AmityMedia)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillLayoutSubviews()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
@@ -843,8 +950,12 @@ extension AmityUIKit.AmityPostFileTableViewCell : AmityUIKit.AmityExpandableLabe
   @objc deinit
 }
 extension AmityUIKit.AmityPhotoViewerController : UIKit.UIViewControllerTransitioningDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func animationController(forPresented presented: UIKit.UIViewController, presenting: UIKit.UIViewController, source: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func animationController(forDismissed dismissed: UIKit.UIViewController) -> (any UIKit.UIViewControllerAnimatedTransitioning)?
+  #endif
 }
 extension AmityUIKit.AmityPhotoViewerController : UIKit.UICollectionViewDataSource {
   @_Concurrency.MainActor @preconcurrency public var currentPhotoIndex: Swift.Int {
@@ -857,11 +968,19 @@ extension AmityUIKit.AmityPhotoViewerController : UIKit.UICollectionViewDataSour
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
 }
 extension AmityUIKit.AmityPhotoViewerController {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func registerClassPhotoViewer(_ cellClass: Swift.AnyClass?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func registerNibForPhotoViewer(_ nib: UIKit.UINib?)
+  #endif
   @_Concurrency.MainActor @preconcurrency public func reloadData()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func insertPhotos(at indexes: [Swift.Int], completion: ((Swift.Bool) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func deletePhotos(at indexes: [Swift.Int], completion: ((Swift.Bool) -> Swift.Void)?)
+  #endif
   @_Concurrency.MainActor @preconcurrency public func reloadPhotos(at indexes: [Swift.Int])
   @_Concurrency.MainActor @preconcurrency public func movePhoto(at index: Swift.Int, to newIndex: Swift.Int)
   @_Concurrency.MainActor @preconcurrency public func scrollToPhoto(at index: Swift.Int, animated: Swift.Bool)
@@ -879,8 +998,12 @@ public struct AmityChannelModel {
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency public static func make(withCommunityId communityId: Swift.String) -> AmityUIKit.AmityCommunityProfilePageViewController
   @_Concurrency.MainActor @preconcurrency @objc override final public func didTapLeftBarButton()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityCommunityProfilePageViewController : AmityUIKit.AmityCommunityProfileEditorViewControllerDelegate {
@@ -888,10 +1011,10 @@ extension AmityUIKit.AmityCommunityProfilePageViewController : AmityUIKit.AmityC
   @_Concurrency.MainActor @preconcurrency final public func viewController(_ viewController: AmityUIKit.AmityCommunityProfileEditorViewController, didFailWithNoPermission: Swift.Bool)
 }
 public protocol AmityFeedDataSource : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func getUIComponentForPost(post: AmityUIKit.AmityPostModel, at index: Swift.Int) -> (any AmityUIKit.AmityPostComposable)?
+  #endif
 }
-#warning("#HUD")
-#warning("Need to refactor hud view to support fullscreen and handle the content inside of itself")
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AmityMyFeedViewController : AmityUIKit.AmityUserFeedViewController {
   @_Concurrency.MainActor @preconcurrency public static func make() -> AmityUIKit.AmityMyFeedViewController
   @objc deinit
@@ -909,7 +1032,9 @@ extension AmityUIKit.AmityPostTargetPickerViewController : UIKit.UITableViewData
 extension AmityUIKit.AmityPostTargetPickerViewController : UIKit.UITableViewDelegate {
   @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreFoundation.CGFloat
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
 }
 public protocol AmityMessageListDataSource : AnyObject {
@@ -939,8 +1064,12 @@ extension AmityUIKit.AmityMessageListViewController {
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency public static func make(channelId: Swift.String, subChannelId: Swift.String, settings: AmityUIKit.AmityMessageListViewController.Settings = .init()) -> AmityUIKit.AmityMessageListViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityMessageListViewController : UIKit.UIImagePickerControllerDelegate & UIKit.UINavigationControllerDelegate {
@@ -950,8 +1079,12 @@ extension AmityUIKit.AmityMessageListViewController : UIKit.UIImagePickerControl
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency public static func make(communityId: Swift.String) -> AmityUIKit.AmityCommunitySettingsViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityCommunitySettingsViewController : AmityUIKit.AmityCommunityProfileEditorViewControllerDelegate {
@@ -1004,28 +1137,40 @@ public protocol AmityExpandableLabelDelegate : AnyObject {
     @objc get
     @objc set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func layoutSubviews()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var text: Swift.String? {
     @objc get
     @objc set(text)
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency open var expandedText: Foundation.NSAttributedString? {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var attributedText: Foundation.NSAttributedString? {
     @objc get
     @objc set
   }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency open func setLessLinkWith(lessLink: Swift.String, attributes: [Foundation.NSAttributedString.Key : Swift.AnyObject], position: UIKit.NSTextAlignment?)
+  #endif
   @_Concurrency.MainActor @preconcurrency open class func height(for text: Swift.String, font: UIKit.UIFont, boundingWidth: CoreFoundation.CGFloat, maximumLines: Swift.Int) -> CoreFoundation.CGFloat
   @objc deinit
 }
 extension AmityUIKit.AmityExpandableLabel {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func touchesCancelled(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  #endif
 }
 extension Swift.String {
   public func hasPrefixIgnoringCase(_ prefix: Swift.String) -> Swift.Bool
@@ -1044,8 +1189,12 @@ public protocol FeedHeaderPresentable {
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency public static func make(feedType: AmityUIKit.AmityPostFeedType) -> AmityUIKit.AmityFeedViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
 }
 extension AmityUIKit.AmityFeedViewController : AmityUIKit.AmityPostPreviewCommentDelegate {
   @_Concurrency.MainActor @preconcurrency final public func didPerformAction(_ cell: any AmityUIKit.AmityPostPreviewCommentProtocol, action: AmityUIKit.AmityPostPreviewCommentAction)
@@ -1054,8 +1203,12 @@ extension AmityUIKit.AmityFeedViewController : AmityUIKit.AmityPostPreviewCommen
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency public static func make(communityId: Swift.String) -> AmityUIKit.AmityPendingPostsViewController
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityPendingPostsViewController : AmityUIKit.AmityPostHeaderDelegate {
@@ -1080,7 +1233,9 @@ extension AmityUIKit.AmityPendingPostsViewController : AmityUIKit.AmityPostDeleg
   }
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func setImage(_ image: UIKit.UIImage?, position: AmityUIKit.AmityButton.Position = .right, constant: CoreFoundation.CGFloat = 16)
+  #endif
   @_Concurrency.MainActor @preconcurrency public func setTitleFont(_ font: UIKit.UIFont)
   @objc deinit
 }
@@ -1091,9 +1246,15 @@ public protocol BottomSheetComponent : UIKit.UIView {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func loadView()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func dismissBottomSheet(completion: (() -> Swift.Void)? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AmityCategoryListViewController : AmityUIKit.AmityViewController {
@@ -1138,9 +1299,13 @@ extension AmityUIKit.AmityRecentChatViewController : UIKit.UITableViewDataSource
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AmityPostViewAllCommentsTableViewCell : UIKit.UITableViewCell, AmityUIKit.Nibbable, AmityUIKit.AmityCellIdentifiable {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 3.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public struct AmityPostPollComponent : AmityUIKit.AmityPostComposable {
@@ -1153,7 +1318,9 @@ public struct AmityPostPollComponent : AmityUIKit.AmityPostComposable {
   public func getComponentHeight(indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
 }
 @objc extension UIKit.UIViewController {
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc @_Concurrency.MainActor @preconcurrency dynamic public func presentImagePicker(_ imagePicker: AmityUIKit.AmityImagePickerController, animated: Swift.Bool = true, select: ((_ asset: Photos.PHAsset) -> Swift.Void)?, deselect: ((_ asset: Photos.PHAsset) -> Swift.Void)?, cancel: (([Photos.PHAsset]) -> Swift.Void)?, finish: (([Photos.PHAsset]) -> Swift.Void)?, completion: (() -> Swift.Void)? = nil)
+  #endif
 }
 extension AmityUIKit.AmityImagePickerController {
   @objc @_Concurrency.MainActor @preconcurrency public static var currentAuthorization: Photos.PHAuthorizationStatus {
@@ -1180,9 +1347,13 @@ extension AmityUIKit.AmityImagePickerController : AmityUIKit.AmityImagePickerCon
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AmityPostPollAnswerTableViewCell : UIKit.UITableViewCell, AmityUIKit.Nibbable {
   @_Concurrency.MainActor @preconcurrency @objc override final public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc override final public func prepareForReuse()
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 3.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AmityPostTextTableViewCell : UIKit.UITableViewCell, AmityUIKit.Nibbable, AmityUIKit.AmityPostProtocol {
@@ -1196,9 +1367,13 @@ extension AmityUIKit.AmityImagePickerController : AmityUIKit.AmityImagePickerCon
   @_Concurrency.MainActor @preconcurrency @objc override final public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc override final public func prepareForReuse()
   @_Concurrency.MainActor @preconcurrency final public func display(post: AmityUIKit.AmityPostModel, indexPath: Foundation.IndexPath)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 3.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityPostTextTableViewCell : AmityUIKit.AmityExpandableLabelDelegate {
@@ -1213,7 +1388,9 @@ extension AmityUIKit.AmityPostTextTableViewCell : AmityUIKit.AmityExpandableLabe
   @objc func numberOfItems(in photoViewerController: AmityUIKit.AmityPhotoViewerController) -> Swift.Int
   @objc func photoViewerController(_ photoViewerController: AmityUIKit.AmityPhotoViewerController, configurePhotoAt index: Swift.Int, withImageView imageView: UIKit.UIImageView)
   @objc optional func photoViewerController(_ photoViewerController: AmityUIKit.AmityPhotoViewerController, configureCell cell: AmityUIKit.AmityPhotoCollectionViewCell, forPhotoAt index: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   @objc optional func photoViewerController(_ photoViewerController: AmityUIKit.AmityPhotoViewerController, referencedViewForPhotoAt index: Swift.Int) -> UIKit.UIView?
+  #endif
 }
 public protocol AmityMyCommunityPreviewViewControllerDelegate : AnyObject {
   func viewController(_ viewController: AmityUIKit.AmityMyCommunityPreviewViewController, didPerformAction action: AmityUIKit.AmityMyCommunityPreviewViewController.ActionType)
@@ -1228,8 +1405,12 @@ public protocol AmityMyCommunityPreviewViewControllerDelegate : AnyObject {
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency public static func make() -> AmityUIKit.AmityMyCommunityPreviewViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityMyCommunityPreviewViewController : UIKit.UICollectionViewDelegate {
@@ -1258,9 +1439,13 @@ extension AmityUIKit.AmityMyCommunityPreviewViewController : AmityUIKit.FeedHead
   @_Concurrency.MainActor @preconcurrency @objc override final public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc override final public func prepareForReuse()
   @_Concurrency.MainActor @preconcurrency final public func display(post: AmityUIKit.AmityPostModel, indexPath: Foundation.IndexPath)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 3.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityPostGalleryTableViewCell : AmityUIKit.AmityPhotoViewerControllerDelegate {
@@ -1270,7 +1455,9 @@ extension AmityUIKit.AmityPostGalleryTableViewCell : AmityUIKit.AmityPhotoViewer
 }
 extension AmityUIKit.AmityPostGalleryTableViewCell : AmityUIKit.AmityPhotoViewerControllerDataSource {
   @_Concurrency.MainActor @preconcurrency @objc final public func photoViewerController(_ photoViewerController: AmityUIKit.AmityPhotoViewerController, configureCell cell: AmityUIKit.AmityPhotoCollectionViewCell, forPhotoAt index: Swift.Int)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc final public func photoViewerController(_ photoViewerController: AmityUIKit.AmityPhotoViewerController, referencedViewForPhotoAt index: Swift.Int) -> UIKit.UIView?
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc final public func numberOfItems(in photoViewerController: AmityUIKit.AmityPhotoViewerController) -> Swift.Int
   @_Concurrency.MainActor @preconcurrency @objc final public func photoViewerController(_ photoViewerController: AmityUIKit.AmityPhotoViewerController, configurePhotoAt index: Swift.Int, withImageView imageView: UIKit.UIImageView)
 }
@@ -1287,8 +1474,12 @@ extension AmityUIKit.AmityPostGalleryTableViewCell : AmityUIKit.AmityExpandableL
   @_Concurrency.MainActor @preconcurrency final public var emptyHandler: ((Swift.Bool) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency public static func make() -> AmityUIKit.AmityTrendingCommunityViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityTrendingCommunityViewController : UIKit.UITableViewDelegate {
@@ -1310,7 +1501,9 @@ extension AmityUIKit.AmityTrendingCommunityViewController {
   }
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AmityCommentEditorViewController : AmityUIKit.AmityEditTextViewController {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public static func make(comment: AmityUIKit.AmityCommentModel, communityId: Swift.String?) -> AmityUIKit.AmityCommentEditorViewController
+  #endif
   @objc deinit
 }
 public class MentionListProvider {
@@ -1331,8 +1524,12 @@ public class MentionListProvider {
   }
 }
 public protocol AmityPostFooterProtocol : UIKit.UITableViewCell, AmityUIKit.AmityCellIdentifiable {
+  #if compiler(>=5.3) && $NonescapableTypes
   var delegate: (any AmityUIKit.AmityPostFooterDelegate)? { get set }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var post: AmityUIKit.AmityPostModel? { get }
+  #endif
   func display(post: AmityUIKit.AmityPostModel)
 }
 public protocol AmityPostFooterDelegate : AnyObject {
@@ -1365,7 +1562,9 @@ extension AmityUIKit.AmityCategoryCommunityListViewController : UIKit.UITableVie
 extension AmityUIKit.AmityCategoryCommunityListViewController : UIKit.UITableViewDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreFoundation.CGFloat
 }
 public protocol AmityFeedDelegate : AnyObject {
@@ -1397,8 +1596,12 @@ open class AmityChannelEventHandler {
   @_Concurrency.MainActor @preconcurrency @objc public func scrollViewWillBeginDragging(_ scrollView: UIKit.UIScrollView)
   @_Concurrency.MainActor @preconcurrency @objc public func scrollViewDidEndScrollingAnimation(_ scrollView: UIKit.UIScrollView)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AmityPostHeaderTableViewCell : UIKit.UITableViewCell, AmityUIKit.Nibbable, AmityUIKit.AmityPostHeaderProtocol {
@@ -1409,16 +1612,24 @@ open class AmityChannelEventHandler {
   @_Concurrency.MainActor @preconcurrency @objc override final public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc override final public func prepareForReuse()
   @_Concurrency.MainActor @preconcurrency final public func display(post: AmityUIKit.AmityPostModel)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 3.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AmityCommunityMemberSettingsViewController : AmityUIKit.AmityPageViewController {
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency public static func make(community: AmitySDK.AmityCommunity) -> AmityUIKit.AmityCommunityMemberSettingsViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public struct AmityPostLiveStreamComponent : AmityUIKit.AmityPostComposable {
@@ -1619,9 +1830,13 @@ extension AmityUIKit.AmityCommunityProfileEditorViewController : UIKit.UIImagePi
   @_Concurrency.MainActor @preconcurrency @objc override final public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc override final public func prepareForReuse()
   @_Concurrency.MainActor @preconcurrency final public func display(post: AmityUIKit.AmityPostModel, indexPath: Foundation.IndexPath)
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(iOS 3.0, *)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityPostPollTableViewCell : UIKit.UITableViewDelegate {
@@ -1711,10 +1926,12 @@ public enum AmityPostFeedType : Swift.Equatable {
   @objc optional func textView(_ textView: AmityUIKit.AmityTextView, shouldInteractWithTextAttachment textAttachment: UIKit.NSTextAttachment, in characterRange: Foundation.NSRange, interaction: UIKit.UITextItemInteraction) -> Swift.Bool
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency open class AmityTextView : UIKit.UITextView {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var text: Swift.String! {
     @objc get
     @objc set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var bounds: CoreFoundation.CGRect {
     @objc get
     @objc set
@@ -1723,13 +1940,17 @@ public enum AmityPostFeedType : Swift.Equatable {
     get
     set
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public var placeholder: Swift.String? {
     get
     set
   }
+  #endif
   @_Concurrency.MainActor @preconcurrency public var placeholderColor: UIKit.UIColor
   @_Concurrency.MainActor @preconcurrency weak public var customTextViewDelegate: (any AmityUIKit.AmityTextViewDelegate)?
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityTextView : UIKit.UITextViewDelegate {
@@ -1749,12 +1970,18 @@ extension AmityUIKit.AmityTextView : UIKit.UITextViewDelegate {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(style: UIKit.UITableView.Style)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AmityPhotoScrollView : UIKit.UIScrollView {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityPhotoScrollView : UIKit.UIGestureRecognizerDelegate {
@@ -1772,8 +1999,12 @@ extension AmityUIKit.AmityPhotoScrollView : UIKit.UIGestureRecognizerDelegate {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AmityPageViewController : AmityUIKit.AmityButtonPagerTabSViewController {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AmityRecommendedCommunityViewController : UIKit.UIViewController {
@@ -1781,8 +2012,12 @@ extension AmityUIKit.AmityPhotoScrollView : UIKit.UIGestureRecognizerDelegate {
   @_Concurrency.MainActor @preconcurrency final public var emptyHandler: ((Swift.Bool) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency public static func make() -> AmityUIKit.AmityRecommendedCommunityViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityRecommendedCommunityViewController : UIKit.UICollectionViewDelegateFlowLayout {
@@ -1796,14 +2031,24 @@ extension AmityUIKit.AmityRecommendedCommunityViewController : UIKit.UICollectio
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency public static func make() -> AmityUIKit.AmityCommunityExplorerViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public protocol AmityPostPreviewCommentProtocol : UIKit.UITableViewCell, AmityUIKit.AmityCellIdentifiable {
+  #if compiler(>=5.3) && $NonescapableTypes
   var delegate: (any AmityUIKit.AmityPostPreviewCommentDelegate)? { get set }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var post: AmityUIKit.AmityPostModel? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   func display(post: AmityUIKit.AmityPostModel, comment: AmityUIKit.AmityCommentModel?)
+  #endif
 }
 public protocol AmityPostPreviewCommentDelegate : AnyObject {
   func didPerformAction(_ cell: any AmityUIKit.AmityPostPreviewCommentProtocol, action: AmityUIKit.AmityPostPreviewCommentAction)
@@ -1860,7 +2105,9 @@ extension AmityUIKit.AmityPostModel {
     final public let avatarURL: Swift.String?
     final public let displayName: Swift.String?
     final public let isGlobalBan: Swift.Bool
+    #if compiler(>=5.3) && $NonescapableTypes
     public init(avatarURL: Swift.String?, displayName: Swift.String?, isGlobalBan: Swift.Bool)
+    #endif
     @objc deinit
   }
   open class AmityPostAppearance {
@@ -1918,7 +2165,9 @@ public class AmityPostModel {
   public var viewAllCommentSection: Swift.Int {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getComment(at indexPath: Foundation.IndexPath, totalComponent index: Swift.Int) -> AmityUIKit.AmityCommentModel?
+  #endif
   @objc deinit
 }
 public enum AmityPostSharingTarget : Swift.CaseIterable {
@@ -1941,8 +2190,6 @@ public enum AmityPostSharingTarget : Swift.CaseIterable {
   @_Concurrency.MainActor @preconcurrency public static func make(info: [AmityUIKit.AmityReactionInfo]) -> AmityUIKit.AmityReactionPageViewController
   @objc deinit
 }
-#warning("#HUD")
-#warning("Need to refactor hud view to support fullscreen and handle the content inside of itself")
 @_hasMissingDesignatedInitializers final public class AmitySelectMemberModel : Swift.Equatable {
   public static func == (lhs: AmityUIKit.AmitySelectMemberModel, rhs: AmityUIKit.AmitySelectMemberModel) -> Swift.Bool
   final public let userId: Swift.String
@@ -1982,7 +2229,9 @@ public struct AmityTypography {
 }
 @objc @_Concurrency.MainActor @preconcurrency open class AmityPostDetailViewController : AmityUIKit.AmityViewController {
   @_Concurrency.MainActor @preconcurrency required public init(withPostId postId: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency public class func make(withPostId postId: Swift.String) -> Self
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
@@ -2011,16 +2260,24 @@ extension AmityUIKit.AmityPostDetailViewController : AmityUIKit.ASCMentionManage
   @_Concurrency.MainActor @preconcurrency public func didCreateAttributedString(attributedString: Foundation.NSAttributedString)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AmityActivityController : UIKit.UIActivityViewController {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public static func make(activityItems: [Any], applicationActivities: [UIKit.UIActivity]? = nil) -> AmityUIKit.AmityActivityController
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(activityItems: [Any], applicationActivities: [UIKit.UIActivity]?)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AmityMemberPickerViewController : AmityUIKit.AmityViewController {
   @_Concurrency.MainActor @preconcurrency final public var selectUsersHandler: (([AmityUIKit.AmitySelectMemberModel]) -> Swift.Void)?
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency public static func make(withCurrentUsers users: [AmityUIKit.AmitySelectMemberModel] = []) -> AmityUIKit.AmityMemberPickerViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityMemberPickerViewController : UIKit.UISearchBarDelegate {
@@ -2028,7 +2285,9 @@ extension AmityUIKit.AmityMemberPickerViewController : UIKit.UISearchBarDelegate
 }
 extension AmityUIKit.AmityMemberPickerViewController : UIKit.UITableViewDelegate {
   @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc final public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  #endif
 }
 extension AmityUIKit.AmityMemberPickerViewController : UIKit.UITableViewDataSource {
   @_Concurrency.MainActor @preconcurrency @objc final public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
@@ -2068,15 +2327,18 @@ public struct AmityPostFileComponent : AmityUIKit.AmityPostComposable {
   public func getComponentHeight(indexPath: Foundation.IndexPath) -> CoreFoundation.CGFloat
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AmityCommentCreatorViewController : AmityUIKit.AmityEditTextViewController {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public static func make(forCommunity communityId: Swift.String?, isReply: Swift.Bool) -> AmityUIKit.AmityCommentCreatorViewController
+  #endif
   @objc deinit
 }
-#warning("FIXME: This class should be removed and all callers will be replaced with delegae or completion blocks.")
 extension UIKit.UILabel {
   @_Concurrency.MainActor @preconcurrency public func setLineSpacing(_ spacing: CoreFoundation.CGFloat)
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AmityCategoryPickerViewController : AmityUIKit.AmityViewController {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public static func make(referenceCategoryId: Swift.String? = nil) -> AmityUIKit.AmityCategoryPickerViewController
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @objc deinit
 }
@@ -2092,8 +2354,12 @@ extension AmityUIKit.AmityCategoryPickerViewController : UIKit.UITableViewDelega
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AmityPendingPostsDetailViewController : AmityUIKit.AmityViewController {
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency public static func make(communityId: Swift.String, postId: Swift.String) -> AmityUIKit.AmityPendingPostsDetailViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityPendingPostsDetailViewController : AmityUIKit.AmityPostHeaderDelegate {
@@ -2106,8 +2372,12 @@ extension AmityUIKit.AmityPendingPostsDetailViewController : AmityUIKit.AmityPos
   @_Concurrency.MainActor @preconcurrency public static func make() -> AmityUIKit.AmityGlobalFeedViewController
   @_Concurrency.MainActor @preconcurrency public static func makeCustomPostRanking() -> AmityUIKit.AmityGlobalFeedViewController
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AmityPostGalleryViewController : AmityUIKit.AmityViewController {
@@ -2115,8 +2385,12 @@ extension AmityUIKit.AmityPendingPostsDetailViewController : AmityUIKit.AmityPos
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
   @_Concurrency.MainActor @preconcurrency public static func make(targetType: AmitySDK.AmityPostTargetType, targetId: Swift.String) -> AmityUIKit.AmityPostGalleryViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension AmityUIKit.AmityPostGalleryViewController : UIKit.UICollectionViewDataSource {
@@ -2142,12 +2416,18 @@ extension AmityUIKit.AmityPostGalleryViewController : AmityUIKit.AmityPhotoViewe
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AmityProfileViewController : AmityUIKit.AmityViewController {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class AmityProfileBottomViewController : AmityUIKit.AmityButtonPagerTabSViewController {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @objc deinit
 }
@@ -2186,7 +2466,6 @@ extension AmityUIKit.AmityPostTextEditorViewController : AmityUIKit.ASCMentionMa
   @_Concurrency.MainActor @preconcurrency public func didReachMaxCharacterCountLimit()
   @_Concurrency.MainActor @preconcurrency public func didCreateAttributedString(attributedString: Foundation.NSAttributedString)
 }
-#warning("NOTED: Should improvements this class")
 extension Swift.Array where Element : Swift.Hashable {
   public var hashValue: Swift.Int {
     get
@@ -2199,8 +2478,12 @@ extension Swift.Array where Element : Swift.Hashable {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency final public class AmityChannelMemberSettingsViewController : AmityUIKit.AmityPageViewController {
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency public static func make(channel: AmityUIKit.AmityChannelModel) -> AmityUIKit.AmityChannelMemberSettingsViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class BottomSheetTitleView : UIKit.UIView, AmityUIKit.BottomSheetComponent {
@@ -2216,7 +2499,9 @@ extension Swift.Array where Element : Swift.Hashable {
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class AmityCommunityFeedViewController : AmityUIKit.AmityProfileBottomViewController {
   @_Concurrency.MainActor @preconcurrency @objc override final public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency public static func make(communityId: Swift.String) -> AmityUIKit.AmityCommunityFeedViewController
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public protocol AmityCellIdentifiable : AnyObject {
@@ -2264,8 +2549,12 @@ extension AmityUIKit.AmityImagePickerController : UIKit.UIAdaptivePresentationCo
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class AmityV4NewsFeedViewController : AmityUIKit.AmityViewController {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public protocol AmityImagePickerControllerDelegate : AnyObject {
@@ -2276,9 +2565,15 @@ public protocol AmityImagePickerControllerDelegate : AnyObject {
   func imagePicker(_ imagePicker: AmityUIKit.AmityImagePickerController, didReachSelectionLimit count: Swift.Int)
 }
 public protocol AmityPostProtocol : UIKit.UITableViewCell, AmityUIKit.AmityCellIdentifiable {
+  #if compiler(>=5.3) && $NonescapableTypes
   var delegate: (any AmityUIKit.AmityPostDelegate)? { get set }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var post: AmityUIKit.AmityPostModel? { get }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var indexPath: Foundation.IndexPath? { get }
+  #endif
   func display(post: AmityUIKit.AmityPostModel, indexPath: Foundation.IndexPath)
 }
 public protocol AmityPostDelegate : AnyObject {
@@ -2318,9 +2613,13 @@ open class AmityEventHandler {
   open func userDidTap(from source: AmityUIKit.AmityViewController, userId: Swift.String)
   open func editUserDidTap(from source: AmityUIKit.AmityViewController, userId: Swift.String)
   open func postTargetDidSelect(from source: AmityUIKit.AmityViewController, postTarget: AmityUIKit.AmityPostTarget, postContentType: AmityUIKit.AmityPostContentType)
+  #if compiler(>=5.3) && $NonescapableTypes
   open func createPostBeingPrepared(from source: AmityUIKit.AmityViewController, postTarget: AmityUIKit.AmityPostTarget? = nil, postOption: Swift.Set<AmityUIKit.AmityPostContentType> = [.post, .story, .livestream, .poll])
+  #endif
   open func createPostDidTap(from source: AmityUIKit.AmityViewController, postTarget: AmityUIKit.AmityPostTarget, postContentType: AmityUIKit.AmityPostContentType = .post)
+  #if compiler(>=5.3) && $NonescapableTypes
   open func createLiveStreamPost(from source: AmityUIKit.AmityViewController, targetId: Swift.String?, targetType: AmitySDK.AmityPostTargetType, destinationToUnwindBackAfterFinish: UIKit.UIViewController)
+  #endif
   open func editPostDidTap(from source: AmityUIKit.AmityViewController, postId: Swift.String)
   open func openLiveStreamPlayer(from source: AmityUIKit.AmityViewController, postId: Swift.String, streamId: Swift.String)
   open func openRecordedLiveStreamPlayer(from source: AmityUIKit.AmityViewController, postId: Swift.String, stream: AmitySDK.AmityStream)
@@ -2331,7 +2630,9 @@ open class AmityEventHandler {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func awakeFromNib()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func prepareForReuse()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 public enum HUDContentType {
@@ -2340,11 +2641,11 @@ public enum HUDContentType {
   case loading
   case custom(view: UIKit.UIView)
 }
-#warning("#HUD")
-#warning("Please remove this one after refactor AmityHUDErrorView, AmityHUDSuccesView, and AmityHUDLoadingView done and keep using `AmityAlertModalViewController` instead")
 @_hasMissingDesignatedInitializers public class AmityHUD {
   public static func show(_ content: AmityUIKit.HUDContentType)
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func hide(_ completion: (() -> Swift.Void)? = nil)
+  #endif
   @objc deinit
 }
 public enum AmityMentionManagerType {
@@ -2380,14 +2681,22 @@ final public class ASCMentionManager {
   final public func isMentionWithinLimit(limit: Swift.Int) -> Swift.Bool
   final public func addMention(from textInput: any UIKit.UITextInput, in text: Swift.String, member: AmityUIKit.AmityMentionUserModel)
   final public func setMentions(metadata: [Swift.String : Any], inText text: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func getMetadata(shift: Swift.Int = 0) -> [Swift.String : Any]?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func getMentionees() -> AmitySDK.AmityMentioneesBuilder?
+  #endif
   final public func resetState()
   @objc deinit
 }
 public protocol AmityPostHeaderProtocol : UIKit.UITableViewCell, AmityUIKit.AmityCellIdentifiable {
+  #if compiler(>=5.3) && $NonescapableTypes
   var delegate: (any AmityUIKit.AmityPostHeaderDelegate)? { get set }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   var post: AmityUIKit.AmityPostModel? { get }
+  #endif
   func display(post: AmityUIKit.AmityPostModel)
 }
 public protocol AmityPostHeaderDelegate : AnyObject {

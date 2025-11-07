@@ -14,7 +14,7 @@
 		</data>
 		<key>AmityCategoryCommunityListViewController.nib</key>
 		<data>
-		8OuLgiY/yGDJCZIr+djQuvFpvgY=
+		1l1QCnxTb16i33JtiB0V1DOjdcA=
 		</data>
 		<key>AmityCategoryCommunityListViewEmptyView.nib</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>AmityCategoryListViewController.nib</key>
 		<data>
-		8OuLgiY/yGDJCZIr+djQuvFpvgY=
+		1l1QCnxTb16i33JtiB0V1DOjdcA=
 		</data>
 		<key>AmityCategoryPickerViewController.nib</key>
 		<data>
-		8OuLgiY/yGDJCZIr+djQuvFpvgY=
+		1l1QCnxTb16i33JtiB0V1DOjdcA=
 		</data>
 		<key>AmityCategoryPreviewCollectionViewCell.nib</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>AmityCategorySeletionTableViewCell.nib</key>
 		<data>
-		zGz+5dbcVlG/08BnnhnCfqXyrns=
+		j7YgzI7gUtYLExg6RDJIl+/cYyU=
 		</data>
 		<key>AmityChannelMemberSettingsTableViewCell.nib</key>
 		<data>
-		rdW9erSDzbkV1gWwj6VY6IlnUjM=
+		SpNbTUEm2odcO7qaXiUtBG0PLOE=
 		</data>
 		<key>AmityChannelMemberSettingsViewController.nib</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>AmityChannelMemberViewController.nib</key>
 		<data>
-		y3BRk5h2+HJ/0tpU4IMrR2Zkc2I=
+		rnI2vRDHlBvIPUFxv399xkHXZck=
 		</data>
 		<key>AmityChatHomePageViewController.nib</key>
 		<data>
@@ -58,11 +58,11 @@
 		</data>
 		<key>AmityChatSettingsViewController.nib</key>
 		<data>
-		j4Rqko7hUct1Db3TWZGQ8vtd/V8=
+		FGYVXgUhvdTBoP/aasV2Xsian4c=
 		</data>
 		<key>AmityCommentTableViewCell.nib</key>
 		<data>
-		ufprtzM2hiqWf9V267CI+xZ8Ifs=
+		RlBG6Vt5kSuS8piTSkAcNG51ARk=
 		</data>
 		<key>AmityCommentView.nib</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>AmityCommunityMemberSettingsTableViewCell.nib</key>
 		<data>
-		ZfsxzW2uqBcs1nHz/aKHnmiDeGg=
+		T1SnImxXpP8gDkGjZYi0sOpZtE8=
 		</data>
 		<key>AmityCommunityMemberSettingsViewController.nib</key>
 		<data>
@@ -86,15 +86,15 @@
 		</data>
 		<key>AmityCommunityMemberViewController.nib</key>
 		<data>
-		8OuLgiY/yGDJCZIr+djQuvFpvgY=
+		1l1QCnxTb16i33JtiB0V1DOjdcA=
 		</data>
 		<key>AmityCommunityNotificationSettingsViewController.nib</key>
 		<data>
-		5uASGnyBolmAa3deI2Gu5RS865g=
+		lm7z/taGMPD6qt1FXxexx7t4ixw=
 		</data>
 		<key>AmityCommunityProfileEditorViewController.nib</key>
 		<data>
-		rfKG8bYv1xLV1K2JQ3gaHBIKaBQ=
+		qyz+kVNflqr1jujTVxwltI/WEHo=
 		</data>
 		<key>AmityCommunityProfileHeaderViewController.nib</key>
 		<data>
@@ -102,15 +102,15 @@
 		</data>
 		<key>AmityCommunitySearchViewController.nib</key>
 		<data>
-		j4Rqko7hUct1Db3TWZGQ8vtd/V8=
+		FGYVXgUhvdTBoP/aasV2Xsian4c=
 		</data>
 		<key>AmityCommunitySettingsViewController.nib</key>
 		<data>
-		6UceUKWWEWpBuvKKQf2eS1sML8Y=
+		ao31qzBbh1HMASUTjXRmf79jobI=
 		</data>
 		<key>AmityCommunityTableViewCell.nib</key>
 		<data>
-		SZEBOOBJ3BGytbUakSdgtSauG2A=
+		yqSjW12m8SfHtiTGei9RlUFqkc0=
 		</data>
 		<key>AmityComposeBarOnlyTextViewController.nib</key>
 		<data>
@@ -122,11 +122,11 @@
 		</data>
 		<key>AmityDeletedReplyTableViewCell.nib</key>
 		<data>
-		pjX32b2i3h1CA7PbL4eC5N+jwhs=
+		kWYrMzDF/YjnoVvhNCiS/ZXMwE4=
 		</data>
 		<key>AmityEditTextViewController.nib</key>
 		<data>
-		EHciJtdhz0wAv3PqaQDcADbeOjo=
+		5NFj88WUbktlLKF7hlB1GtkcDXc=
 		</data>
 		<key>AmityEmptyView.nib</key>
 		<data>
@@ -134,27 +134,27 @@
 		</data>
 		<key>AmityFeedViewController.nib</key>
 		<data>
-		PGBEg2QiY0sIN7Q9qIwPQqvHThE=
+		bMfjt++E67WZKTwLAZhru+u0uME=
 		</data>
 		<key>AmityFileTableViewCell.nib</key>
 		<data>
-		9MdKyvKfuPRJ0YeQo7jcIy+uNTo=
+		84YcS65/VRR7aQ0NePzvf9EZgGg=
 		</data>
 		<key>AmityFollowRequestTableViewCell.nib</key>
 		<data>
-		RL7UTBUu6YBEjMpkKuw4LCRjm3I=
+		HF0kZ0PFmBx/mqMCWzngVazQdxU=
 		</data>
 		<key>AmityFollowRequestsViewController.nib</key>
 		<data>
-		MBCKqkMnc6SzNkWl0Jxpi8PLfrg=
+		vXLF5RW612eX4+GQFYpVeaSKSB8=
 		</data>
 		<key>AmityFollowerTableViewCell.nib</key>
 		<data>
-		yx8gyOuHuP201UZIfzTKMpZ3vD4=
+		+xsN/1Lwh3UtUIAPX7/7I5UlZrw=
 		</data>
 		<key>AmityFollowersListViewController.nib</key>
 		<data>
-		lHQ8L1GHiyUMlISYBoT5L2WDMk8=
+		nS/Puon07s0S4S1m9yp2jKWjp3U=
 		</data>
 		<key>AmityGalleryCollectionViewCell.nib</key>
 		<data>
@@ -162,7 +162,7 @@
 		</data>
 		<key>AmityGroupChatEditViewController.nib</key>
 		<data>
-		mQ52kVO6qewh3Gxn8BKFRHO4Ba4=
+		JQVAZekOgCDHJqVrCljoCRPqlls=
 		</data>
 		<key>AmityIconView.nib</key>
 		<data>
@@ -194,23 +194,23 @@
 		</data>
 		<key>AmityMemberPickerViewController.nib</key>
 		<data>
-		MPLu16CZivX2C5hkTlDft3E6jmw=
+		4HhA2VWReNRjmW2hPh9411GuMBM=
 		</data>
 		<key>AmityMemberSearchViewController.nib</key>
 		<data>
-		j4Rqko7hUct1Db3TWZGQ8vtd/V8=
+		FGYVXgUhvdTBoP/aasV2Xsian4c=
 		</data>
 		<key>AmityMentionTableViewCell.nib</key>
 		<data>
-		AghjzYfh2FcOFhJs45U7Wv7xUN8=
+		DGCak2BYrkUtkq6uCe5fuFK20fs=
 		</data>
 		<key>AmityMessageAudioIncomingTableViewCell.nib</key>
 		<data>
-		J4t5ME5qjqqv8gATuO5W2Eo6zno=
+		W0w+TJ+wYaARvLJw/iw43vMnFxU=
 		</data>
 		<key>AmityMessageAudioOutgoingTableViewCell.nib</key>
 		<data>
-		XZJCwKIgWN6OiUgk3U2T8LNfEtI=
+		P2DbB0PSL6fpzBy9uOwcVO3Uw1k=
 		</data>
 		<key>AmityMessageDateView.nib</key>
 		<data>
@@ -218,11 +218,11 @@
 		</data>
 		<key>AmityMessageImageIncomingTableViewCell.nib</key>
 		<data>
-		0MOTe4XIfQLYHxITbsoWyL+nlts=
+		dwssizJ2iyZyiYI2zUT9qB67dhA=
 		</data>
 		<key>AmityMessageImageOutgoingTableViewCell.nib</key>
 		<data>
-		fAJvoDi0kUlLiD1wxLyKbwslf6o=
+		H994p2vl3YN+WmvYYgMffgnPRrE=
 		</data>
 		<key>AmityMessageListComposeBarViewController.nib</key>
 		<data>
@@ -242,11 +242,11 @@
 		</data>
 		<key>AmityMessageTextIncomingTableViewCell.nib</key>
 		<data>
-		v2KRxSbEUEROpZR3i8wyK3Vjxq0=
+		ThGiukxCDpaKMt4Gb6JqkunhXik=
 		</data>
 		<key>AmityMessageTextOutgoingTableViewCell.nib</key>
 		<data>
-		6R3igSKP3qhjllxb5pj8z+ke3po=
+		PQ4vcQVpWpUKdl1YQGNMLWc6m+4=
 		</data>
 		<key>AmityMyCommunityCollectionViewCell.nib</key>
 		<data>
@@ -258,11 +258,11 @@
 		</data>
 		<key>AmityMyCommunityTableViewCell.nib</key>
 		<data>
-		m5szIWpBEvsrIUMHC5cp0HpHvI0=
+		mS698kVfrvdNsombZHLNNb79BJc=
 		</data>
 		<key>AmityMyCommunityViewController.nib</key>
 		<data>
-		j4Rqko7hUct1Db3TWZGQ8vtd/V8=
+		FGYVXgUhvdTBoP/aasV2Xsian4c=
 		</data>
 		<key>AmityNewsfeedEmptyView.nib</key>
 		<data>
@@ -270,11 +270,11 @@
 		</data>
 		<key>AmityPendingPostsActionTableViewCell.nib</key>
 		<data>
-		rK60gzDHp3I5vR/qgnAdkT6OEQo=
+		s1iAg13c0Iaurv0HM3fsJdRL1zI=
 		</data>
 		<key>AmityPendingPostsDetailViewController.nib</key>
 		<data>
-		PGBEg2QiY0sIN7Q9qIwPQqvHThE=
+		bMfjt++E67WZKTwLAZhru+u0uME=
 		</data>
 		<key>AmityPendingPostsEmptyView.nib</key>
 		<data>
@@ -286,31 +286,31 @@
 		</data>
 		<key>AmityPendingPostsViewController.nib</key>
 		<data>
-		PGBEg2QiY0sIN7Q9qIwPQqvHThE=
+		bMfjt++E67WZKTwLAZhru+u0uME=
 		</data>
 		<key>AmityPollCreatorAddOptionTableViewCell.nib</key>
 		<data>
-		1/FqGC8IKLAk/Eyg+6vNsYUdNrU=
+		890hzSx9F0GJucI7etmYtPbTsFw=
 		</data>
 		<key>AmityPollCreatorAnswerTableViewCell.nib</key>
 		<data>
-		edLvTLmT7kTUt//pvY0I0AJ467s=
+		KvNE+XWSC/QVSW8d/x5CkBs1hRU=
 		</data>
 		<key>AmityPollCreatorMultipleSelectionTableViewCell.nib</key>
 		<data>
-		/3wCYKqN+Fv8CT0HoEWc3khWPTg=
+		UdudAzSXnmJ7ECt1kTmrYTK9iPw=
 		</data>
 		<key>AmityPollCreatorOptionTableViewCell.nib</key>
 		<data>
-		tl7YSoTW0uF4TpfBsxzDN9PjVss=
+		5Rx78Td4HlA5enb4oBoBGHZ5QiU=
 		</data>
 		<key>AmityPollCreatorQusetionTableViewCell.nib</key>
 		<data>
-		gnYFrO3/L1mqQGO8FUBafp+Zk/Y=
+		wKNp9UPayRqGeeTbmcUHZjv875E=
 		</data>
 		<key>AmityPollCreatorScheduleTableViewCell.nib</key>
 		<data>
-		rp/Vy1Tx5s3UiJuUv9OdiKAc62w=
+		Wp8SVoe2IqmX+HKOxt1NDnaCk8U=
 		</data>
 		<key>AmityPollCreatorTimeframeView.nib</key>
 		<data>
@@ -318,7 +318,7 @@
 		</data>
 		<key>AmityPollCreatorViewController.nib</key>
 		<data>
-		NJ1mu55Jkxcm7op8pJJmiV034vY=
+		kBWrODIq/JnpTsMMBvVFcLaMnvQ=
 		</data>
 		<key>AmityPopoverMessageViewController.nib</key>
 		<data>
@@ -326,23 +326,23 @@
 		</data>
 		<key>AmityPostDetailDeletedTableViewCell.nib</key>
 		<data>
-		W300kpbbttv/hzoalD2KY1bizPc=
+		KHFkoqmBm41H3+b/wFtpcrNrgjM=
 		</data>
 		<key>AmityPostDetailViewController.nib</key>
 		<data>
-		m0j4un3XqfO1qh8ZbaTHnvVDX50=
+		APICaYu84Qi83X+pZzqyqztmpX8=
 		</data>
 		<key>AmityPostFileTableViewCell.nib</key>
 		<data>
-		Qf/1C+/pp5K0HwBEeNds13PdLSA=
+		6N6k3P/uUnrij9nKqY+ELXQD7L4=
 		</data>
 		<key>AmityPostFooterTableViewCell.nib</key>
 		<data>
-		E5uzGTJgQ21V+evS3iNJILvHc1Y=
+		Ga0KM8+hVM3nyqT4NXvvVOL/7Lc=
 		</data>
 		<key>AmityPostGalleryTableViewCell.nib</key>
 		<data>
-		DmpMHU6E7CMq1i5/Fom8I53OnT0=
+		lNypR1meXCC4O2FQHwxjZmVhO60=
 		</data>
 		<key>AmityPostGalleryViewController.nib</key>
 		<data>
@@ -350,43 +350,43 @@
 		</data>
 		<key>AmityPostHeaderTableViewCell.nib</key>
 		<data>
-		B3AhQ3spsaIvvz1C105A+DaEtKA=
+		tcww7iH1G951fXpmqL8YJ3/82A0=
 		</data>
 		<key>AmityPostLiveStreamTableViewCell.nib</key>
 		<data>
-		JdpGz/CqwuSEzqd8d1lE5CVFQPU=
+		STX1xW4leX+7Q6+Wj++I7BpHRFE=
 		</data>
 		<key>AmityPostPlaceHolderTableViewCell.nib</key>
 		<data>
-		BdNnV/TUlhpDeiGP64tQ3uUOVCw=
+		J0td7b9DZLIChl/b8UD+kekT4eI=
 		</data>
 		<key>AmityPostPollAnswerTableViewCell.nib</key>
 		<data>
-		bDEiZsqgFIBtl4X+7Ew9OHRmXAw=
+		pCgFAjM0XNX4DWT/ChhYk4+UH3k=
 		</data>
 		<key>AmityPostPollTableViewCell.nib</key>
 		<data>
-		7Pw1KLV5KAdEada1kEiiMvZohok=
+		VG8C+cEGcMBvS3lfHEbkviEM8pQ=
 		</data>
 		<key>AmityPostPreviewCommentTableViewCell.nib</key>
 		<data>
-		QyRlNriESbKiwTU+zYJOleRLWBQ=
+		7ZH3m3xoNOvLwV4WjHx1dWSwF1Y=
 		</data>
 		<key>AmityPostReviewSettingsViewController.nib</key>
 		<data>
-		/AbyYa0fob3pp+3VQuH/CR7rb1U=
+		Ejmp5UQUpeMlGwZMeTMuth6RWzI=
 		</data>
 		<key>AmityPostTextTableViewCell.nib</key>
 		<data>
-		KK7c5y/VQPeXGWeiBINaLTaMfSI=
+		lfL8loMsYs+rXA23XIWRJsMR0k4=
 		</data>
 		<key>AmityPostViewAllCommentsTableViewCell.nib</key>
 		<data>
-		GuTzlv2AlBdpbesg8NJV0vLea5A=
+		Knd5BewK4f9okmHcPDOo6REC9Tw=
 		</data>
 		<key>AmityPreviewLinkCell.nib</key>
 		<data>
-		Li2CwXZqPq/ObZcJXZW1FTWWyKw=
+		XCk6t1H5404s338NFOdjMmQky+c=
 		</data>
 		<key>AmityReactionPageViewController.nib</key>
 		<data>
@@ -394,23 +394,23 @@
 		</data>
 		<key>AmityReactionUserSkeletonCell.nib</key>
 		<data>
-		oN4bK74FQowcr8pFb7Q/Lk1YClo=
+		4n6hvrVSRhaonmDurBuA44zXWRc=
 		</data>
 		<key>AmityReactionUserTableViewCell.nib</key>
 		<data>
-		7Uuq0chaajA9mMQDRC7fXbjSO1A=
+		n5xsaIU9eHH4ugeudQxMlwyrTQU=
 		</data>
 		<key>AmityReactionUsersViewController.nib</key>
 		<data>
-		X9v+2Gvm20CHFTmo8Luyd/ddOiY=
+		pNrgET2DrR5vvVvKpFfFPM1/QT4=
 		</data>
 		<key>AmityRecentChatTableViewCell.nib</key>
 		<data>
-		8xKymqgmsSOyKr6SIghqzpYjVE0=
+		VtzXsizoh/Fr51klLQN1otLL7Dc=
 		</data>
 		<key>AmityRecentChatViewController.nib</key>
 		<data>
-		ef98ZdXJEdgbjKwVWYxFV+ppFKQ=
+		LO9S9FANy2sYKkGDRAzjKtY8dvs=
 		</data>
 		<key>AmityRecommendedCommunityCollectionViewCell.nib</key>
 		<data>
@@ -422,7 +422,7 @@
 		</data>
 		<key>AmitySearchCommunityTableViewCell.nib</key>
 		<data>
-		GO+RgrvY2I8R4JFCItvbYAvGliw=
+		3JriqWcQxm0kMU+0ruj8raqYaIs=
 		</data>
 		<key>AmitySearchEmptyView.nib</key>
 		<data>
@@ -430,7 +430,7 @@
 		</data>
 		<key>AmitySearchMemberTableViewCell.nib</key>
 		<data>
-		EWWpKTjzE7LVSpCIe6SVoLx4M7w=
+		ycktwIwZJrx9bIGB2kmxwIuCvdE=
 		</data>
 		<key>AmitySearchViewController.nib</key>
 		<data>
@@ -442,35 +442,35 @@
 		</data>
 		<key>AmitySelectMemberListTableViewCell.nib</key>
 		<data>
-		kAbvCYGC00qz919yHgDHbYGEelA=
+		Xeu9l338VfmnxAhZPvpnG1g79+M=
 		</data>
 		<key>AmitySettingsItemHeaderContentTableViewCell.nib</key>
 		<data>
-		OxxQbvwGbx6DXFSFTj3zy2BIfbY=
+		TaDe3D/LIPMvpvzFuZhJO6vvi7k=
 		</data>
 		<key>AmitySettingsItemNavigationContentTableViewCell.nib</key>
 		<data>
-		RcELEczLRVPZif3Sognx9Mo5utQ=
+		Yceb/PoZgwf/npAQi3iKwqLIXBw=
 		</data>
 		<key>AmitySettingsItemRadioButtonContentTableViewCell.nib</key>
 		<data>
-		2fXLXUM1QR2NkBZcMK++tYeAGU0=
+		LcQw/oB7Mcqt+JhGOKC63BJV2F0=
 		</data>
 		<key>AmitySettingsItemSeparatorContentTableViewCell.nib</key>
 		<data>
-		ElLJLP5zxihpXDe7Lk3939oTp3w=
+		YVbgwiCv8lfgcWN1t1LpqjekTwQ=
 		</data>
 		<key>AmitySettingsItemTextContentTableViewCell.nib</key>
 		<data>
-		y5BgN8jeVjCz1GSNX4EMWKU+//A=
+		SKIOE/+VMbnx0UlaP95v+wUmhAk=
 		</data>
 		<key>AmitySettingsItemToggleContentTableViewCell.nib</key>
 		<data>
-		vvPoekvMuzpZHALyd2E6+k2/SR8=
+		M8HhY5cZVyqe2qc6EEGpUsPPeLw=
 		</data>
 		<key>AmityStoryCommentSettingsViewController.nib</key>
 		<data>
-		/AbyYa0fob3pp+3VQuH/CR7rb1U=
+		Ejmp5UQUpeMlGwZMeTMuth6RWzI=
 		</data>
 		<key>AmityStoryTabViewController.nib</key>
 		<data>
@@ -478,15 +478,15 @@
 		</data>
 		<key>AmityTextComposeBarView.nib</key>
 		<data>
-		72lGxaGLVZbdaobcoHF3XgMKf5U=
+		O50rtP08DkwzDbt+KCYfmFlqdVA=
 		</data>
 		<key>AmityTrendingCommunityTableViewCell.nib</key>
 		<data>
-		pJDzJwPUKPoPmgjhEg0pt342kdg=
+		Pby3fo2vbRx3zTOcHdJ0+ZT8iK4=
 		</data>
 		<key>AmityTrendingCommunityViewController.nib</key>
 		<data>
-		mFR5A64wvYIOIMP3QPESnlE/tvo=
+		M09syKGKUmnWMKx+mzclaJ1lvS0=
 		</data>
 		<key>AmityUserFollowersViewController.nib</key>
 		<data>
@@ -494,23 +494,23 @@
 		</data>
 		<key>AmityUserProfileEditorViewController.nib</key>
 		<data>
-		l6QfDnD8VKl5HxNen6fLz9COAYk=
+		QKxlf+/XVrqzqjb/TfTnXq9sCak=
 		</data>
 		<key>AmityUserProfileHeaderViewController.nib</key>
 		<data>
-		TITAUrTsALigDPlg6sHUmBILWBA=
+		Sok7wvS5KfGLuQOtpoiaGqVmzsI=
 		</data>
 		<key>AmityUserSettingsViewController.nib</key>
 		<data>
-		/AbyYa0fob3pp+3VQuH/CR7rb1U=
+		Ejmp5UQUpeMlGwZMeTMuth6RWzI=
 		</data>
 		<key>AmityViewMoreReplyTableViewCell.nib</key>
 		<data>
-		a5qROdyi2ho8xYKindpnrcYciI4=
+		QO2aY8AmKW/WSNXy0DpQm6u162E=
 		</data>
 		<key>Assets.car</key>
 		<data>
-		T83vNp6oW3XzQLnVEjUx3n4UISU=
+		W6xAjdPRn5bKfVuzN66NQyhZ2eM=
 		</data>
 		<key>ButtonCell.nib</key>
 		<data>
@@ -518,11 +518,11 @@
 		</data>
 		<key>ChatSettingsTableViewCell.nib</key>
 		<data>
-		Y2khk5bcRdopTk8X/WBZSTmOlLU=
+		PBAcnHw+VTW3XH0zpc53uq1+1gI=
 		</data>
 		<key>Headers/AmityUIKit-Swift.h</key>
 		<data>
-		AG/t1wh3YnilhvrMaNwQDpVfxPQ=
+		A0htX/ZwrYtGwldIQGjvieqxATo=
 		</data>
 		<key>Headers/AmityUIKit.h</key>
 		<data>
@@ -530,11 +530,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		p0O63/rkYkgLkolW36JglQN2XuM=
+		3Sz7+cyJzNwZShfRWwi7au6nCG0=
 		</data>
 		<key>ItemOptionTableViewCell.nib</key>
 		<data>
-		Zdj0EAYg2tgBpHySyvlheG8ODtQ=
+		GajURDt5ggIzOc7zG4uxpCFE/bQ=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -542,43 +542,43 @@
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		azgkwJbCRrWDVWwBXCytcenPSlU=
+		bSivYBkDdmZQhx8mzeq0OkkwXwk=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		jBegy/pwztH8OCr4v7sX652pr1s=
+		mdAL7/xVDc2bYH4PEkp1GiNisJk=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		xTbWRmIoicGgsKf3dlHKj8WiONg=
+		ObAjpLYU2n/0INH72B5eS2SInnE=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		jBegy/pwztH8OCr4v7sX652pr1s=
+		mdAL7/xVDc2bYH4PEkp1GiNisJk=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NOReCtaQzoESOas9XpuJvzxiUk4=
+		4SW2m9UwJ3+0AGi+UlhkdKyeltc=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		azgkwJbCRrWDVWwBXCytcenPSlU=
+		bSivYBkDdmZQhx8mzeq0OkkwXwk=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pqpuxsuQ4Y0ct39zUeYAkwkraTQ=
+		SifDwlMZ9G/omxjo5LmoVBteKCQ=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		nMTZ3jYtKQcQgaJpFCT7mGmH7k4=
+		1ZvUUbgMJp2fIb7WJcSTeHJiJss=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pqpuxsuQ4Y0ct39zUeYAkwkraTQ=
+		SifDwlMZ9G/omxjo5LmoVBteKCQ=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5yeqPfiQu7rnYl+XwCzwRJ0W/mk=
+		AZ2HKK9NBVfEy+Pn3DIaflBR+Yk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -625,7 +625,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gy2X5j9jnaSljLVQcydsAw2i0TSOVP9bUOAJugR9xys=
+			4NfsT8VdOjxwYVKENv7YOPV6sJ3u1jOaLgszogaCmiQ=
 			</data>
 		</dict>
 		<key>AmityCategoryCommunityListViewEmptyView.nib</key>
@@ -639,14 +639,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gy2X5j9jnaSljLVQcydsAw2i0TSOVP9bUOAJugR9xys=
+			4NfsT8VdOjxwYVKENv7YOPV6sJ3u1jOaLgszogaCmiQ=
 			</data>
 		</dict>
 		<key>AmityCategoryPickerViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gy2X5j9jnaSljLVQcydsAw2i0TSOVP9bUOAJugR9xys=
+			4NfsT8VdOjxwYVKENv7YOPV6sJ3u1jOaLgszogaCmiQ=
 			</data>
 		</dict>
 		<key>AmityCategoryPreviewCollectionViewCell.nib</key>
@@ -667,14 +667,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4CowypuabkizcNgPUqzzrWSFdC5uPqoOHCWUR4ayrgw=
+			hQGv2e8foz9ZKk8JBnAqqXJrFt9rgzKRI4r6hTyi8Gw=
 			</data>
 		</dict>
 		<key>AmityChannelMemberSettingsTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4R+d5D+Jb+9lkqVRtDEOeLGZuzFuv+UpalS4z75VkJs=
+			5+VmZLMNaoBUu4xjiw9v9Y+cbvBfnlMnbtQtb+9KuMM=
 			</data>
 		</dict>
 		<key>AmityChannelMemberSettingsViewController.nib</key>
@@ -688,7 +688,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BuMWcdng2Y08TVLkGnaEqY+OUQIMGDmCOqR4vUoPrIY=
+			0V+7QKa+O0yvU3ujypA9MX8/oy6vbVUX15SxI/jLAyc=
 			</data>
 		</dict>
 		<key>AmityChatHomePageViewController.nib</key>
@@ -702,14 +702,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bGWe3yPdbiHcA8DytyQ2Puv+t7IYxJsQ5qrF6Mh5ry0=
+			zYTXzEXubui1ZFwSMXFXxBtoZPnU16jBeMpIcj8iwMM=
 			</data>
 		</dict>
 		<key>AmityCommentTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IzNe4BnbBdEchbLj3ef72U4yBRkM5R9GbGBDkfGgyeE=
+			zdgRMd8eM320Fa1lLJP46xmAXGkvYH/yhIqDp/nmzTg=
 			</data>
 		</dict>
 		<key>AmityCommentView.nib</key>
@@ -737,7 +737,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hIlH/qu0VIHnVCLHJ3P2HlDaOq1TregxljJYUw6J0hU=
+			LDbpXC3rVIODbq/Sjffoubun09ZI+tf4JLHlBXQ3RM0=
 			</data>
 		</dict>
 		<key>AmityCommunityMemberSettingsViewController.nib</key>
@@ -751,21 +751,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Gy2X5j9jnaSljLVQcydsAw2i0TSOVP9bUOAJugR9xys=
+			4NfsT8VdOjxwYVKENv7YOPV6sJ3u1jOaLgszogaCmiQ=
 			</data>
 		</dict>
 		<key>AmityCommunityNotificationSettingsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U74PahdwKEQAo5cUYzYHdPNq/d2X/p/gr2z15b6pAuE=
+			26xZrRdwfXEnSntERYacR8O6e3miL9pm71qd2BN2FmE=
 			</data>
 		</dict>
 		<key>AmityCommunityProfileEditorViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7N9EDQufmR3ZNHFf3RHS+IIboU2f8BLdDPH7yvoiKNs=
+			HBkUGm/9Axlz53IDcxtWIaRhiesh4IwUmV41Tig4ETU=
 			</data>
 		</dict>
 		<key>AmityCommunityProfileHeaderViewController.nib</key>
@@ -779,21 +779,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bGWe3yPdbiHcA8DytyQ2Puv+t7IYxJsQ5qrF6Mh5ry0=
+			zYTXzEXubui1ZFwSMXFXxBtoZPnU16jBeMpIcj8iwMM=
 			</data>
 		</dict>
 		<key>AmityCommunitySettingsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BfGEMNScjtdAoo2Ibx34LCKfIpFhJDeoXdnP3kGPhqs=
+			YY0cA5ciBl8bEjwX/nTLviHcOVDqRSEFK7xibqgW1qM=
 			</data>
 		</dict>
 		<key>AmityCommunityTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ohP+xjuPldjz3EV0l2EsRUXdWBAJdGhwNYOcrteReUc=
+			5YAcrmTvZVSxfS75k+hlgvhT/2aLNTFsUAVRHgkAqDM=
 			</data>
 		</dict>
 		<key>AmityComposeBarOnlyTextViewController.nib</key>
@@ -814,14 +814,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VagqtysBnixNqsffvWzfUgX/ZjYS9nqq5utquo/OCrU=
+			pP+xkLuNDhG4j91tCS6xumumIFH+5GGN8MV+gIsWMBk=
 			</data>
 		</dict>
 		<key>AmityEditTextViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6BDH+L5s5oLAzScsfIQ1E6+u3BtgVlpoBI39Y7Mlg+g=
+			YimKNy+F9X4mt8uspGeTfqeSo3ziEXZQJV1q2hjlQi8=
 			</data>
 		</dict>
 		<key>AmityEmptyView.nib</key>
@@ -835,42 +835,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dQZRd19vF5iPnJV4S7jw5rJLeP3rNRK4CKVmWhiWHPE=
+			82L89N4vu+H6b8ZG0RC/x171AUFbTqYKQyn7KQRZFI4=
 			</data>
 		</dict>
 		<key>AmityFileTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			16js1JTNub5phM/42ujUYCoK6OTDv+sRV9ATk5cmCbU=
+			WCcabPJxrAv1Cbid70ptrEAio3OjgeEi7ut08QIMSkE=
 			</data>
 		</dict>
 		<key>AmityFollowRequestTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s+Z4bgiaBzhI0tfPbUTM69AXCvE/JxE4XkqdTRinJok=
+			hVLgoLEqBvZydQejV6zZyhzkfZCAQRWcsm+IgvLQqkc=
 			</data>
 		</dict>
 		<key>AmityFollowRequestsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X80Fv3uwBpgRPNayfMGStTU162+QMD94nZN0Q7H63tg=
+			pt12xX9AgJUqabsT7ugvqdaCZvWX+9cTM3PZKAGoA1Y=
 			</data>
 		</dict>
 		<key>AmityFollowerTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h1sI3ciQKy0FpjrGSgn+1eLcG8suekZv57/vzCWHLno=
+			GXD3qNnE3ZVhp2PJFAHj85Zyg+/PzA0TqJn0f2dVf/8=
 			</data>
 		</dict>
 		<key>AmityFollowersListViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GgXMN0r3YhFYAgdpxb8bkGm/w50cYikrjUTTzbVRDqQ=
+			5wuiHemJ2rGkFR5yzd3CahL1rE8ehQw/lhUv7ClXdOU=
 			</data>
 		</dict>
 		<key>AmityGalleryCollectionViewCell.nib</key>
@@ -884,7 +884,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			utvIzx2DK1iVF0+5AiA9AM06w02EnQLYQnbQQuVoSsc=
+			YecwxgwJH6ZjZ0DrEalcgnkmBFrb5gjAvfEQTn3tmUA=
 			</data>
 		</dict>
 		<key>AmityIconView.nib</key>
@@ -940,35 +940,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kkrWkkHN88BaTwpU0PStClJFZwF6RdVRdyKYdAvLwS8=
+			FtQoD9EWn1uQrtnAoKgDgv6g65e6jnAIIGR+8uIgIWM=
 			</data>
 		</dict>
 		<key>AmityMemberSearchViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bGWe3yPdbiHcA8DytyQ2Puv+t7IYxJsQ5qrF6Mh5ry0=
+			zYTXzEXubui1ZFwSMXFXxBtoZPnU16jBeMpIcj8iwMM=
 			</data>
 		</dict>
 		<key>AmityMentionTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rplf3fFrGAZPECWK4UysYI1tH4YX4phlboU9kXZMnF0=
+			l984aw4cV3sFFSZe9xNPl/sALTdCH/ml0IUirXpOV+M=
 			</data>
 		</dict>
 		<key>AmityMessageAudioIncomingTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M97UAqd2D9oErZhCdKsb+NoMq2M48LdFEy0WMP7t0zM=
+			12G2xqL0as5YXLZPUmYJ8p6hh6F+H0fcalwgxCuIZ38=
 			</data>
 		</dict>
 		<key>AmityMessageAudioOutgoingTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ExwQv78Wmtv+/V5U1ayZGMCF4WoBJV9DTiNHhetwU9M=
+			DGVxrEF1qxWJvfJ/1HcwqZ/pobO2AXTz3yTGI4/MRoc=
 			</data>
 		</dict>
 		<key>AmityMessageDateView.nib</key>
@@ -982,14 +982,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LGNeQl3vYfF5yqxrbNZaVnCH0hNf7N4epOzqo24fnzc=
+			pNRwQ3rlk+i5YeljDCVxc3XtifoRauW7AhKVtOT1LR4=
 			</data>
 		</dict>
 		<key>AmityMessageImageOutgoingTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GtRpQgQdfuvK16SCaxlNets8sOlfgi9R8DtPRNzLZqo=
+			MK+cL8kPSoJnUvy8hRzLWSzFx3KilDqnUtgoauSvMWU=
 			</data>
 		</dict>
 		<key>AmityMessageListComposeBarViewController.nib</key>
@@ -1024,14 +1024,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OhkwvCh16NQOSMsc/aogENc8I0vx5crsva27kOHJ+GM=
+			5mTbjadg3gVPPSmnBjG1kvyVS68shTqGhljuBRlqOyY=
 			</data>
 		</dict>
 		<key>AmityMessageTextOutgoingTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FdGEw9xpiqEhpXL9b4AQbw7B+rLPwOwYr2eq0pvEQpU=
+			zxuB/IA5Ol2WX2fwus8Hv4r/BHVXDaQvGNOZhMexkDg=
 			</data>
 		</dict>
 		<key>AmityMyCommunityCollectionViewCell.nib</key>
@@ -1052,14 +1052,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			EFyF9soqtBqWibuMFiX4RQLiePMpFSC8Qr1w5XLWEW4=
+			yktmZtuDGhldX760wQ7Fh1MKBRbOt0G8oEjIxpAmkY0=
 			</data>
 		</dict>
 		<key>AmityMyCommunityViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bGWe3yPdbiHcA8DytyQ2Puv+t7IYxJsQ5qrF6Mh5ry0=
+			zYTXzEXubui1ZFwSMXFXxBtoZPnU16jBeMpIcj8iwMM=
 			</data>
 		</dict>
 		<key>AmityNewsfeedEmptyView.nib</key>
@@ -1073,14 +1073,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1vdptlrOhPBUK7N8iyK9rCSadNMhf7hOZDlj5ojTIrI=
+			7f7fSh0Alm1RfepPtiYM+XT19/VL1lowdDWRPuu22SI=
 			</data>
 		</dict>
 		<key>AmityPendingPostsDetailViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dQZRd19vF5iPnJV4S7jw5rJLeP3rNRK4CKVmWhiWHPE=
+			82L89N4vu+H6b8ZG0RC/x171AUFbTqYKQyn7KQRZFI4=
 			</data>
 		</dict>
 		<key>AmityPendingPostsEmptyView.nib</key>
@@ -1101,49 +1101,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dQZRd19vF5iPnJV4S7jw5rJLeP3rNRK4CKVmWhiWHPE=
+			82L89N4vu+H6b8ZG0RC/x171AUFbTqYKQyn7KQRZFI4=
 			</data>
 		</dict>
 		<key>AmityPollCreatorAddOptionTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9a0nFs/frrgDvWxOFBKViJTZlSO+p1p7IkFDe+wHscU=
+			SeX8L/bTAPqRDE1kx60O3VbobhWHEXF1NWCJgw6+owY=
 			</data>
 		</dict>
 		<key>AmityPollCreatorAnswerTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j+9zeFqVjM0b5mIOWA6cqOsbVgB8CnN55i4ACHV6h40=
+			Zz0CXN/egCAdUlZz5DQK3EbWZm0KaqBZbEoHtbTmQ+M=
 			</data>
 		</dict>
 		<key>AmityPollCreatorMultipleSelectionTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fw1ZmxGgfxs/l2oZ3OwUJSvaOEruk2HAINovhyeh3KE=
+			ReH3p+T918BhIQWRqqp5lByYAio4VR+HJ4VL1K+5X/E=
 			</data>
 		</dict>
 		<key>AmityPollCreatorOptionTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JYivXit95mtKZ93pZDO1DUz1e0VJz8Wh+vmM9aIfiRk=
+			BEf+QIDdAxpQfCIamSA27Xw07r8mUDHFJb/QTj66kOo=
 			</data>
 		</dict>
 		<key>AmityPollCreatorQusetionTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gpWEAYmLUQI+4VZGHwB03mhrogAmI5XDlSuIJI+RRCw=
+			NcHGkNmdo6fTArEvfpCXN6C6Bl9ysS0ZuM70QRNplZE=
 			</data>
 		</dict>
 		<key>AmityPollCreatorScheduleTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			klm7iatFcJrsP2NEz90YeapRkNqxjbuLxPjXz1yvYr0=
+			LBvzSYRdwzFqoo7lbafGGHANmn2lZGPJUQWI1iH+a5o=
 			</data>
 		</dict>
 		<key>AmityPollCreatorTimeframeView.nib</key>
@@ -1157,7 +1157,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y0BDT6a81hc/gY0rVKui/BG2xW28JokfWsI14R0Jb1k=
+			ZPQPiTU/3Thc5l9Q9fw3eiHrsibCqxfYm7Ewt8rDkxE=
 			</data>
 		</dict>
 		<key>AmityPopoverMessageViewController.nib</key>
@@ -1171,35 +1171,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vCPMmsqeSlLbmcKk2PYDymUvix58Z8Upcu9mj7ervHs=
+			rvqbCdwgaCes9RtwpYMcDV5+HKq+SU90706LBQWMP+8=
 			</data>
 		</dict>
 		<key>AmityPostDetailViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w0XS/3j+SCIeIpv1rQO68FzcYSOOoOKrSKFutopThDY=
+			9MgPP00uh8/OEfDhqPV531GKetNFqYBh8+fqdI6SXyo=
 			</data>
 		</dict>
 		<key>AmityPostFileTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+0u/xLTHbsaRF1Qs48A5cmMXEhxOgVR3ToYLph3nR8w=
+			2xZi2cZ/ueXc3DgeNFoshPsdxOMtyUgGrIY6UtqmuCU=
 			</data>
 		</dict>
 		<key>AmityPostFooterTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BerwtoM6Kg6TE2NL19kgU1llSs9yDjbkGH1yPmzLf3w=
+			5sX/EC+1M4JVWubfINU53i03unc2N8oYO1A6Zs8tgY8=
 			</data>
 		</dict>
 		<key>AmityPostGalleryTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6RnnbGttKNwQAu4AMCT1Nea8JsA0wIIfUVhbTgWp+2k=
+			w+5jz7diav6Kjz0FN7QpSA9RLGulrBxIBB6jsHdgVZw=
 			</data>
 		</dict>
 		<key>AmityPostGalleryViewController.nib</key>
@@ -1213,70 +1213,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s9zUQLKJmNNaCuLzbWg74rgP6dI27rx6spVwJKO0BnE=
+			nXSZRJSDAtZabKQGgYhE6mHwsAaUXxG2DynPTcpaOjg=
 			</data>
 		</dict>
 		<key>AmityPostLiveStreamTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IXEIDO/62Q1EneveLsp+DXKx5jc8hireZMWXBF7FvbI=
+			tNo0aZrLz1PdVqi1W2TRER8NPV6SyYrPfM2WIxAQmVE=
 			</data>
 		</dict>
 		<key>AmityPostPlaceHolderTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vgzyHDGHQEkgbjdLPL3dCKPuE28s/QppTCMHXqVHCdw=
+			HkhyEYunbovdACKEcEcvVX2q3x/lSonTPFxefnXTPpo=
 			</data>
 		</dict>
 		<key>AmityPostPollAnswerTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KKuBgWNCTiiFjKmQM5kZqD+PUPPju50H/x0OXqaBKAM=
+			CqANwqlpXsnjvSrfCHGch9YDexvJ1HYzdNTKeUFgIjY=
 			</data>
 		</dict>
 		<key>AmityPostPollTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vy4z3iLVUJhmSauHtDEpTNtLPp7Rfofdw9QKMKjfMIo=
+			UnC5asoPc9cuWEvULAc4FgiX8SMy0LM1C9MuZRxwtpk=
 			</data>
 		</dict>
 		<key>AmityPostPreviewCommentTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			02sXKXsPcZnodyHGNK4+L+sAT0eRSmM2qSWnKf5wIAA=
+			sPiVl7awSKJwadSB4z+qbuwIFkGj95EYaiqygiJ2vx4=
 			</data>
 		</dict>
 		<key>AmityPostReviewSettingsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MILcxQgfrLetv9rNnzXxX2ZUVzTpWiVHNFFFFxkFn80=
+			W1+KbnOkrZhEKnLnWSioyjhu2VnasnafHxAw9/wzrl4=
 			</data>
 		</dict>
 		<key>AmityPostTextTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			exBO6S2HszWmPJ5MmR+UF0Dg9PPEZpCaJxAlUirMLio=
+			Cuy/fZV4qLz31DPkNPX5JRkBiQ4k3yxfsHAg2e53L60=
 			</data>
 		</dict>
 		<key>AmityPostViewAllCommentsTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1PKzy7RZ53ENefKKSeeYlEWcNHOEHXz1+KM6cvF4x74=
+			tW8qHMFPE7oUrvu7nru52edU8+FiwGV+ff0Z3750wP0=
 			</data>
 		</dict>
 		<key>AmityPreviewLinkCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n+nTaO0KnWTkaacI1U1uTT/RXSkCw89MKnngth9Y7ao=
+			vCiTmWIZ5a8wDCmHf6SgJEWSRJroJyJ+t8cbYkXmRWk=
 			</data>
 		</dict>
 		<key>AmityReactionPageViewController.nib</key>
@@ -1290,35 +1290,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l21lhY2BlVkj9QSxEN4wiVgMPSdirnVhYbzZsedfGgY=
+			4IQDKhy57PK6JOr06yUsZNEhZV3+p4F4VHb5gwIY9e8=
 			</data>
 		</dict>
 		<key>AmityReactionUserTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sqAo15s/HQZoEeJmV8MFVgUUgh3XVTFmhs/yB+Y9X4w=
+			y/6oUAWJG5elJ06v6a2FOpMZjJ4TlkxqAJ8jPpcEePw=
 			</data>
 		</dict>
 		<key>AmityReactionUsersViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R5ZeF3GwlCzF0FumYhvuC8SyQPC2/45/BgIVQanmcwI=
+			lPHZVZZDtbv8qm1BLF4rjMi0EUMobwuOnd+8Zbt+/D4=
 			</data>
 		</dict>
 		<key>AmityRecentChatTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jYnREwcxwk9IO654tqPq0XaAMan+UlflKQCF4+EdEls=
+			ZEXh9KIrMdOBzIejV2BAN6uvJQ6aGrPH1km93APLa44=
 			</data>
 		</dict>
 		<key>AmityRecentChatViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fh7qheaGDfmgUXLzen3BBHPBaNdDaSXbcIDK12X/CpY=
+			X7M5PNydnalkwGBQRiHx8WKN8DCqIRTMYYy8Jc0im20=
 			</data>
 		</dict>
 		<key>AmityRecommendedCommunityCollectionViewCell.nib</key>
@@ -1339,7 +1339,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LvB2mkNIEjsSlloEwfWlRkNKX1HV/wGe4gSHY5VxiWs=
+			eKxZdQe/DH0oBj9P0w8QZto+0RE9WHRzShBXEiuWA0s=
 			</data>
 		</dict>
 		<key>AmitySearchEmptyView.nib</key>
@@ -1353,7 +1353,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			V9d0PWytFHSA/ryfknrzpGsFV/6JbddHpsxcsWVfVaw=
+			ba5owFZ6mePp9SAteYDDRmE6a3f2iCE5cv0Dc8uzSQA=
 			</data>
 		</dict>
 		<key>AmitySearchViewController.nib</key>
@@ -1374,56 +1374,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NqUjcW9A9wu+8dNHtnNP8PisUTfD+zf6kBXtmpFiz6s=
+			kVpeaIhzwRxXZGAM4lj3WSDT957BBb6RiZlc/KujS4c=
 			</data>
 		</dict>
 		<key>AmitySettingsItemHeaderContentTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nax9H2I1pMqKxkBgE8S3kQhJrDQB8ZdEUPIyUVETMmk=
+			WumPK7PFbyaqkC+eWsNF0VFO2kHBA/Wc5FvVWj+20iY=
 			</data>
 		</dict>
 		<key>AmitySettingsItemNavigationContentTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cN2E1yBYWwbTaLAe3YLEsxtgjpbTBLaP7bvNLw5m/yg=
+			iHEm9JWPDl7DwMRK+ApIYeQ9V2mDlpBDv+uHsZHL0xU=
 			</data>
 		</dict>
 		<key>AmitySettingsItemRadioButtonContentTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VEhtJOH06KlNe1qrks2Op6R2a+0KogXXum+krep+rpU=
+			0tMwtGa5EYSBBYA7bNd7Q/OKrQ+bkAxrL1WldmamG4g=
 			</data>
 		</dict>
 		<key>AmitySettingsItemSeparatorContentTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tNIHAt+Pdu70zbSLTVuo1+M/t4quv0pZnr+pnaxDZzk=
+			zD0RyxTAa/lfdLxMepOrrKohlHFSVqypRdls+Lc4M5M=
 			</data>
 		</dict>
 		<key>AmitySettingsItemTextContentTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YBEXXtWoQQpdM7hUHtLCor0bN6AE9/3PyrL1pO127uc=
+			bJyrkpMkXKfGRvooBPQkdP+EHAnDUwl/PISl8v8aiiU=
 			</data>
 		</dict>
 		<key>AmitySettingsItemToggleContentTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1hvYtCxPMGdKM8eQ6WhAK82mkbl9aaRPg0fMdVXqmkY=
+			jT6fuwUCNHFDsA3UWmYCRvtxaiMxA0/CpX9Izepm6pk=
 			</data>
 		</dict>
 		<key>AmityStoryCommentSettingsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MILcxQgfrLetv9rNnzXxX2ZUVzTpWiVHNFFFFxkFn80=
+			W1+KbnOkrZhEKnLnWSioyjhu2VnasnafHxAw9/wzrl4=
 			</data>
 		</dict>
 		<key>AmityStoryTabViewController.nib</key>
@@ -1437,21 +1437,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nCJpNJUbi7BJvmTI/ItqU3rCqt3fsDUBpN+mzOZHd6c=
+			zmwy4lhxN4R/vj3Re5vovYdoP78rugpsUFx1HLWO4y8=
 			</data>
 		</dict>
 		<key>AmityTrendingCommunityTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XDZCMyw7Cas7vlxVlrMVTr3lhArt0rOMyzuKMM1Ec/8=
+			BbttjXU94eRVmTfZjDao9r5ne1OdlpVEkxLDcELQzII=
 			</data>
 		</dict>
 		<key>AmityTrendingCommunityViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o4MqhBgoe7kIIbcASvD7+MYQ1DS+Yy/pQuNhSyCjkYA=
+			HjB+w63Ji5Y1e0RsckYerdrj+Pg6gFfhJ6+AFdeXkso=
 			</data>
 		</dict>
 		<key>AmityUserFollowersViewController.nib</key>
@@ -1465,35 +1465,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GNkZoqW3cw98op/s9lGaF1CN9xy7I7OncEvuwOD07bw=
+			JkpY1kLuOmCWs4S7qcYMXdYmIr/UB/tXe1y900LKfc4=
 			</data>
 		</dict>
 		<key>AmityUserProfileHeaderViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yuH6wLnJcn1HcA/E6OuamWKhgRl6Qc4wUfJoWkRQKvA=
+			a45gDl3sO02aUrkyattc1BEYRz7wMrcbaH95J3tOufg=
 			</data>
 		</dict>
 		<key>AmityUserSettingsViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MILcxQgfrLetv9rNnzXxX2ZUVzTpWiVHNFFFFxkFn80=
+			W1+KbnOkrZhEKnLnWSioyjhu2VnasnafHxAw9/wzrl4=
 			</data>
 		</dict>
 		<key>AmityViewMoreReplyTableViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qDZA2clKGZEsT9tt25t2anD8wfzwxSXhx9VHoTM9SMI=
+			4ReN05WwCGZ1Mafkc37VYK+vqYCnsbF9TIhMt3xJAjg=
 			</data>
 		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bfArWEZKMvsU3Hv/n9UbdoxYOdgRqDIRQcPsw0cXuWw=
+			XsWZVlafZ2SngmV2DnMvtzRjjRHLVGtVneCxhxDSezI=
 			</data>
 		</dict>
 		<key>ButtonCell.nib</key>
@@ -1507,14 +1507,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HD/Gs17zWI3q3PTqafm4d1HU7eWQT2vto8TftU1PaFY=
+			sjlLIhdj/6Bd70CDDYmJN0MwDOO5Q4sstwsNyiJ4n0U=
 			</data>
 		</dict>
 		<key>Headers/AmityUIKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WhVW2EuWNSLy095mBvWFKFqCG/oClkuRcxPuwRS3xX4=
+			/VWABjM9j2iXdNPCJPzvOchNRKdbmTx/Ycbgzi2xSc4=
 			</data>
 		</dict>
 		<key>Headers/AmityUIKit.h</key>
@@ -1528,7 +1528,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/x+BklBPGw/O4Go62aUkmbMf8gTD/NXt+Oym4FmxID8=
+			jKYQHyd4UAVzTvCbxUQWPEQtXBzCVjkoGQbdPxJUQuA=
 			</data>
 		</dict>
 		<key>LICENSE</key>
@@ -1542,70 +1542,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RXVyxb2Udxe5PYadtro6GByQw6ALq3HvGLldW0/te7k=
+			uKW1PI57HXAHwRQKSSBu8OzzPMdt41k/SydN+Xoc3IA=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AU1s1csfdLh7haEID9LGCskhh6l1WdS1S72ngKsupEc=
+			ZF35/5hrPBljI8b2j9nhArPYkoQw3LaBXbnZHYFzm54=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9naX8lXklwj4hP7VOkAbncdMfAwa33V1qa1cLginsgc=
+			HsN7SDuYKp3BJsrFwi8vM7HTakaomT4bpHPdWzCy+9M=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AU1s1csfdLh7haEID9LGCskhh6l1WdS1S72ngKsupEc=
+			ZF35/5hrPBljI8b2j9nhArPYkoQw3LaBXbnZHYFzm54=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0GTAQ6nct5Qznh6bJh94DIAkVyJS+GTXhu7J2QWkbKU=
+			8GbrNiMof+clOjsDM9U12e+S/h2qny1CS2De8HPqeoA=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RXVyxb2Udxe5PYadtro6GByQw6ALq3HvGLldW0/te7k=
+			uKW1PI57HXAHwRQKSSBu8OzzPMdt41k/SydN+Xoc3IA=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pn3NeoIDaohlL7UU5ozs3Mv/KfDNSPJM0txm7pHw/Eg=
+			BoWyCErRVA1jJ53w0n4kuitGgtquGg9r14ff2VOnKPw=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZBmIYo78WX/4GMO3Q6GdIx6PYexTvx+Pl9+G9h4Ob5s=
+			kCRgv0rqh1oOO4SONJkBz3GlSLXZFE9nFKaTB1DzySc=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Pn3NeoIDaohlL7UU5ozs3Mv/KfDNSPJM0txm7pHw/Eg=
+			BoWyCErRVA1jJ53w0n4kuitGgtquGg9r14ff2VOnKPw=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cDf9F25G2zZJ5w84NK8ttzvjr5LB2CPhV+KaKWN0/7s=
+			0cwkJrn6AilEWOX6sImB4scd+zMRZ6I7gEobrzDNGnk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
