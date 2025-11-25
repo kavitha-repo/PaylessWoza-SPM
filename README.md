@@ -1,3 +1,3 @@
 Payless Woza Swift Package
 
-Swift Package Manager v1.0.9
+Swift Package Manager v1.0.11

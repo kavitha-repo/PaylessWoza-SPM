@@ -3382,42 +3382,42 @@
     {
       "filePath": "\/Users\/nitinshukla\/Documents\/Documents\/PaylessWoza\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 137,
-      "length": 27,
-      "value": "\"http:\/\/121.91.158.217\/api\""
+      "offset": 254,
+      "length": 33,
+      "value": "\"https:\/\/bold.payless.africa\/api\""
     },
     {
       "filePath": "\/Users\/nitinshukla\/Documents\/Documents\/PaylessWoza\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 192,
+      "offset": 323,
       "length": 9,
       "value": "\"waadmin\""
     },
     {
       "filePath": "\/Users\/nitinshukla\/Documents\/Documents\/PaylessWoza\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 233,
+      "offset": 364,
       "length": 12,
       "value": "\"Woza Admin\""
     },
     {
       "filePath": "\/Users\/nitinshukla\/Documents\/Documents\/PaylessWoza\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 276,
+      "offset": 411,
       "length": 6,
       "value": "\"+254\""
     },
     {
       "filePath": "\/Users\/nitinshukla\/Documents\/Documents\/PaylessWoza\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 319,
+      "offset": 454,
       "length": 9,
       "value": "\"+254 | \""
     },
     {
       "filePath": "\/Users\/nitinshukla\/Documents\/Documents\/PaylessWoza\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Model\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 369,
+      "offset": 504,
       "length": 12,
       "value": "\"7987654321\""
     },
@@ -3459,14 +3459,21 @@
     {
       "filePath": "\/Users\/nitinshukla\/Documents\/Documents\/PaylessWoza\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Networking\/EndPoint.swift",
       "kind": "StringLiteral",
-      "offset": 256,
+      "offset": 276,
+      "length": 27,
+      "value": "\"\/v1\/authorization\/confirm\""
+    },
+    {
+      "filePath": "\/Users\/nitinshukla\/Documents\/Documents\/PaylessWoza\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Networking\/EndPoint.swift",
+      "kind": "StringLiteral",
+      "offset": 322,
       "length": 34,
       "value": "\"\/v1\/registration\/payless\/confirm\""
     },
     {
       "filePath": "\/Users\/nitinshukla\/Documents\/Documents\/PaylessWoza\/paylessSPIos\/PaylessWoza\/PaylessWoza\/PaylessWoza\/PaylessWoza\/Networking\/EndPoint.swift",
       "kind": "StringLiteral",
-      "offset": 312,
+      "offset": 378,
       "length": 12,
       "value": "\"send_money\""
     },
