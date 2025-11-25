@@ -510,7 +510,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		W6xAjdPRn5bKfVuzN66NQyhZ2eM=
+		jVLzJYFGqH8T8I686OZnrx7O+WQ=
 		</data>
 		<key>ButtonCell.nib</key>
 		<data>
@@ -530,7 +530,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3Sz7+cyJzNwZShfRWwi7au6nCG0=
+		px9KL/xOwdBMRDwzCOGiklFpdj8=
 		</data>
 		<key>ItemOptionTableViewCell.nib</key>
 		<data>
@@ -542,7 +542,7 @@
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		bSivYBkDdmZQhx8mzeq0OkkwXwk=
+		sAQRGxsHpi9xlcplJUOBIjpeM7s=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -558,11 +558,11 @@
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4SW2m9UwJ3+0AGi+UlhkdKyeltc=
+		oLawZmuM6P6CbtTuxlw7vOpsOAI=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		bSivYBkDdmZQhx8mzeq0OkkwXwk=
+		sAQRGxsHpi9xlcplJUOBIjpeM7s=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -578,7 +578,7 @@
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		AZ2HKK9NBVfEy+Pn3DIaflBR+Yk=
+		dxRH6nY6F6IStvNU2yeikQHNcHk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1493,7 +1493,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XsWZVlafZ2SngmV2DnMvtzRjjRHLVGtVneCxhxDSezI=
+			1xeQvYHdZzfuo3kvkaIbi36a6H7uR6jE6JKJ4a1y/lA=
 			</data>
 		</dict>
 		<key>ButtonCell.nib</key>
@@ -1542,7 +1542,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uKW1PI57HXAHwRQKSSBu8OzzPMdt41k/SydN+Xoc3IA=
+			JZas6m0Z3FQ7XbuvSxHDVkUdIpoPiUzO6qxUuFIkpB0=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1570,14 +1570,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8GbrNiMof+clOjsDM9U12e+S/h2qny1CS2De8HPqeoA=
+			UxXtcvLpt3ZJGBe8lww4I5i6toD1Rp48cHsGzoQPEaA=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uKW1PI57HXAHwRQKSSBu8OzzPMdt41k/SydN+Xoc3IA=
+			JZas6m0Z3FQ7XbuvSxHDVkUdIpoPiUzO6qxUuFIkpB0=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1605,7 +1605,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0cwkJrn6AilEWOX6sImB4scd+zMRZ6I7gEobrzDNGnk=
+			8tInz+kU077Z9mQwO9JrJzHj+P+YMVjyjjVnk0SEcgA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
