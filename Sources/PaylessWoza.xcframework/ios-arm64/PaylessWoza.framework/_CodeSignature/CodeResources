@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		JLFqAbKBbPUePrQF14PAWPVsmVQ=
+		NaImiqEBp+dMvb4OXAOD+2jXxT4=
 		</data>
 		<key>CoveredByYourGrace.ttf</key>
 		<data>
@@ -20,13 +20,109 @@
 		<data>
 		enGDwxF7S8CbH6DS2VegRknzbeE=
 		</data>
+		<key>Frameworks/AmityLiveVideoBroadcastKit.framework/AmityLiveVideoBroadcastKit</key>
+		<data>
+		zYtD2p+8eU8Za4QOnS6A+pzWc4I=
+		</data>
+		<key>Frameworks/AmityLiveVideoBroadcastKit.framework/Info.plist</key>
+		<data>
+		b5MhU3Cajn22oDuy/9zWtcq2wqQ=
+		</data>
+		<key>Frameworks/AmityLiveVideoBroadcastKit.framework/LICENSE</key>
+		<data>
+		acSSI/v4K1e2ZZjrkIQOMti4Jhw=
+		</data>
+		<key>Frameworks/AmityLiveVideoBroadcastKit.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		knCUMUzwN9fJtEiHxaBYQJXCj5U=
+		</data>
+		<key>Frameworks/AmityLiveVideoBroadcastKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		uIWDjNOlxgjw+Ui9HCs3rQDA/c8=
+		</data>
+		<key>Frameworks/AmityLiveVideoBroadcastKit.framework/default.metallib</key>
+		<data>
+		AIMff8XfQlA2K99nw+M/bSCg8Lc=
+		</data>
+		<key>Frameworks/AmityVideoPlayerKit.framework/AmityVideoPlayerKit</key>
+		<data>
+		IYrDqfPzWG+uqeUyVD2TZzkxOJM=
+		</data>
+		<key>Frameworks/AmityVideoPlayerKit.framework/Info.plist</key>
+		<data>
+		6gj0fwrrwQWYSnifqRjYJh3+cE0=
+		</data>
+		<key>Frameworks/AmityVideoPlayerKit.framework/LICENSE</key>
+		<data>
+		acSSI/v4K1e2ZZjrkIQOMti4Jhw=
+		</data>
+		<key>Frameworks/AmityVideoPlayerKit.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		ovFJMFOLMjzh8DLJKmXncj8JIgU=
+		</data>
+		<key>Frameworks/AmityVideoPlayerKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		jYLSXE4tN2UietJBxsumTmljFAU=
+		</data>
+		<key>Frameworks/MobileVLCKit.framework/Info.plist</key>
+		<data>
+		4HoEIQuH+RoOmFpciYTUxf48FS8=
+		</data>
+		<key>Frameworks/MobileVLCKit.framework/MobileVLCKit</key>
+		<data>
+		ZyfRTHlIXi4F65IXCZj1ZVWG6Yk=
+		</data>
+		<key>Frameworks/MobileVLCKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		dlbISOXfMIeufHrVKZLLTVDXdxQ=
+		</data>
+		<key>Frameworks/Realm.framework/CHANGELOG.md</key>
+		<data>
+		4ReggKFPx4xx9x6sHOu7N8PxVMw=
+		</data>
+		<key>Frameworks/Realm.framework/Info.plist</key>
+		<data>
+		SzYTP127RODhuFnOd7vibP22Ghk=
+		</data>
+		<key>Frameworks/Realm.framework/LICENSE</key>
+		<data>
+		htlQ0eA7QbvmaoSv/b3yVb0Yvsc=
+		</data>
+		<key>Frameworks/Realm.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		Wm+mRD+0/ehvnywccxW30wqWLyk=
+		</data>
+		<key>Frameworks/Realm.framework/Realm</key>
+		<data>
+		yNkV99va/oVBk6w/eDzVlhMYUW8=
+		</data>
+		<key>Frameworks/Realm.framework/_CodeSignature/CodeResources</key>
+		<data>
+		qU+FjB9fZCdjL+eD1js2NE99YJ4=
+		</data>
+		<key>Frameworks/RealmSwift.framework/Info.plist</key>
+		<data>
+		sjaewMhZIx/wsTYXEKbMCMpGAI4=
+		</data>
+		<key>Frameworks/RealmSwift.framework/PrivacyInfo.xcprivacy</key>
+		<data>
+		Wm+mRD+0/ehvnywccxW30wqWLyk=
+		</data>
+		<key>Frameworks/RealmSwift.framework/RealmSwift</key>
+		<data>
+		FDMcrLz4dvqMpDRNEW7IE+aPDjk=
+		</data>
+		<key>Frameworks/RealmSwift.framework/_CodeSignature/CodeResources</key>
+		<data>
+		LEbXOuwJhjWeJochP8q2uSI0KBE=
+		</data>
 		<key>IconLabelCell.nib</key>
 		<data>
 		+24r2ygKTwbKaoYizXwoTWKVacQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+GdH8nlEr7s8DUxUJXcfvB22bBI=
+		DzkJGcESXhdpol+xPTG0geQnUEs=
 		</data>
 		<key>LabelTextfieldCell.nib</key>
 		<data>
@@ -38,7 +134,7 @@
 		</data>
 		<key>Modules/PaylessWoza.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		tQF49dXKR2VOhtc8iR/fFgjNDsw=
+		tiEI7Kqfk3sy8ZWDaqXNSSg6FtY=
 		</data>
 		<key>Modules/PaylessWoza.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -54,7 +150,7 @@
 		</data>
 		<key>Modules/PaylessWoza.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		5uTi7BODxamScrlkSu0k2/s/y8c=
+		EkBrGqSkHPFlwJAKStqwVh8bCFI=
 		</data>
 		<key>Onboarding.storyboardc/32o-LE-kjC-view-Wq8-ss-Mh6.nib</key>
 		<data>
@@ -207,7 +303,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BG7D07cXCqa1lwHVeD5pHp38lcIPqHdcNQpV4s4Y0ig=
+			P0VrcfPjqrI5RapCFGrJDA4QSOeCUiDwOPWCxedi698=
 			</data>
 		</dict>
 		<key>CoveredByYourGrace.ttf</key>
@@ -222,6 +318,174 @@
 			<key>hash2</key>
 			<data>
 			up8ieUt3xDRiEk4CqwMafn2yR1C/cFZnbpLWkWTCGTA=
+			</data>
+		</dict>
+		<key>Frameworks/AmityLiveVideoBroadcastKit.framework/AmityLiveVideoBroadcastKit</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hDn4pwMTU86vlW1ALrEQWhpGeeTWjZrHb6K8ZpWzXyQ=
+			</data>
+		</dict>
+		<key>Frameworks/AmityLiveVideoBroadcastKit.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6adB7IrHpSNj2ZhZP/jF5izyqmo0E3taizMPxYN77kQ=
+			</data>
+		</dict>
+		<key>Frameworks/AmityLiveVideoBroadcastKit.framework/LICENSE</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zS5T0NcgPWz0abQv3Z+6g3tcN7+YYavT++HZrKInS+w=
+			</data>
+		</dict>
+		<key>Frameworks/AmityLiveVideoBroadcastKit.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			emU84sdyQX23ySlcwcfPjXTOgrjBj2E0SndFvv+Z5QU=
+			</data>
+		</dict>
+		<key>Frameworks/AmityLiveVideoBroadcastKit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UVf053gsVvlpSRr7g87Fp5arNmvVN1ulekggcu1fkPg=
+			</data>
+		</dict>
+		<key>Frameworks/AmityLiveVideoBroadcastKit.framework/default.metallib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nbWfLU39RhCaGzFcG53rSzaGcEHqEB1682d+c9DJR3o=
+			</data>
+		</dict>
+		<key>Frameworks/AmityVideoPlayerKit.framework/AmityVideoPlayerKit</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2WISlbtC+ORYjlkjrNSpoj0URsnMawHYw8KA1hcMQKw=
+			</data>
+		</dict>
+		<key>Frameworks/AmityVideoPlayerKit.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QqogC/hw/EnlTumIiekOERQi3PSU11RFk1It3d89h90=
+			</data>
+		</dict>
+		<key>Frameworks/AmityVideoPlayerKit.framework/LICENSE</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zS5T0NcgPWz0abQv3Z+6g3tcN7+YYavT++HZrKInS+w=
+			</data>
+		</dict>
+		<key>Frameworks/AmityVideoPlayerKit.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			CNkOaUbb/qDQtbF/tlnXfu0j5EO3Rdjntbn6N4y3RHc=
+			</data>
+		</dict>
+		<key>Frameworks/AmityVideoPlayerKit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zxDBCw8zQxpKaRDdDWnJmXo9vhC6N4wJAPbz0YuPdbM=
+			</data>
+		</dict>
+		<key>Frameworks/MobileVLCKit.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Dxr8d8La9KoP8oSoPCEROuilQsrc5qUfwc6en8Xybbo=
+			</data>
+		</dict>
+		<key>Frameworks/MobileVLCKit.framework/MobileVLCKit</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yq1lHVttPN/H4Am1xEnV26XjuXz2A+EYHBVcc/P1YkA=
+			</data>
+		</dict>
+		<key>Frameworks/MobileVLCKit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			k/gK8CWQUMRRP3lrP57NFVF8fx5SbBbyO60eBvmR1dQ=
+			</data>
+		</dict>
+		<key>Frameworks/Realm.framework/CHANGELOG.md</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tu9vnSVcHbiUwtpNAdivpjRp4EEjtRB5xlXk1eo9szI=
+			</data>
+		</dict>
+		<key>Frameworks/Realm.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			R1JliNG+g2jHB8xGGOE/k+VgUu8/9X0/HYrZOtKGgjs=
+			</data>
+		</dict>
+		<key>Frameworks/Realm.framework/LICENSE</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aYSSIb+5AFPeITTvXm1UAoe0uYBiMmSS8flvXaaFUks=
+			</data>
+		</dict>
+		<key>Frameworks/Realm.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			s64weEDWcaA+VrWYxYVUPY4Vzzjp9C5CMTghk1exuuw=
+			</data>
+		</dict>
+		<key>Frameworks/Realm.framework/Realm</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0hzPGjJ3YJYtFgBiRqAuDmoUFzIYWsslx+ULye8X4Ag=
+			</data>
+		</dict>
+		<key>Frameworks/Realm.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IjgsUB0s2VDqLqRMB4T87V87Z/ASUFhedteqcUcYjdY=
+			</data>
+		</dict>
+		<key>Frameworks/RealmSwift.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pFNEqn0Kq38GU/r/CYZnuqDA+JF/s5rbNINTmxSMNj0=
+			</data>
+		</dict>
+		<key>Frameworks/RealmSwift.framework/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			s64weEDWcaA+VrWYxYVUPY4Vzzjp9C5CMTghk1exuuw=
+			</data>
+		</dict>
+		<key>Frameworks/RealmSwift.framework/RealmSwift</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Jpt1KAMytLUipyELqOyBsXcVv6UlzTT+hkMoVIsW+zg=
+			</data>
+		</dict>
+		<key>Frameworks/RealmSwift.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sciCo1DqfXXZceFmMLROMLYr4fdOuwIxDi0vZHpdC6A=
 			</data>
 		</dict>
 		<key>IconLabelCell.nib</key>
@@ -249,7 +513,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mYb642oCCJfVRrNM8kLAfKjbvlBTB5xevvdlRZunLYw=
+			LT5w/2xacinXzru4t0toSzTTEk7tc1iWxGa9e99Wu18=
 			</data>
 		</dict>
 		<key>Modules/PaylessWoza.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -277,7 +541,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			otEEtATuyUj4nteuqsH3XhKbq6keDlseOex8pPsk15E=
+			i4d/k0S6BM8KRZxLH4EaJMGCt52DU8Hn5OO8NNXdQFk=
 			</data>
 		</dict>
 		<key>Onboarding.storyboardc/32o-LE-kjC-view-Wq8-ss-Mh6.nib</key>

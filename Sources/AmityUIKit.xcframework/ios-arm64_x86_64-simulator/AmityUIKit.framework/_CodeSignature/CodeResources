@@ -542,7 +542,7 @@
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		sAQRGxsHpi9xlcplJUOBIjpeM7s=
+		B/1o1irc6fys2Q2X2W5I3EzbDSM=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -558,11 +558,11 @@
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oLawZmuM6P6CbtTuxlw7vOpsOAI=
+		l6L/3cdEbjBiD7daPb+icy4sD3U=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		sAQRGxsHpi9xlcplJUOBIjpeM7s=
+		B/1o1irc6fys2Q2X2W5I3EzbDSM=
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -578,7 +578,7 @@
 		</data>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dxRH6nY6F6IStvNU2yeikQHNcHk=
+		ZP5PYdilB7vcX/pezcalmlZUysU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1542,7 +1542,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JZas6m0Z3FQ7XbuvSxHDVkUdIpoPiUzO6qxUuFIkpB0=
+			GtULUziKU4rmp60DitjJCHrFyBLbMYr49h55AMLsmeo=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -1570,14 +1570,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UxXtcvLpt3ZJGBe8lww4I5i6toD1Rp48cHsGzoQPEaA=
+			qxCmJh25x8E7vimH4x5AHMQWtJTse2FYv3zBxhv6eUo=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JZas6m0Z3FQ7XbuvSxHDVkUdIpoPiUzO6qxUuFIkpB0=
+			GtULUziKU4rmp60DitjJCHrFyBLbMYr49h55AMLsmeo=
 			</data>
 		</dict>
 		<key>Modules/AmityUIKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -1605,7 +1605,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8tInz+kU077Z9mQwO9JrJzHj+P+YMVjyjjVnk0SEcgA=
+			6Ll0LDMf/Oqo8nw9Z0JcjicZFV91ZSOlH/IeM0CVtiY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
