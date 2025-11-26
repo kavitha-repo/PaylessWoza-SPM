@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/nitinshukla/Library/Developer/Xcode/DerivedData/PaylessWoza-dqitwkcexnrerxdhvjqcsvvmheig/Build/Intermediates.noindex/ArchiveIntermediates/PaylessWoza/InstallationBuildProductsLocation/Library/Frameworks/AmityUIKit.framework/AmityUIKit'
+binary-path:     '/Users/kavitha/Library/Developer/Xcode/DerivedData/PaylessWoza-fjifsncxfxupcafmamazdnwrjhqt/Build/Intermediates.noindex/ArchiveIntermediates/PaylessWoza/InstallationBuildProductsLocation/Library/Frameworks/AmityUIKit.framework/AmityUIKit'
 relocations:
   - { offset: 0xAC941, size: 0x8, addend: 0x0, symName: _AmityUIKitVersionString, symObjAddr: 0x0, symBinAddr: 0x246660, symSize: 0x0 }
   - { offset: 0xAC978, size: 0x8, addend: 0x0, symName: _AmityUIKitVersionNumber, symObjAddr: 0x30, symBinAddr: 0x246690, symSize: 0x0 }
@@ -600,7 +600,7 @@ relocations:
   - { offset: 0xCA325, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A15PreviewLinkCellC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x180C, symBinAddr: 0x1F328, symSize: 0x15C }
   - { offset: 0xCA365, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A15PreviewLinkCellC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x1968, symBinAddr: 0x1F484, symSize: 0x28 }
   - { offset: 0xCA379, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A15PreviewLinkCellCfD', symObjAddr: 0x1990, symBinAddr: 0x1F4AC, symSize: 0x34 }
-  - { offset: 0xCA63D, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A24MessageTextTableViewCellC8ConstantO04textC4FontSo6UIFontCvpZ', symObjAddr: 0x9170, symBinAddr: 0x32CD50, symSize: 0x0 }
+  - { offset: 0xCA63D, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A24MessageTextTableViewCellC8ConstantO04textC4FontSo6UIFontCvpZ', symObjAddr: 0x9140, symBinAddr: 0x32CD50, symSize: 0x0 }
   - { offset: 0xCA8EA, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A24MessageTextTableViewCellCfE', symObjAddr: 0xBDC, symBinAddr: 0x20528, symSize: 0x10 }
   - { offset: 0xCA917, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A24MessageTextTableViewCellCfETo', symObjAddr: 0xC20, symBinAddr: 0x2056C, symSize: 0x10 }
   - { offset: 0xCA946, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A24MessageTextTableViewCellCMU', symObjAddr: 0xC30, symBinAddr: 0x2057C, symSize: 0x8 }
@@ -1495,9 +1495,9 @@ relocations:
   - { offset: 0xF8054, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A20SearchViewControllerCfD', symObjAddr: 0x1A40, symBinAddr: 0x4B3B4, symSize: 0x30 }
   - { offset: 0xF8077, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A20SearchViewControllerC5coderACSgSo7NSCoderC_tcfcTf4dn_n', symObjAddr: 0x1C8C, symBinAddr: 0x4B5B4, symSize: 0x21C }
   - { offset: 0xF83C3, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea10AmityUIKitE4PostV9didCreate_WZ', symObjAddr: 0x0, symBinAddr: 0x4B814, symSize: 0x3C }
-  - { offset: 0xF83E7, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea10AmityUIKitE4PostV9didCreateABvpZ', symObjAddr: 0x2E00, symBinAddr: 0x32CD80, symSize: 0x0 }
-  - { offset: 0xF8401, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea10AmityUIKitE4PostV9didUpdateABvpZ', symObjAddr: 0x2E08, symBinAddr: 0x32CD88, symSize: 0x0 }
-  - { offset: 0xF841B, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea10AmityUIKitE4PostV9didDeleteABvpZ', symObjAddr: 0x2E10, symBinAddr: 0x32CD90, symSize: 0x0 }
+  - { offset: 0xF83E7, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea10AmityUIKitE4PostV9didCreateABvpZ', symObjAddr: 0x2DD0, symBinAddr: 0x32CD80, symSize: 0x0 }
+  - { offset: 0xF8401, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea10AmityUIKitE4PostV9didUpdateABvpZ', symObjAddr: 0x2DD8, symBinAddr: 0x32CD88, symSize: 0x0 }
+  - { offset: 0xF841B, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea10AmityUIKitE4PostV9didDeleteABvpZ', symObjAddr: 0x2DE0, symBinAddr: 0x32CD90, symSize: 0x0 }
   - { offset: 0xF8429, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea10AmityUIKitE4PostV9didCreate_WZ', symObjAddr: 0x0, symBinAddr: 0x4B814, symSize: 0x3C }
   - { offset: 0xF8443, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea10AmityUIKitE4PostV9didUpdate_WZ', symObjAddr: 0x3C, symBinAddr: 0x4B850, symSize: 0x3C }
   - { offset: 0xF845D, size: 0x8, addend: 0x0, symName: '_$sSo18NSNotificationNamea10AmityUIKitE4PostV9didDelete_WZ', symObjAddr: 0x78, symBinAddr: 0x4B88C, symSize: 0x3C }
@@ -1758,7 +1758,7 @@ relocations:
   - { offset: 0x106416, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A27UserFollowersViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x654, symBinAddr: 0x57E34, symSize: 0x28 }
   - { offset: 0x106573, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A27UserFollowersViewControllerC4make04withC2Id02isD8SelectedACSS_SbtFZTf4nnd_n', symObjAddr: 0x990, symBinAddr: 0x5813C, symSize: 0x40C }
   - { offset: 0x106990, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A9FileCacheC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x58600, symSize: 0x74 }
-  - { offset: 0x1069B4, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A9FileCacheC6sharedACvpZ', symObjAddr: 0x8718, symBinAddr: 0x32CD98, symSize: 0x0 }
+  - { offset: 0x1069B4, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A9FileCacheC6sharedACvpZ', symObjAddr: 0x86E8, symBinAddr: 0x32CD98, symSize: 0x0 }
   - { offset: 0x106B1B, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A9FileCacheC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x58600, symSize: 0x74 }
   - { offset: 0x106C2F, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A9FileCacheC025generateDestinationURLForC06withId10Foundation3URLVSS_tKF', symObjAddr: 0xC80, symBinAddr: 0x59280, symSize: 0x1C4 }
   - { offset: 0x106D2C, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A9FileCacheCMa', symObjAddr: 0x1010, symBinAddr: 0x59610, symSize: 0x20 }
@@ -1884,7 +1884,7 @@ relocations:
   - { offset: 0x10D345, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A25PollCreatorViewControllerC7Section33_AE61D97C667487B7F0754377F2FFDE21LLO8rawValueAFSgSi_tcfCTf4nd_n', symObjAddr: 0x3E28, symBinAddr: 0x5FE30, symSize: 0x10 }
   - { offset: 0x10D39C, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A25PollCreatorViewControllerC4make10postTargetAcA0a4PostI0O_tFZTf4nd_n', symObjAddr: 0x3E38, symBinAddr: 0x5FE40, symSize: 0x1F4 }
   - { offset: 0x10D740, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit12ReachabilityC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x60BB4, symSize: 0x2C }
-  - { offset: 0x10D764, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit12ReachabilityC6sharedACvpZ', symObjAddr: 0x4CD8, symBinAddr: 0x32CDA0, symSize: 0x0 }
+  - { offset: 0x10D764, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit12ReachabilityC6sharedACvpZ', symObjAddr: 0x4CA8, symBinAddr: 0x32CDA0, symSize: 0x0 }
   - { offset: 0x10D84A, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit12ReachabilityC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x60BB4, symSize: 0x2C }
   - { offset: 0x10D87A, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit12ReachabilityCfETo', symObjAddr: 0x440, symBinAddr: 0x60FC0, symSize: 0x10 }
   - { offset: 0x10D8A9, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit12ReachabilityCMa', symObjAddr: 0x450, symBinAddr: 0x60FD0, symSize: 0x20 }
@@ -1939,7 +1939,7 @@ relocations:
   - { offset: 0x10E7F9, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A10AvatarViewC5frameACSo6CGRectV_tcfcTo', symObjAddr: 0xAA0, symBinAddr: 0x61978, symSize: 0xBC }
   - { offset: 0x10E840, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A10AvatarViewC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0xB5C, symBinAddr: 0x61A34, symSize: 0xAC }
   - { offset: 0x10E875, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A10AvatarViewC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0xC08, symBinAddr: 0x61AE0, symSize: 0x28 }
-  - { offset: 0x10EAF6, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0aB15ManagerInternalC6sharedACvpZ', symObjAddr: 0x11408, symBinAddr: 0x32CDA8, symSize: 0x0 }
+  - { offset: 0x10EAF6, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0aB15ManagerInternalC6sharedACvpZ', symObjAddr: 0x113D8, symBinAddr: 0x32CDA8, symSize: 0x0 }
   - { offset: 0x10F22F, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0aB15ManagerInternalC6shared_WZ', symObjAddr: 0x1018, symBinAddr: 0x62F50, symSize: 0x2C }
   - { offset: 0x10F25F, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0aB15ManagerInternalCAC0A3SDK0A14ClientDelegateAAWl', symObjAddr: 0x1044, symBinAddr: 0x62F7C, symSize: 0x40 }
   - { offset: 0x10F273, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0aB15ManagerInternalCMa', symObjAddr: 0x1084, symBinAddr: 0x62FBC, symSize: 0x20 }
@@ -2966,7 +2966,7 @@ relocations:
   - { offset: 0x140B21, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A32PollCreatorQusetionTableViewCellC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x16B8, symBinAddr: 0x900B0, symSize: 0xF4 }
   - { offset: 0x140B54, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A32PollCreatorQusetionTableViewCellC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x17AC, symBinAddr: 0x901A4, symSize: 0x28 }
   - { offset: 0x140E3B, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A16FeedEventHandlerCACycfC', symObjAddr: 0x0, symBinAddr: 0x90A90, symSize: 0x10 }
-  - { offset: 0x140E5F, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A16FeedEventHandlerC6sharedACvpZ', symObjAddr: 0x41C8, symBinAddr: 0x32CDC0, symSize: 0x0 }
+  - { offset: 0x140E5F, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A16FeedEventHandlerC6sharedACvpZ', symObjAddr: 0x4190, symBinAddr: 0x32CDC0, symSize: 0x0 }
   - { offset: 0x140F32, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A16FeedEventHandlerC6shared_WZ', symObjAddr: 0x10, symBinAddr: 0x90AA0, symSize: 0x28 }
   - { offset: 0x140FD0, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A16FeedEventHandlerCMa', symObjAddr: 0x18C, symBinAddr: 0x90BB0, symSize: 0x20 }
   - { offset: 0x140FEC, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A16FeedEventHandlerCACycfC', symObjAddr: 0x0, symBinAddr: 0x90A90, symSize: 0x10 }
@@ -3745,7 +3745,7 @@ relocations:
   - { offset: 0x1655A0, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A25RecentChatScreenViewModelC25createConversationChannel5usersySayAA0a12SelectMemberG0CG_tFy0A3SDK0aJ0CSg_s5Error_pSgtcfU1_', symObjAddr: 0x3008, symBinAddr: 0xB54C4, symSize: 0x118 }
   - { offset: 0x165661, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A25RecentChatScreenViewModelCfd', symObjAddr: 0x3120, symBinAddr: 0xB55DC, symSize: 0x80 }
   - { offset: 0x165686, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A25RecentChatScreenViewModelCfD', symObjAddr: 0x31A0, symBinAddr: 0xB565C, symSize: 0x24 }
-  - { offset: 0x165BBC, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A34CommunityProfilePageViewControllerC010newCreatedC3IdsShySSGvpZ', symObjAddr: 0x14560, symBinAddr: 0x32CE68, symSize: 0x0 }
+  - { offset: 0x165BBC, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A34CommunityProfilePageViewControllerC010newCreatedC3IdsShySSGvpZ', symObjAddr: 0x14528, symBinAddr: 0x32CE68, symSize: 0x0 }
   - { offset: 0x165BCA, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A34CommunityProfilePageViewControllerC010newCreatedC3Ids_WZ', symObjAddr: 0x0, symBinAddr: 0xB77B4, symSize: 0x14 }
   - { offset: 0x16614F, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A34CommunityProfilePageViewControllerC10postAction33_8FA623933C79C68B61B48060FB7A01C3LLyyF', symObjAddr: 0xFEC, symBinAddr: 0xB8740, symSize: 0xBC }
   - { offset: 0x1663C4, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A34CommunityProfilePageViewControllerCfE', symObjAddr: 0x1A10, symBinAddr: 0xB90A4, symSize: 0x60 }
@@ -3871,7 +3871,7 @@ relocations:
   - { offset: 0x16B41E, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit30AssetsCollectionViewDataSourceC9loadImage33_2C5E690E601DDAC79D4BA2467AC5199ELL3for2inySo7PHAssetC_AA05AssetdE4CellCSgtF', symObjAddr: 0x55C, symBinAddr: 0xBE230, symSize: 0x20C }
   - { offset: 0x16B5AE, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit30AssetsCollectionViewDataSourceCACycfcTo', symObjAddr: 0x768, symBinAddr: 0xBE43C, symSize: 0x2C }
   - { offset: 0x16B60D, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit30AssetsCollectionViewDataSourceCfD', symObjAddr: 0x794, symBinAddr: 0xBE468, symSize: 0x30 }
-  - { offset: 0x16B8AB, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A15KeyboardServiceC6sharedACvpZ', symObjAddr: 0x5C60, symBinAddr: 0x32CE80, symSize: 0x0 }
+  - { offset: 0x16B8AB, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A15KeyboardServiceC6sharedACvpZ', symObjAddr: 0x5C30, symBinAddr: 0x32CE80, symSize: 0x0 }
   - { offset: 0x16B99A, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A15KeyboardServiceC6shared_WZ', symObjAddr: 0x28, symBinAddr: 0xBE710, symSize: 0x2C }
   - { offset: 0x16B9D5, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A15KeyboardServiceCfETo', symObjAddr: 0x6CC, symBinAddr: 0xBED80, symSize: 0x10 }
   - { offset: 0x16BA04, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A15KeyboardServiceCMa', symObjAddr: 0x6DC, symBinAddr: 0xBED90, symSize: 0x20 }
@@ -4747,7 +4747,7 @@ relocations:
   - { offset: 0x19D71D, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A10ColorCache33_F9983C06D5DF069AF3E42BC4CB5D37E7LLCfD', symObjAddr: 0x1D0, symBinAddr: 0xF7A7C, symSize: 0x24 }
   - { offset: 0x19D7D9, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A10ColorCache33_F9983C06D5DF069AF3E42BC4CB5D37E7LLC3key3for3lumSSSo7UIColorC_12CoreGraphics7CGFloatVtFTf4nnd_n', symObjAddr: 0x214, symBinAddr: 0xF7AC0, symSize: 0x110 }
   - { offset: 0x19DBBC, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A11AudioPlayerC4stopyyF', symObjAddr: 0x20, symBinAddr: 0xF7E3C, symSize: 0x16C }
-  - { offset: 0x19DBE0, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A11AudioPlayerC6sharedACvpZ', symObjAddr: 0xA420, symBinAddr: 0x32CE90, symSize: 0x0 }
+  - { offset: 0x19DBE0, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A11AudioPlayerC6sharedACvpZ', symObjAddr: 0xA3E8, symBinAddr: 0x32CE90, symSize: 0x0 }
   - { offset: 0x19DD7D, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A11AudioPlayerC6shared_WZ', symObjAddr: 0x18C, symBinAddr: 0xF7FA8, symSize: 0x30 }
   - { offset: 0x19DEBC, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A11AudioPlayerCfETo', symObjAddr: 0xCF4, symBinAddr: 0xF8A90, symSize: 0x80 }
   - { offset: 0x19DEEB, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A11AudioPlayerCMU', symObjAddr: 0xD74, symBinAddr: 0xF8B10, symSize: 0x8 }
@@ -5650,7 +5650,7 @@ relocations:
   - { offset: 0x1CD3F9, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A21ImagePickerControllerC19cancelButtonPressedyySo05UIBarG4ItemCFyycfU_TA', symObjAddr: 0x940, symBinAddr: 0x129630, symSize: 0x8 }
   - { offset: 0x1CD40D, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A21ImagePickerControllerC17doneButtonPressedyySo05UIBarG4ItemCFyycfU_TA', symObjAddr: 0x948, symBinAddr: 0x129638, symSize: 0x8 }
   - { offset: 0x1CD7D3, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A13AudioRecorderC17requestPermissionyyF', symObjAddr: 0x20, symBinAddr: 0x129650, symSize: 0x2BC }
-  - { offset: 0x1CD7F7, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A13AudioRecorderC6sharedACvpZ', symObjAddr: 0xC460, symBinAddr: 0x32CED8, symSize: 0x0 }
+  - { offset: 0x1CD7F7, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A13AudioRecorderC6sharedACvpZ', symObjAddr: 0xC438, symBinAddr: 0x32CED8, symSize: 0x0 }
   - { offset: 0x1CD9D7, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A13AudioRecorderC6shared_WZ', symObjAddr: 0x570, symBinAddr: 0x129AE0, symSize: 0x2C }
   - { offset: 0x1CDB5F, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A13AudioRecorderCfETo', symObjAddr: 0x12C8, symBinAddr: 0x12A804, symSize: 0x6C }
   - { offset: 0x1CDB8E, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A13AudioRecorderCMa', symObjAddr: 0x1334, symBinAddr: 0x12A870, symSize: 0x20 }
@@ -6413,7 +6413,7 @@ relocations:
   - { offset: 0x1F52BD, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A21MessageListHeaderViewC5frameACSo6CGRectV_tcfcTo', symObjAddr: 0xAC8, symBinAddr: 0x1504C4, symSize: 0x20 }
   - { offset: 0x1F52EB, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A21MessageListHeaderViewC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0xAE8, symBinAddr: 0x1504E4, symSize: 0xC4 }
   - { offset: 0x1F531E, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A21MessageListHeaderViewC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0xBAC, symBinAddr: 0x1505A8, symSize: 0x28 }
-  - { offset: 0x1F55C6, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A19ChannelEventHandlerC6sharedACvpZ', symObjAddr: 0x5140, symBinAddr: 0x32CF40, symSize: 0x0 }
+  - { offset: 0x1F55C6, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A19ChannelEventHandlerC6sharedACvpZ', symObjAddr: 0x5118, symBinAddr: 0x32CF40, symSize: 0x0 }
   - { offset: 0x1F56A8, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A19ChannelEventHandlerC6shared_WZ', symObjAddr: 0x0, symBinAddr: 0x1508F8, symSize: 0x28 }
   - { offset: 0x1F56FE, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A19ChannelEventHandlerCMa', symObjAddr: 0x3E4, symBinAddr: 0x150C7C, symSize: 0x20 }
   - { offset: 0x1F575B, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A19ChannelEventHandlerC13channelDidTap4from0F2Id03subcJ0yAA0A14ViewControllerC_S2StF', symObjAddr: 0x40, symBinAddr: 0x150920, symSize: 0x9C }
@@ -8186,7 +8186,7 @@ relocations:
   - { offset: 0x25125A, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A30TrendingCommunityTableViewCellC5coderACSgSo7NSCoderC_tcfc', symObjAddr: 0x8B8, symBinAddr: 0x1AA23C, symSize: 0xE0 }
   - { offset: 0x25128D, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A30TrendingCommunityTableViewCellC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x998, symBinAddr: 0x1AA31C, symSize: 0x28 }
   - { offset: 0x25168B, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A10TypographyV10headerLine5title8bodyBold0G007captionH00I0ACSo6UIFontC_A5KtcfC', symObjAddr: 0x9C, symBinAddr: 0x1AB1CC, symSize: 0x10 }
-  - { offset: 0x2516AF, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7FontSetC17currentTypographyAA0aF0VvpZ', symObjAddr: 0x4198, symBinAddr: 0x32CFE0, symSize: 0x0 }
+  - { offset: 0x2516AF, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7FontSetC17currentTypographyAA0aF0VvpZ', symObjAddr: 0x4168, symBinAddr: 0x32CFE0, symSize: 0x0 }
   - { offset: 0x25174C, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7FontSetC17currentTypography_WZ', symObjAddr: 0xAC, symBinAddr: 0x1AB1DC, symSize: 0x138 }
   - { offset: 0x25182B, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A10TypographyVwxx', symObjAddr: 0x228, symBinAddr: 0x1AB314, symSize: 0x48 }
   - { offset: 0x25183F, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A10TypographyVwcp', symObjAddr: 0x270, symBinAddr: 0x1AB35C, symSize: 0x74 }
@@ -8583,7 +8583,7 @@ relocations:
   - { offset: 0x266F74, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A14PostComposable_pSgWOh', symObjAddr: 0x45F8, symBinAddr: 0x1C4F1C, symSize: 0x48 }
   - { offset: 0x266FC6, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A25PostDetailScreenViewModelCfd', symObjAddr: 0x70, symBinAddr: 0x1C1098, symSize: 0x74 }
   - { offset: 0x266FF0, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A25PostDetailScreenViewModelCfD', symObjAddr: 0xE4, symBinAddr: 0x1C110C, symSize: 0x20 }
-  - { offset: 0x2675D8, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A17PreviewLinkWizardC6sharedACvpZ', symObjAddr: 0xBFC8, symBinAddr: 0x32D018, symSize: 0x0 }
+  - { offset: 0x2675D8, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A17PreviewLinkWizardC6sharedACvpZ', symObjAddr: 0xBFA0, symBinAddr: 0x32D018, symSize: 0x0 }
   - { offset: 0x26772B, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A17PreviewLinkWizardC6shared_WZ', symObjAddr: 0x164, symBinAddr: 0x1C5164, symSize: 0x44 }
   - { offset: 0x2677E4, size: 0x8, addend: 0x0, symName: '_$sSo14LPLinkMetadataCSgSo7NSErrorCSgIeyBhyy_ABTz_', symObjAddr: 0xA1C, symBinAddr: 0x1C5A1C, symSize: 0xA8 }
   - { offset: 0x267858, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A17PreviewLinkWizardCMa', symObjAddr: 0xAE8, symBinAddr: 0x1C5AE8, symSize: 0x20 }
@@ -10108,7 +10108,7 @@ relocations:
   - { offset: 0x2C3CC4, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A22PendingPostsHeaderViewC15setupTitleLabel33_708162E6CC20C0F88DD1F359541B2A0ELLyyF', symObjAddr: 0x58, symBinAddr: 0x221080, symSize: 0x43C }
   - { offset: 0x2C3E9B, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A22PendingPostsHeaderViewC5frameACSo6CGRectV_tcfcTo', symObjAddr: 0x494, symBinAddr: 0x2214BC, symSize: 0x78 }
   - { offset: 0x2C3EF3, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A22PendingPostsHeaderViewC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x50C, symBinAddr: 0x221534, symSize: 0x8C }
-  - { offset: 0x2C4182, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A12EventHandlerC6sharedACvpZ', symObjAddr: 0x15A80, symBinAddr: 0x32D090, symSize: 0x0 }
+  - { offset: 0x2C4182, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A12EventHandlerC6sharedACvpZ', symObjAddr: 0x15A50, symBinAddr: 0x32D090, symSize: 0x0 }
   - { offset: 0x2C43EB, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A12EventHandlerC6shared_WZ', symObjAddr: 0x140, symBinAddr: 0x221600, symSize: 0x28 }
   - { offset: 0x2C4754, size: 0x8, addend: 0x0, symName: '_$sSKsE4last5where7ElementQzSgSbADKXE_tKFAD5IndexQzXEfU_SaySo16UIViewControllerCG_TG5', symObjAddr: 0x23EC, symBinAddr: 0x223878, symSize: 0x68 }
   - { offset: 0x2C481E, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A12EventHandlerC23createPostBeingPrepared4from10postTarget0J6OptionyAA0A14ViewControllerC_AA0afK0OSgShyAA0aF11ContentTypeOGtFyANcfU_TA', symObjAddr: 0x24CC, symBinAddr: 0x223914, symSize: 0x8 }
@@ -10272,7 +10272,7 @@ relocations:
   - { offset: 0x2CDD01, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A3HUDC4hide33_6AB2CDA8BCCBB7AFF245CB24A2FBCBA2LLyyyycSgF', symObjAddr: 0x2794, symBinAddr: 0x22B214, symSize: 0x1E0 }
   - { offset: 0x2CDD75, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A3HUDCfd', symObjAddr: 0x29BC, symBinAddr: 0x22B43C, symSize: 0x30 }
   - { offset: 0x2CDDA6, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A3HUDCfD', symObjAddr: 0x2A00, symBinAddr: 0x22B46C, symSize: 0x38 }
-  - { offset: 0x2CE036, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A16MentionUserModelV07channelC0ACvpZ', symObjAddr: 0x1C138, symBinAddr: 0x32D098, symSize: 0x0 }
+  - { offset: 0x2CE036, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A16MentionUserModelV07channelC0ACvpZ', symObjAddr: 0x1C108, symBinAddr: 0x32D098, symSize: 0x0 }
   - { offset: 0x2CE6C6, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A16MentionUserModelV07channelC0_WZ', symObjAddr: 0x93C, symBinAddr: 0x22BF7C, symSize: 0x30 }
   - { offset: 0x2CE6E4, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A16MentionUserModelV07channelC0_WZ', symObjAddr: 0x93C, symBinAddr: 0x22BF7C, symSize: 0x30 }
   - { offset: 0x2CE72C, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit17ASCMentionManagerC19highlightAttributesSDySo21NSAttributedStringKeyaypGvpACTk', symObjAddr: 0x9B0, symBinAddr: 0x22BFF0, symSize: 0x78 }
@@ -10451,33 +10451,33 @@ relocations:
   - { offset: 0x2D2494, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV22defaultCommunityAvatarSo7UIImageCSgvpZ', symObjAddr: 0x8AD8, symBinAddr: 0x327168, symSize: 0x0 }
   - { offset: 0x2D24AE, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV19defaultMessageImageSo7UIImageCSgvpZ', symObjAddr: 0x8AE0, symBinAddr: 0x327170, symSize: 0x0 }
   - { offset: 0x2D24C8, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17iconMessageFailedSo7UIImageCSgvpZ', symObjAddr: 0x8AE8, symBinAddr: 0x327178, symSize: 0x0 }
-  - { offset: 0x2D24E2, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO12iconKeyboardSo7UIImageCSgvpZ', symObjAddr: 0x26480, symBinAddr: 0x32D0D0, symSize: 0x0 }
-  - { offset: 0x2D24FC, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO7iconMicSo7UIImageCSgvpZ', symObjAddr: 0x26488, symBinAddr: 0x32D0D8, symSize: 0x0 }
-  - { offset: 0x2D2516, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO9iconPauseSo7UIImageCSgvpZ', symObjAddr: 0x26490, symBinAddr: 0x32D0E0, symSize: 0x0 }
-  - { offset: 0x2D2530, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO8iconPlaySo7UIImageCSgvpZ', symObjAddr: 0x26498, symBinAddr: 0x32D0E8, symSize: 0x0 }
-  - { offset: 0x2D254A, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO21iconVoiceMessageWhiteSo7UIImageCSgvpZ', symObjAddr: 0x264A0, symBinAddr: 0x32D0F0, symSize: 0x0 }
-  - { offset: 0x2D2564, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO11iconDelete1So7UIImageCSgvpZ', symObjAddr: 0x264A8, symBinAddr: 0x32D0F8, symSize: 0x0 }
-  - { offset: 0x2D257E, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO11iconDelete2So7UIImageCSgvpZ', symObjAddr: 0x264B0, symBinAddr: 0x32D100, symSize: 0x0 }
-  - { offset: 0x2D2598, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO11iconSettingSo7UIImageCSgvpZ', symObjAddr: 0x264B8, symBinAddr: 0x32D108, symSize: 0x0 }
-  - { offset: 0x2D25B2, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4PostO21emptyPreviewLinkImageSo7UIImageCSgvpZ', symObjAddr: 0x264C0, symBinAddr: 0x32D110, symSize: 0x0 }
-  - { offset: 0x2D25CC, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4PostO22brokenPreviewLinkImageSo7UIImageCSgvpZ', symObjAddr: 0x264C8, symBinAddr: 0x32D118, symSize: 0x0 }
-  - { offset: 0x2D25E6, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO19iconItemEditProfileSo7UIImageCSgvpZ', symObjAddr: 0x264D0, symBinAddr: 0x32D120, symSize: 0x0 }
-  - { offset: 0x2D2600, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO15iconItemMembersSo7UIImageCSgvpZ', symObjAddr: 0x264D8, symBinAddr: 0x32D128, symSize: 0x0 }
-  - { offset: 0x2D261A, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO20iconItemNotificationSo7UIImageCSgvpZ', symObjAddr: 0x264E0, symBinAddr: 0x32D130, symSize: 0x0 }
-  - { offset: 0x2D2634, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO18iconItemPostReviewSo7UIImageCSgvpZ', symObjAddr: 0x264E8, symBinAddr: 0x32D138, symSize: 0x0 }
-  - { offset: 0x2D264E, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO18iconCommentSettingSo7UIImageCSgvpZ', symObjAddr: 0x264F0, symBinAddr: 0x32D140, symSize: 0x0 }
-  - { offset: 0x2D2668, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO15iconPostSettingSo7UIImageCSgvpZ', symObjAddr: 0x264F8, symBinAddr: 0x32D148, symSize: 0x0 }
-  - { offset: 0x2D2682, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO16iconStorySettingSo7UIImageCSgvpZ', symObjAddr: 0x26500, symBinAddr: 0x32D150, symSize: 0x0 }
-  - { offset: 0x2D269C, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO04iconE13SettingBannedSo7UIImageCSgvpZ', symObjAddr: 0x26508, symBinAddr: 0x32D158, symSize: 0x0 }
-  - { offset: 0x2D26B6, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV12UserSettingsO016iconItemUnfollowE0So7UIImageCSgvpZ', symObjAddr: 0x26510, symBinAddr: 0x32D160, symSize: 0x0 }
-  - { offset: 0x2D26D0, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV12UserSettingsO014iconItemReportE0So7UIImageCSgvpZ', symObjAddr: 0x26518, symBinAddr: 0x32D168, symSize: 0x0 }
-  - { offset: 0x2D26EA, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV12UserSettingsO19iconItemEditProfileSo7UIImageCSgvpZ', symObjAddr: 0x26520, symBinAddr: 0x32D170, symSize: 0x0 }
-  - { offset: 0x2D2704, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV12UserSettingsO013iconItemBlockE0So7UIImageCSgvpZ', symObjAddr: 0x26528, symBinAddr: 0x32D178, symSize: 0x0 }
-  - { offset: 0x2D271E, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV6FollowO04iconE14PendingRequestSo7UIImageCSgvpZ', symObjAddr: 0x26530, symBinAddr: 0x32D180, symSize: 0x0 }
-  - { offset: 0x2D2738, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV6FollowO15iconUnblockUserSo7UIImageCSgvpZ', symObjAddr: 0x26538, symBinAddr: 0x32D188, symSize: 0x0 }
-  - { offset: 0x2D2752, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV10CreatePostO04iconF0So7UIImageCSgvpZ', symObjAddr: 0x26540, symBinAddr: 0x32D190, symSize: 0x0 }
-  - { offset: 0x2D276C, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV10CreatePostO8iconPollSo7UIImageCSgvpZ', symObjAddr: 0x26548, symBinAddr: 0x32D198, symSize: 0x0 }
-  - { offset: 0x2D2786, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV10CreatePostO9iconStorySo7UIImageCSgvpZ', symObjAddr: 0x26550, symBinAddr: 0x32D1A0, symSize: 0x0 }
+  - { offset: 0x2D24E2, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO12iconKeyboardSo7UIImageCSgvpZ', symObjAddr: 0x26450, symBinAddr: 0x32D0D0, symSize: 0x0 }
+  - { offset: 0x2D24FC, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO7iconMicSo7UIImageCSgvpZ', symObjAddr: 0x26458, symBinAddr: 0x32D0D8, symSize: 0x0 }
+  - { offset: 0x2D2516, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO9iconPauseSo7UIImageCSgvpZ', symObjAddr: 0x26460, symBinAddr: 0x32D0E0, symSize: 0x0 }
+  - { offset: 0x2D2530, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO8iconPlaySo7UIImageCSgvpZ', symObjAddr: 0x26468, symBinAddr: 0x32D0E8, symSize: 0x0 }
+  - { offset: 0x2D254A, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO21iconVoiceMessageWhiteSo7UIImageCSgvpZ', symObjAddr: 0x26470, symBinAddr: 0x32D0F0, symSize: 0x0 }
+  - { offset: 0x2D2564, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO11iconDelete1So7UIImageCSgvpZ', symObjAddr: 0x26478, symBinAddr: 0x32D0F8, symSize: 0x0 }
+  - { offset: 0x2D257E, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO11iconDelete2So7UIImageCSgvpZ', symObjAddr: 0x26480, symBinAddr: 0x32D100, symSize: 0x0 }
+  - { offset: 0x2D2598, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4ChatO11iconSettingSo7UIImageCSgvpZ', symObjAddr: 0x26488, symBinAddr: 0x32D108, symSize: 0x0 }
+  - { offset: 0x2D25B2, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4PostO21emptyPreviewLinkImageSo7UIImageCSgvpZ', symObjAddr: 0x26490, symBinAddr: 0x32D110, symSize: 0x0 }
+  - { offset: 0x2D25CC, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV4PostO22brokenPreviewLinkImageSo7UIImageCSgvpZ', symObjAddr: 0x26498, symBinAddr: 0x32D118, symSize: 0x0 }
+  - { offset: 0x2D25E6, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO19iconItemEditProfileSo7UIImageCSgvpZ', symObjAddr: 0x264A0, symBinAddr: 0x32D120, symSize: 0x0 }
+  - { offset: 0x2D2600, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO15iconItemMembersSo7UIImageCSgvpZ', symObjAddr: 0x264A8, symBinAddr: 0x32D128, symSize: 0x0 }
+  - { offset: 0x2D261A, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO20iconItemNotificationSo7UIImageCSgvpZ', symObjAddr: 0x264B0, symBinAddr: 0x32D130, symSize: 0x0 }
+  - { offset: 0x2D2634, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO18iconItemPostReviewSo7UIImageCSgvpZ', symObjAddr: 0x264B8, symBinAddr: 0x32D138, symSize: 0x0 }
+  - { offset: 0x2D264E, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO18iconCommentSettingSo7UIImageCSgvpZ', symObjAddr: 0x264C0, symBinAddr: 0x32D140, symSize: 0x0 }
+  - { offset: 0x2D2668, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO15iconPostSettingSo7UIImageCSgvpZ', symObjAddr: 0x264C8, symBinAddr: 0x32D148, symSize: 0x0 }
+  - { offset: 0x2D2682, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO16iconStorySettingSo7UIImageCSgvpZ', symObjAddr: 0x264D0, symBinAddr: 0x32D150, symSize: 0x0 }
+  - { offset: 0x2D269C, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV17CommunitySettingsO04iconE13SettingBannedSo7UIImageCSgvpZ', symObjAddr: 0x264D8, symBinAddr: 0x32D158, symSize: 0x0 }
+  - { offset: 0x2D26B6, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV12UserSettingsO016iconItemUnfollowE0So7UIImageCSgvpZ', symObjAddr: 0x264E0, symBinAddr: 0x32D160, symSize: 0x0 }
+  - { offset: 0x2D26D0, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV12UserSettingsO014iconItemReportE0So7UIImageCSgvpZ', symObjAddr: 0x264E8, symBinAddr: 0x32D168, symSize: 0x0 }
+  - { offset: 0x2D26EA, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV12UserSettingsO19iconItemEditProfileSo7UIImageCSgvpZ', symObjAddr: 0x264F0, symBinAddr: 0x32D170, symSize: 0x0 }
+  - { offset: 0x2D2704, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV12UserSettingsO013iconItemBlockE0So7UIImageCSgvpZ', symObjAddr: 0x264F8, symBinAddr: 0x32D178, symSize: 0x0 }
+  - { offset: 0x2D271E, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV6FollowO04iconE14PendingRequestSo7UIImageCSgvpZ', symObjAddr: 0x26500, symBinAddr: 0x32D180, symSize: 0x0 }
+  - { offset: 0x2D2738, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV6FollowO15iconUnblockUserSo7UIImageCSgvpZ', symObjAddr: 0x26508, symBinAddr: 0x32D188, symSize: 0x0 }
+  - { offset: 0x2D2752, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV10CreatePostO04iconF0So7UIImageCSgvpZ', symObjAddr: 0x26510, symBinAddr: 0x32D190, symSize: 0x0 }
+  - { offset: 0x2D276C, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV10CreatePostO8iconPollSo7UIImageCSgvpZ', symObjAddr: 0x26518, symBinAddr: 0x32D198, symSize: 0x0 }
+  - { offset: 0x2D2786, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV10CreatePostO9iconStorySo7UIImageCSgvpZ', symObjAddr: 0x26520, symBinAddr: 0x32D1A0, symSize: 0x0 }
   - { offset: 0x2D323F, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV15iconCameraSmall_WZ', symObjAddr: 0x684, symBinAddr: 0x230500, symSize: 0xC0 }
   - { offset: 0x2D32D3, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV16iconPrivateSmall_WZ', symObjAddr: 0x8B8, symBinAddr: 0x230734, symSize: 0xC0 }
   - { offset: 0x2D33CD, size: 0x8, addend: 0x0, symName: '_$s10AmityUIKit0A7IconSetV14iconCreatePost_WZ', symObjAddr: 0x1098, symBinAddr: 0x230F10, symSize: 0xC0 }
